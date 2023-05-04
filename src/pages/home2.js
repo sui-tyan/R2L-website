@@ -3,6 +3,7 @@ import CausesTwo from "@/components/CausesTwo/CausesTwo";
 import Counters from "@/components/Counters/Counters";
 import EventsOne from "@/components/EventsOne/EventsOne";
 import FourIcon from "@/components/FourIcon/FourIcon";
+import Funding from "@/components/Funding/Funding";
 import GalleryOne from "@/components/GalleryOne/GalleryOne";
 import Introduction from "@/components/Introduction/Introduction";
 import Layout from "@/components/Layout/Layout";
