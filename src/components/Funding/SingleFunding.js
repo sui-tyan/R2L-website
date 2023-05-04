@@ -1,0 +1,25 @@
+import React from "react";
+import { Col, Image } from "react-bootstrap";
+
+const SingleFunding = ({ funding = {} }) => {
+  const { image, title, category } = funding;
+  return (
+    // <Col xl={3} lg={6} md={6}>
+    <Col>
+      <div className="funding-section__single">
+        <div className="funding-section__img-box">
+          <Image
+            src={require(`@/images/funding/${image}`).default.src}
+            alt=""
+          />
+          <div className="funding-section__hover-content-box">
+            <h2>{title}</h2>
+            <p>{category}</p>
+          </div>
+        </div>
+      </div>
+    </Col>
+  );
+};
+
+export default SingleFunding;
