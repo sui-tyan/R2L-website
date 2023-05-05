@@ -24,7 +24,6 @@ const Layout = ({ children, pageTitle }) => {
   return (
     <>
       <Head>
-        <Funding></Funding>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
           {pageTitle} || Halpes || NextJS Template For Donation Services

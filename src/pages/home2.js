@@ -15,19 +15,22 @@ import React from "react";
 
 const Home2 = () => {
   return (
-    <Layout pageTitle="Home Two">
-      <MainSliderTwo />
-      <Introduction />
-      <FourIcon />
-      <WeInspire />
-      <BrandOne />
-      <EventsOne />
-      <Volunteer />
-      <CausesTwo />
-      <Counters />
-      <NewsTwo />
-      <GalleryOne className="gallery-two" />
-    </Layout>
+    <div>
+      <Funding></Funding>
+      <Layout pageTitle="Home Two">
+        <MainSliderTwo />
+        <Introduction />
+        <FourIcon />
+        <WeInspire />
+        <BrandOne />
+        <EventsOne />
+        <Volunteer />
+        <CausesTwo />
+        <Counters />
+        <NewsTwo />
+        <GalleryOne className="gallery-two" />
+      </Layout>
+    </div>
   );
 };
 
