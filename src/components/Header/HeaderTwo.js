@@ -19,7 +19,7 @@ const HeaderTwo = () => {
             <div className="main-header-two__logo">
               <Link href="/">
                 <a>
-                  <Image src={logo.src} alt="" />
+                  <Image src={logo.src} alt="Logo of Rights2Life" />
                 </a>
               </Link>
             </div>
