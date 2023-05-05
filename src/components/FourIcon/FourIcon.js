@@ -8,7 +8,7 @@ const FourIcon = () => {
       <Container>
         <Row>
           {fourIcons.map(({ id, title, icon, description, image }) => (
-            <Col xl={3} lg={6} md={6} className="fadeInUp" key={id}>
+            <Col xl={4} lg={6} md={6} className="fadeInUp" key={id}>
               <div className="four-icon__single">
                 <div className="four-icon__img">
                   <Image
