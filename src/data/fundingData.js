@@ -1,7 +1,8 @@
 const fundingData = [
   {
     id: 1,
-    image: "funding-img-1.jpg",
+    // images should be 250x100
+    image: "uc.png",
     title: "University of the Cordilleras",
     category: "Funding Agency",
   },
@@ -13,7 +14,7 @@ const fundingData = [
   },
   {
     id: 3,
-    image: "funding-img-3.jpg",
+    image: "vliruos.png",
     title: "vliruos",
     category: "Funding Agency",
   },
