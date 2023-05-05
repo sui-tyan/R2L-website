@@ -15,7 +15,6 @@ import Funding from "@/components/Funding/Funding";
 const Home = () => {
   return (
     <Layout pageTitle="Home One">
-      <Funding />
       <MainSlider />
       <Charity />
       <CausesOne />

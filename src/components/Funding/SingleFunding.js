@@ -5,7 +5,7 @@ const SingleFunding = ({ funding = {} }) => {
   const { image, title, category } = funding;
   return (
     // <Col xl={3} lg={6} md={6}>
-    <Col>
+    <Col xl="auto" md="auto" xs="auto">
       <div className="funding-section__single">
         <div className="funding-section__img-box">
           <Image

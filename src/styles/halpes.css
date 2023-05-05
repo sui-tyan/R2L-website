@@ -6955,16 +6955,19 @@ h6 {
 .funding-section {
   position: relative;
   display: block;
-  padding: 00px 0 00px;
-  background-color: var(--thm-black);
+  /* padding: 0px 0 00px; */
+  /* background-color: var(--thm-black); */
 }
 
 .funding-section__single {
   position: relative;
   display: block;
-  margin-bottom: 00px;
+  margin-bottom: 5px;
+  margin-top: 5px;
   height: 100%;
   width: 100%;
+  /* height: auto;
+  width: auto; */
 }
 
 .funding-section__img-box {
@@ -7003,7 +7006,6 @@ h6 {
 }
 
 .funding-section__img-box img {
-  width: 100%;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: opacity 500ms ease, -webkit-transform 500ms ease;
@@ -7011,11 +7013,14 @@ h6 {
   transition: transform 500ms ease, opacity 500ms ease;
   transition: transform 500ms ease, opacity 500ms ease,
     -webkit-transform 500ms ease;
+
+  /* Temporary */
+  scale: 80%;
 }
 
-.funding-section__single:hover .funding-section__img-box img {
+/* .funding-section__single:hover .funding-section__img-box img {
   transform: scale(1.05);
-}
+} */
 
 .funding-section__hover-content-box {
   position: absolute;
@@ -7032,6 +7037,9 @@ h6 {
   -ms-transform: translateY(50px);
   transform: translateY(50px);
   z-index: 2;
+
+  /* Temporary */
+  scale: 80%;
 }
 
 .funding-section__hover-content-box h2 {
