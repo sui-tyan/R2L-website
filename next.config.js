@@ -20,6 +20,10 @@ const nextConfig = {
   /** For github pages */
   basePath: basePath,
   assetPrefix: assetPrefix,
+  images: {
+    loader: "imgix",
+    path: 'r2l.imgix.net',
+  },
 };
 
 module.exports = nextConfig;
