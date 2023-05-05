@@ -8,7 +8,7 @@ const Funding = () => {
     // <section className="gallery-page">
     <section className="funding-section">
       <Container>
-        <Row>
+        <Row className="justify-content-xl-center">
           {fundingData.map((funding) => (
             <SingleFunding key={funding.id} funding={funding} />
           ))}
