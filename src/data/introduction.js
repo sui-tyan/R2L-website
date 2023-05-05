@@ -2,14 +2,14 @@ const introduction = [
   {
     id: 1,
     icon: "icon-college-graduation",
-    title: "Childrens Education",
+    title: "Our Vision",
     description:
       "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor anagi icdunt ut.",
   },
   {
     id: 2,
     icon: "icon-coin",
-    title: "Support Them",
+    title: "Our Mission",
     description:
       "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor anagi icdunt ut.",
   },
