@@ -24,7 +24,7 @@ const nextConfig = {
     loader: "imgix",
     path: 'r2l.imgix.net',
   },
-  plugins: ['autoprefixer'],
+  plugins: ['autoprefixer']
 };
 
 module.exports = nextConfig;

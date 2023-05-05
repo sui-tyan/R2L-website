@@ -24,14 +24,14 @@ const WeInspire = () => {
                 </h2>
               </div>
               <div className="we-inspire__faq">
-                <div style={{ overflow: 'hidden' }} className="accrodion-grp faq-one-accrodion">
+                <div style={{ overflow: 'hidden' }} className="accordion-grp faq-one-accordion">
                   {inspireData.map(({ id, answer, question }) => (
-                    <div className={expand === id ? 'accrodion active' : 'accrodion'} key={id}>
-                      <div onClick={() => setExpand(id)} className="accrodion-title">
+                    <div className={expand === id ? 'accordion active' : 'accordion'} key={id}>
+                      <div onClick={() => setExpand(id)} className="accordion-title">
                         <h4>{question}</h4>
                       </div>
                       {expand === id && (
-                        <div className="accrodion-content animated slideInUp">
+                        <div className="accordion-content animated slideInUp">
                           <div className="inner">
                             <p>{answer}</p>
                           </div>
