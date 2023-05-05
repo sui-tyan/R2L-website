@@ -716,6 +716,10 @@ h6 {
   padding-top: 25px;
   padding-bottom: 63px;
 }
+.main-header-two__logo img{
+  width: 150px;
+  height: auto;
+}
 
 .main-header-two__contact-info {
   position: relative;
