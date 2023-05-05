@@ -12,7 +12,7 @@ const text4 =
 const eventsDetails = {
   image,
   date1: "20 Jan",
-  title: "Play for the world with us",
+  title: "nsert news title number one",
   texts: [text1, text2],
   requirements: [text3, text4],
   startingTime: "8:00AM to 2:00PM",

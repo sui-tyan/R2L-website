@@ -24,7 +24,7 @@ const AboutPage = () => {
           <Col xl={6}>
             <div className="about-page__right">
               <div className="section-title text-left">
-                <span className="section-title__tagline">Our Inroductions</span>
+                <span className="section-title__tagline">Our Introductions</span>
                 <h2 className="section-title__title">
                   We believe that we can save more lifes
                 </h2>

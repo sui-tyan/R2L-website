@@ -16,8 +16,12 @@ const WeInspire = () => {
           <Col xl={6} lg={6}>
             <div className="we-inspire__left">
               <div className="section-title text-left">
-                <span className="section-title__tagline">Question & Answers</span>
-                <h2 className="section-title__title">Everyone deserves the Right 2 Live</h2>
+                <span className="section-title__tagline">
+                  Frequently Asked Questions
+                </span>
+                <h2 className="section-title__title">
+                  Insert tagline of the company or website
+                </h2>
               </div>
               <div className="we-inspire__faq">
                 <div style={{ overflow: 'hidden' }} className="accordion-grp faq-one-accordion">

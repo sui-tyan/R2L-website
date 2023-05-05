@@ -6,22 +6,22 @@ const mainSliderTwo = [
   {
     id: 1,
     bg: bg1,
-    subTitle: "Help is Our Goal",
-    title: "Give them a",
+    subTitle: "Slide One",
+    title: "Lorem ipsum dolor",
     href: "#",
   },
   {
     id: 2,
     bg: bg2,
-    subTitle: "Help is Our Goal",
-    title: "Give them a",
+    subTitle: "Slide Two",
+    title: "Lorem ipsum dolor",
     href: "#",
   },
   {
     id: 3,
     bg: bg3,
-    subTitle: "Help is Our Goal",
-    title: "Give them a",
+    subTitle: "Slide Three",
+    title: "Lorem ipsum dolor",
     href: "#",
   },
 ];

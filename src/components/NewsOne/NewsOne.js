@@ -50,7 +50,7 @@ const NewsOne = () => {
                 </ul>
                 <h3 className="news-one__title">
                   <Link href="/news-details">
-                    <a>Donation is Hope for Poor Childrens in Africa</a>
+                    <a>Insert a title of the current blog 1</a>
                   </Link>
                 </h3>
               </div>

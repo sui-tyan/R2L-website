@@ -24,15 +24,13 @@ const Introduction = () => {
           <Col xl={6} lg={6}>
             <div className="introduction__right">
               <div className="section-title text-left">
-                <span className="section-title__tagline">Our Inroductions</span>
+                <span className="section-title__tagline">Our Introductions</span>
                 <h2 className="section-title__title">
-                  We believe we can save more lifes
+                  Insert tagline of the company or website
                 </h2>
               </div>
               <p className="introduction__right-text">
-                We are trusted by our clients and have a reputation for the best
-                services in the field. Lorem ipsum is simply free text dolor sit
-                amett consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
               </p>
               <ul className="introduction__icon-wrap list-unstyled">
                 {introduction.map(({ id, title, description, icon }) => (
