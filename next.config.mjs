@@ -40,4 +40,4 @@ const nextConfig = {
   plugins: ['autoprefixer']
 };
 
-module.exports = nextConfig;
+export default nextConfig;
