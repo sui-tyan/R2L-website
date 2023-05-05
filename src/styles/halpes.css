@@ -3577,7 +3577,7 @@ h6 {
   position: absolute;
   top: 0;
   right: -10000000000px;
-  left: 0;
+  left: -10000px;
   bottom: 0;
   content: "";
   background: #1b1e2b;
@@ -3923,14 +3923,14 @@ h6 {
   border-bottom: 0;
 }
 
-.faq-one-accrodion .accrodion {
+.faq-one-accordion .accordion {
   position: relative;
   display: block;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
-.faq-one-accrodion .accrodion-title {
+.faq-one-accordion .accordion-title {
   position: relative;
   display: block;
   cursor: pointer;
@@ -3941,7 +3941,7 @@ h6 {
   transition-delay: 0.1s;
 }
 
-.faq-one-accrodion .accrodion-title h4 {
+.faq-one-accordion .accordion-title h4 {
   margin: 0;
   font-size: 18px;
   font-weight: 900;
@@ -3952,15 +3952,15 @@ h6 {
   transition: all 500ms ease;
 }
 
-.faq-one-accrodion .accrodion.active .accrodion-title {
+.faq-one-accordion .accordion.active .accordion-title {
   border-bottom: 0;
 }
 
-.faq-one-accrodion .accrodion.active .accrodion-title h4 {
+.faq-one-accordion .accordion.active .accordion-title h4 {
   color: var(--thm-yellow);
 }
 
-.faq-one-accrodion .accrodion-title h4::before {
+.faq-one-accordion .accordion-title h4::before {
   content: "\f067";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -3982,7 +3982,7 @@ h6 {
   transition: all 500ms ease;
 }
 
-.faq-one-accrodion .accrodion.active .accrodion-title h4::before {
+.faq-one-accordion .accordion.active .accordion-title h4::before {
   content: "\f068";
   color: var(--thm-blue);
   height: 35px;
@@ -3994,14 +3994,14 @@ h6 {
   align-items: center;
 }
 
-.faq-one-accrodion .accrodion-content {
+.faq-one-accordion .accordion-content {
   position: relative;
   padding: 0px 30px 21px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   margin-top: -10px;
 }
 
-.faq-one-accrodion .accrodion-content p {
+.faq-one-accordion .accordion-content p {
   margin: 0;
   font-size: 16px;
   color: #b8bbc9;
