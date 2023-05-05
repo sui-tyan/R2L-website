@@ -4,7 +4,7 @@ const events = [
     image: "events-one-img-1.jpg",
     date: "20 Jan",
     time: "8:00 pm",
-    title: "Play for the \n world with us",
+    title: "Insert news title \n number one",
   },
   {
     id: 2,

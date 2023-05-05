@@ -20,10 +20,10 @@ const WeInspire = () => {
             <div className="we-inspire__left">
               <div className="section-title text-left">
                 <span className="section-title__tagline">
-                  Question & Answers
+                  Frequently Asked Questions
                 </span>
                 <h2 className="section-title__title">
-                  We inspire and help them live better
+                  Insert tagline of the company or website
                 </h2>
               </div>
               <div className="we-inspire__faq">

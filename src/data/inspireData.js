@@ -1,21 +1,21 @@
 const inspireData = [
   {
     id: 1,
-    question: "We help to create better lives",
+    question: "Insert question frequently asked",
     answer:
-      "There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
   },
   {
     id: 2,
-    question: "We help to create better lives",
+    question: "Insert question frequently asked",
     answer:
-      "There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
   },
   {
     id: 3,
-    question: "We help to create better lives",
+    question: "Insert question frequently asked",
     answer:
-      "There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
   },
 ];
 

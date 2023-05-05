@@ -3,7 +3,7 @@ const newsPage = [
     id: 1,
     image: "news-page-img-1.jpg",
     date: "20 Jan, 2021",
-    title: "Donation is Hope for Poor Childrens in",
+    title: "Insert a title of the current blog 1",
     description:
       "There are many variations of but the majority have simply free text available not suffered.",
     author: "Admin",
@@ -13,7 +13,7 @@ const newsPage = [
     id: 2,
     image: "news-page-img-2.jpg",
     date: "20 Jan, 2021",
-    title: "How Malnutrition Affect Children?",
+    title: "Insert a title of the current blog 2",
     description:
       "There are many variations of but the majority have simply free text available not suffered.",
     author: "Admin",
@@ -23,7 +23,7 @@ const newsPage = [
     id: 3,
     image: "news-page-img-3.jpg",
     date: "20 Jan, 2021",
-    title: "Capitalize on low hanging to identify",
+    title: "Insert a title of the current blog 3",
     description:
       "There are many variations of but the majority have simply free text available not suffered.",
     author: "Admin",

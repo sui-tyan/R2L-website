@@ -51,7 +51,7 @@ const newsDetails = {
   image,
   admin: "Admin",
   totalComments: 2,
-  title: "Donation is Hope for Poor Childrens in Africa",
+  title: "Insert a title of the current blog 1",
   textOne: text1,
   textTwo: text2,
   textThree: text3,
