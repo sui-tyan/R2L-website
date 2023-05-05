@@ -22,8 +22,8 @@ const Home2 = () => {
       <BrandOne />
       <EventsOne />
       <Volunteer />
-      <CausesTwo />
-      <Counters />
+      {/* <CausesTwo /> */}
+      {/* <Counters /> */}
       <NewsTwo />
       <GalleryOne className="gallery-two" />
     </Layout>
