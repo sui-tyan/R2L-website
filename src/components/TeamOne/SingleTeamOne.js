@@ -20,13 +20,13 @@ const SingleTeamOne = ({ team = {} }) => {
           <h4 className="team-one__member-title">{title}</h4>
           <p className="team-one__text-box">{description}</p>
         </div>
-        <div className="team-one__social">
+        {/* <div className="team-one__social">
           {social.map(({ icon, link }, index) => (
             <a href={link} key={index}>
               <i className={`fab ${icon}`}></i>
             </a>
           ))}
-        </div>
+        </div> */}
       </div>
     </Col>
   );

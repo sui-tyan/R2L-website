@@ -1,9 +1,9 @@
-import teamOne from "@/data/teamOne";
+import teamUC from "@/data/teamUC";
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import SingleTeamOne from "./SingleTeamOne";
 
-const TeamOne = ({ className = "" }) => {
+const TeamUC = ({ className = "" }) => {
   return (
     <section className={`team-one ${className}`}>
       <Container>
@@ -18,7 +18,7 @@ const TeamOne = ({ className = "" }) => {
           </div>
         )}
         <Row>
-          {teamOne.slice(0, className ? undefined : 3).map((team) => (
+          {teamUC.slice(0, className ? undefined : 3).map((team) => (
             <SingleTeamOne key={team.id} team={team} />
           ))}
         </Row>
@@ -27,4 +27,4 @@ const TeamOne = ({ className = "" }) => {
   );
 };
 
-export default TeamOne;
+export default TeamUC;

@@ -1,8 +1,8 @@
-const teamOne = [
+const teamUC = [
   {
     id: 1,
     image: "team-one-img-1.jpg",
-    name: "Janne",
+    //name: "Janne",
     title: "Volunteer",
     description:
       "There are many of lorem ipsum available but the have in some form.",
@@ -10,7 +10,7 @@ const teamOne = [
   {
     id: 2,
     image: "team-one-img-2.jpg",
-    name: "David",
+    //name: "David",
     title: "Volunteer",
     description:
       "There are many of lorem ipsum available but the have in some form.",
@@ -18,7 +18,7 @@ const teamOne = [
   {
     id: 3,
     image: "team-one-img-3.jpg",
-    name: "Sarah",
+    //name: "Sarah",
     title: "Volunteer",
     description:
       "There are many of lorem ipsum available but the have in some form.",
@@ -26,7 +26,7 @@ const teamOne = [
   {
     id: 4,
     image: "team-page-img-4.jpg",
-    name: "Albert",
+    //name: "Albert",
     title: "Volunteer",
     description:
       "There are many of lorem ipsum available but the have in some form.",
@@ -34,7 +34,7 @@ const teamOne = [
   {
     id: 5,
     image: "team-page-img-5.jpg",
-    name: "Hallen",
+    //name: "Hallen",
     title: "Volunteer",
     description:
       "There are many of lorem ipsum available but the have in some form.",
@@ -42,11 +42,11 @@ const teamOne = [
   {
     id: 6,
     image: "team-page-img-6.jpg",
-    name: "Pitter",
+    //name: "Pitter",
     title: "Volunteer",
     description:
       "There are many of lorem ipsum available but the have in some form.",
   },
 ];
 
-export default teamOne;
+export default teamUC;
