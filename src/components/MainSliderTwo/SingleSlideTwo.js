@@ -18,11 +18,11 @@ const SingleSlideTwo = ({ slide = {} }) => {
             <div className="main-slider__content">
               <p>{subTitle}</p>
               <h2>
-                {title} <br /> Insert Title
+                {title} <br /> Justice System in the Philippines
               </h2>
-              <a href={href} className="thm-btn">
+              {/* <a href={href} className="thm-btn">
                 <i className="fas fa-arrow-circle-right"></i>Learn More
-              </a>
+              </a> */}
             </div>
           </Col>
         </Row>
