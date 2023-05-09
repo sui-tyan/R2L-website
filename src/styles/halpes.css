@@ -954,13 +954,14 @@ h6 {
 .main-menu-three__logo {
   position: relative;
   display: block;
-  max-width: 120px;
-  float: left;
-  text-align: center;
+  /* max-width: 180px; */
+  /* float: left; */
+  /* text-align: center; */
 }
 .main-menu-three__logo img{
-  width: 150px;
+  width: 13vh;
   height: auto;
+  margin: 10px 40px 10px 0px;
 }
 
 .main-menu-three__inner-upper {
