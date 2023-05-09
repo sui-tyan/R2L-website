@@ -8,6 +8,7 @@ import GalleryOne from "@/components/GalleryOne/GalleryOne";
 import Introduction from "@/components/Introduction/Introduction";
 import Layout from "@/components/Layout/Layout";
 import MainSliderTwo from "@/components/MainSliderTwo/MainSliderTwo";
+import MainSliderThree from "@/components/MainSliderThree/MainSliderThree";
 import NewsTwo from "@/components/NewsTwo/NewsTwo";
 import Volunteer from "@/components/Volunteer/Volunteer";
 import WeInspire from "@/components/WeInspire/WeInspire";
@@ -17,8 +18,9 @@ const Home2 = () => {
   return (
     <div>
       <Funding></Funding>
-      <Layout pageTitle="Home Two">
+      <Layout pageTitle="Home Three">
         <MainSliderTwo />
+        {/* <MainSliderThree /> */}
         <Introduction />
         <FourIcon />
         <WeInspire />

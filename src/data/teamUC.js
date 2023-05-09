@@ -1,9 +1,9 @@
 const teamUC = [
   {
     id: 1,
-    image: "team-one-img-1.jpg",
+    image: "id.png",
     //name: "Janne",
-    title: "Volunteer",
+    title: "Thelma Palaoag",
     description:
       "There are many of lorem ipsum available but the have in some form.",
   },
