@@ -4,7 +4,7 @@ import Counters from "@/components/Counters/Counters";
 import JoinOne from "@/components/JoinOne/JoinOne";
 import Layout from "@/components/Layout/Layout";
 import PageHeader from "@/components/PageHeader/PageHeader";
-import TeamOne from "@/components/TeamOne/TeamGhent";
+import TeamOne from "@/components/MeetTheTeam/TeamSection";
 import TestimonialOne from "@/components/TestimonialOne/TestimonialOne";
 import React from "react";
 
