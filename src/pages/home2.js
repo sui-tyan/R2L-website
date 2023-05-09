@@ -24,9 +24,9 @@ const Home2 = () => {
         <WeInspire />
         <BrandOne />
         <EventsOne />
-        <Volunteer />
-        {/* <CausesTwo />
-        <Counters /> */}
+        {/* <Volunteer />
+        <CausesTwo />
+        <Counters />  */}
         <NewsTwo />
         <GalleryOne className="gallery-two" />
       </Layout>
