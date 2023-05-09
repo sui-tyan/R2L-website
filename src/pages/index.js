@@ -30,7 +30,7 @@ const Home2 = () => {
         {/* <CausesTwo />
         <Counters /> */}
         <NewsTwo />
-        <GalleryOne className="gallery-two" />
+        {/* <GalleryOne className="gallery-two" /> */}
       </Layout>
     </div>
   );
