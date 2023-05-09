@@ -942,20 +942,34 @@ h6 {
   }
 }
 
-.main-menu-three__logo {
+/* .main-menu-three__logo {
   position: relative;
   display: block;
   float: left;
   text-align: center;
   padding: 28.5px 0;
+} */
+
+
+.main-menu-three__logo {
+  position: relative;
+  display: block;
+  max-width: 120px;
+  float: left;
+  text-align: center;
+}
+.main-menu-three__logo img{
+  width: 150px;
+  height: auto;
 }
 
 .main-menu-three__inner-upper {
   position: relative;
   display: flex;
   align-items: center;
+  /* margin-left: 150px; */
   justify-content: center;
-  width: 70%;
+  width: 100%;
   float: left;
 }
 
@@ -7610,7 +7624,7 @@ h6 {
   position: relative;
   display: block;
   /* padding: 0px 0 00px; */
-  /* background-color: var(--thm-black); */
+  background-color: rgb(204, 204, 204);
 }
 
 .funding-section__single {
