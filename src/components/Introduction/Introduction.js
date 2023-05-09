@@ -15,8 +15,8 @@ const Introduction = () => {
               </div>
               <div className="introduction__content">
                 <p className="introduction__text">
-                  Lorem ipsum simply free tex availa-ble in the market to use
-                  anywhere you like or of need
+                  Members of the R2L project, working together to promote youth
+                  leadership and civic engagement in their communities.
                 </p>
               </div>
             </div>
@@ -24,13 +24,20 @@ const Introduction = () => {
           <Col xl={6} lg={6}>
             <div className="introduction__right">
               <div className="section-title text-left">
-                <span className="section-title__tagline">Our Introductions</span>
-                <h2 className="section-title__title">
-                  Insert tagline of the company or website
-                </h2>
+                <span className="section-title__tagline">
+                  Our Introductions
+                </span>
+                <h2 className="section-title__title">Rights to Life</h2>
               </div>
               <p className="introduction__right-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                The Philippines is currently experiencing a worsening disregard
+                for the rule of law and human rights, which includes
+                extra-judicial killings and illegal arrests. The University of
+                the Cordilleras aims to promote a responsive criminal justice
+                system through education and research, leading to intermediate
+                changes in human rights-based education, research and
+                development, community outreach, competent faculty and students,
+                multi-stakeholder partnerships, and well-equipped resources.
               </p>
               <ul className="introduction__icon-wrap list-unstyled">
                 {introduction.map(({ id, title, description, icon }) => (
