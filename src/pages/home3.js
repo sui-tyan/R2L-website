@@ -8,7 +8,6 @@ import Layout from "@/components/Layout/Layout";
 import MainSliderThree from "@/components/MainSliderThree/MainSliderThree";
 import NeedHelp from "@/components/NeedHelp/NeedHelp";
 import NewsThree from "@/components/NewsThree/NewsThree";
-// import TeamOne from "@/components/MeetTheTeam/TeamSection";
 import TestimonialTwo from "@/components/TestimonialTwo/TestimonialTwo";
 import WhyChoose from "@/components/WhyChoose/WhyChoose";
 import React from "react";
@@ -24,7 +23,6 @@ const Home3 = () => {
       <TestimonialTwo />
       <CountersTwo />
       <NeedHelp />
-      {/* <TeamOne /> */}
       <WhyChoose />
       <NewsThree />
       <BecomeVolunteer />
