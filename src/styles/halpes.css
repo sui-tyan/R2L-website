@@ -7626,7 +7626,7 @@ h6 {
   position: relative;
   display: block;
   /* padding: 0px 0 00px; */
-  background-color: rgb(204, 204, 204);
+  background-color: var(--thm-base)
 }
 
 .funding-section__single {
