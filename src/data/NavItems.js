@@ -39,7 +39,7 @@ const navItems = [
   {
     id: 2,
     name: 'Meet the Team',
-    href: '/meet-the-team',
+    href: '/about',
     subNavItems: [
       { id: 1, name: 'About', href: '/about' },
 
@@ -51,7 +51,7 @@ const navItems = [
   {
     id: 3,
     name: 'Work Packages',
-    href: '/workpackages',
+    href: '/causes',
     subNavItems: [
       {
         id: 1,
@@ -80,7 +80,7 @@ const navItems = [
   {
     id: 4,
     name: 'Contact Us',
-    href: '/contactus',
+    href: '/contact',
     subNavItems: [
       // { id: 1, name: 'Events', href: '/events' },
       // { id: 2, name: 'Event Details', href: '/event-details' },
