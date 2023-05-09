@@ -1,9 +1,9 @@
 const brandOne = [
-  "brand-1-1.png",
-  "brand-1-2.png",
-  "brand-1-3.png",
-  "brand-1-4.png",
-  "brand-1-5.png",
+  "home-carousel-1.JPG",
+  "home-carousel-2.JPG",
+  "home-carousel-3.JPG",
+  "home-carousel-4.JPG",
+  "home-carousel-5.JPG",
 ];
 
 export default brandOne;
