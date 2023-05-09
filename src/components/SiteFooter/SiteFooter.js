@@ -26,13 +26,13 @@ const SiteFooter = () => {
       <Container>
         <div className="site-footer__top">
           <Row>
-            <Col xl={3} lg={6} md={6} className="fadeInUp">
+            <Col xl={6} lg={6} md={6} className="fadeInUp">
               <div className="footer-widget__column footer-widget__about">
                 <h3 className="footer-widget__title">About</h3>
                 <p className="footer-widget__text">{about}</p>
-                <a href="#" className="footer-widget__about-btn">
+                {/* <a href="#" className="footer-widget__about-btn">
                   <i className="fa fa-heart"></i>Donate
-                </a>
+                </a> */}
               </div>
             </Col>
             <Col
@@ -100,7 +100,7 @@ const SiteFooter = () => {
                 </ul>
               </div>
             </Col>
-            <Col
+            {/* <Col
               xl={3}
               lg={6}
               md={6}
@@ -125,11 +125,11 @@ const SiteFooter = () => {
                     <i className="fas fa-arrow-circle-right"></i>Send
                   </button>
                 </form>
-              </div>
+              </div> 
             </Col>
           </Row>
         </div>
-        <div className="site-footer__bottom">
+        <div className="site-footer__bottom"> 
           <Row>
             <Col xl={12}>
               <div className="site-footer__bottom-inner">
@@ -162,7 +162,7 @@ const SiteFooter = () => {
                   </p>
                 </div>
               </div>
-            </Col>
+            </Col> */} 
           </Row>
         </div>
       </Container>
