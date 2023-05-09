@@ -7,7 +7,7 @@ const footerData = {
   link: 'Halpes',
   copyrightYear: new Date().getFullYear(),
   about:
-    'Lorem ipsum dolor sit ame consect etur pisicing elit sed do eiusmod tempor incididunt ut labore.',
+    'Rights to Life:\n \nTowards a Responsive Criminal Justice System in the Philippines',
   bottomLogo: footerImage.src,
   footerBg: bg.src,
   social: [
@@ -36,48 +36,48 @@ const footerData = {
     {
       id: 1,
       href: '#',
-      title: 'Donate',
+      title: 'Home',
     },
     {
       id: 2,
       href: '#',
-      title: 'Campaigns',
+      title: 'Meet the Team',
     },
     {
       id: 3,
       href: '#',
-      title: 'Fundraise',
+      title: 'Work Packages',
     },
     {
       id: 4,
       href: '#',
-      title: 'Volunteers',
+      title: 'Contact Us',
     },
-    {
-      id: 5,
-      href: '#',
-      title: 'Sponsors',
-    },
-    {
-      id: 6,
-      href: '#',
-      title: 'Fundraising',
-    },
-    {
-      id: 7,
-      href: '#',
-      title: 'Contact',
-    },
-    {
-      id: 8,
-      href: '#',
-      title: 'Help',
-    },
-    {
-      id: 9,
-      href: '#',
-      title: 'Faqs',
-    },
+    // {
+    //   id: 5,
+    //   href: '#',
+    //   title: 'Sponsors',
+    // },
+    // {
+    //   id: 6,
+    //   href: '#',
+    //   title: 'Fundraising',
+    // },
+    // {
+    //   id: 7,
+    //   href: '#',
+    //   title: 'Contact',
+    // },
+    // {
+    //   id: 8,
+    //   href: '#',
+    //   title: 'Help',
+    // },
+    // {
+    //   id: 9,
+    //   href: '#',
+    //   title: 'Faqs',
+    // },
   ],
 };
 
