@@ -5,7 +5,7 @@ import React from "react";
 
 const Volunteers = () => {
   return (
-    <Layout pageTitle="Meet the Team">
+    <Layout pageTitle="Home Three">
       <PageHeader pageTitle="Meet the Team" />
       <MeetTheTeam className="team-page" />
     </Layout>
