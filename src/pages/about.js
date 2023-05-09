@@ -18,7 +18,7 @@ const About = () => {
         <TestimonialOne className="about-page-testimonial" />
         <JoinOne className="join-one__about" />
         <Counters className="about-page-counter" />
-        <TeamOne />
+        {/* <TeamOne /> */}
         <BrandOne />
       </Layout>
     </div>

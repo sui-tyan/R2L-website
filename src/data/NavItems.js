@@ -39,13 +39,12 @@ const navItems = [
   {
     id: 2,
     name: "Meet the Team",
-    href: "/about",
+    href: "/team",
     subNavItems: [
-      { id: 1, name: "About", href: "/about" },
-
-      { id: 2, name: "Volunteers", href: "/volunteers" },
-      { id: 3, name: "Gallery", href: "/gallery" },
-      { id: 4, name: "Become a Volunteer", href: "/become-volunteer" },
+      // { id: 1, name: "About", href: "/about" },
+      // { id: 2, name: "Volunteers", href: "/volunteers" },
+      // { id: 3, name: "Gallery", href: "/gallery" },
+      // { id: 4, name: "Become a Volunteer", href: "/become-volunteer" },
     ],
   },
   {
