@@ -1,6 +1,6 @@
 import inspireData from "@/data/inspireData";
-import bg from "@/images/backgrounds/we-inspire-bg.jpg";
-import image from "@/images/resources/we-inspire-img.jpg";
+import bg from "@/images/backgrounds/faq-bg.jpg";
+import image from "@/images/resources/faq-img.jpg";
 import React, { useState } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 
@@ -22,9 +22,7 @@ const WeInspire = () => {
                 <span className="section-title__tagline">
                   Frequently Asked Questions
                 </span>
-                <h2 className="section-title__title">
-                  Information about Rights to Life
-                </h2>
+                <h2 className="section-title__title">More about Rights2Life</h2>
               </div>
               <div className="we-inspire__faq">
                 <div
