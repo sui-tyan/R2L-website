@@ -18,7 +18,7 @@ const Home2 = () => {
   return (
     <div>
       <Funding></Funding>
-      <Layout pageTitle="Home Three">
+      <Layout pageTitle="">
         <MainSliderTwo />
         {/* <MainSliderThree /> */}
         <Introduction />
