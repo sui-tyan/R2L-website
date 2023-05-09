@@ -26,7 +26,7 @@ const Home2 = () => {
         <WeInspire />
         <BrandOne />
         <EventsOne />
-        <Volunteer />
+        {/* <Volunteer /> */}
         {/* <CausesTwo />
         <Counters /> */}
         <NewsTwo />
