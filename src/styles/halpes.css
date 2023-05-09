@@ -5336,7 +5336,7 @@ h6 {
 
 .team-one__img>img {
   width: 100%;
-  mix-blend-mode: luminosity;
+  /* mix-blend-mode: luminosity; */
   transition: 500ms ease;
 }
 
@@ -5362,6 +5362,7 @@ h6 {
   display: block;
   margin-top: 53px;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .team-one__member-title {

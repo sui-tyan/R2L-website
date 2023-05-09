@@ -1,11 +1,11 @@
 const teamGhent = [
   {
     id: 1,
-    image: "team-one-img-1.jpg",
+    image: "christophe.png",
     //name: "Janne",
-    title: "Volunteer",
+    title: "Christophe Vandeviver",
     description:
-      "There are many of lorem ipsum available but the have in some form.",
+      "Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.",
   },
   {
     id: 2,
