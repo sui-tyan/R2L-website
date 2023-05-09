@@ -1,21 +1,22 @@
 const newsTwo = [
   {
     id: 1,
-    image: "news-two-img-1.jpg",
+    image: "news-event-1.jpg",
     date: "20 Jan, 2021",
-    title: "Insert a title of the current blog 1",
+    title: "Women's Month Forum",
     description:
-      "There are many variations of but the majority have simply free text available not suffered.",
+      "The UC College of Criminal Justice Education - CSC, in collaboration with the Office of Student Affairs and Services, UC College of Arts and Sciences - CSC, and College Teacher Education -CSC, conducted a  Women’s Month Forum on March 16, 2023 at the UC auditorium.",
     author: "Admin",
     comments: 2,
   },
   {
     id: 2,
-    image: "news-two-img-2.jpg",
+    image: "news-event-2.jpg",
     date: "20 Jan, 2021",
-    title: "Insert a title of the current blog 2",
+    title:
+      "Lecture Forum on the Implication of the EDSA Revolution on Civil and Political Rights",
     description:
-      "There are many variations of but the majority have simply free text available not suffered.",
+      "The first speaker, Atty. Jose Molintas, delivered an insightful discussion of the EDSA Revolution, criminal justice system of the Philippines, martial law, and directorship. ",
     author: "Admin",
     comments: 2,
   },
