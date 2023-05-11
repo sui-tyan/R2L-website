@@ -1,51 +1,91 @@
 const teamGhent = [
   {
     id: 1,
-    image: "christophe.png",
+    image: "anon.png",
     //name: "Janne",
     title: "Christophe Vandeviver",
     description:
       "Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.",
   },
   {
-    id: 2,
-    image: "team-one-img-2.jpg",
-    //name: "David",
-    title: "Volunteer",
+    id: 1,
+    image: "anon.png",
+    //name: "Janne",
+    title: "Jeroen Adam",
     description:
-      "There are many of lorem ipsum available but the have in some form.",
+      "Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.",
   },
   {
-    id: 3,
-    image: "team-one-img-3.jpg",
-    //name: "Sarah",
-    title: "Volunteer",
+    id: 1,
+    image: "anon.png",
+    //name: "Janne",
+    title: "Marc Cools",
     description:
-      "There are many of lorem ipsum available but the have in some form.",
+      "Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.",
   },
   {
-    id: 4,
-    image: "team-page-img-4.jpg",
-    //name: "Albert",
-    title: "Volunteer",
+    id: 1,
+    image: "anon.png",
+    //name: "Janne",
+    title: "Kathleen D'hanis",
     description:
-      "There are many of lorem ipsum available but the have in some form.",
+      "Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.",
   },
   {
-    id: 5,
-    image: "team-page-img-5.jpg",
-    //name: "Hallen",
-    title: "Volunteer",
+    id: 1,
+    image: "anon.png",
+    //name: "Janne",
+    title: "Tine Destrooper",
     description:
-      "There are many of lorem ipsum available but the have in some form.",
+      "Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.",
   },
   {
-    id: 6,
-    image: "team-page-img-6.jpg",
-    //name: "Pitter",
-    title: "Volunteer",
+    id: 1,
+    image: "anon.png",
+    //name: "Janne",
+    title: "Elke Evrard",
     description:
-      "There are many of lorem ipsum available but the have in some form.",
+      "Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.",
+  },
+  {
+    id: 1,
+    image: "anon.png",
+    //name: "Janne",
+    title: "Jelle Janssens",
+    description:
+      "Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.",
+  },
+  {
+    id: 1,
+    image: "anon.png",
+    //name: "Janne",
+    title: "Noel Klima",
+    description:
+      "Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.",
+  },
+  {
+    id: 1,
+    image: "anon.png",
+    //name: "Janne",
+    title: "Arne Vandenbogaerde",
+    description:
+      "Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.",
+  },
+  {
+    id: 1,
+    image: "anon.png",
+    //name: "Janne",
+    title: "Tom Vander Beken",
+    description:
+      "Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.",
+  },
+  {
+    id: 1,
+    image: "anon.png",
+    //name: "Janne",
+    title: "Antoinette Verhage",
+    description:
+      "Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.",
   },
 ];
 

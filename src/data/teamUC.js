@@ -1,49 +1,113 @@
 const teamUC = [
   {
     id: 1,
-    image: "id.png",
+    image: "ariel-pumecha.jpg",
     //name: "Janne",
-    title: "Thelma Palaoag",
+    title: "Ariel Nimo Pumecha",
     description:
       "There are many of lorem ipsum available but the have in some form.",
   },
   {
     id: 2,
-    image: "team-one-img-2.jpg",
+    image: "robino-cawi.jpg",
     //name: "David",
-    title: "Volunteer",
+    title: "Robino Cawi",
     description:
       "There are many of lorem ipsum available but the have in some form.",
   },
   {
     id: 3,
-    image: "team-one-img-3.jpg",
+    image: "thelma-palaoag.jpg",
     //name: "Sarah",
-    title: "Volunteer",
+    title: "Thelma Palaoag",
     description:
       "There are many of lorem ipsum available but the have in some form.",
   },
   {
     id: 4,
-    image: "team-page-img-4.jpg",
-    //name: "Albert",
-    title: "Volunteer",
+    image: "anon.png",
+    //name: "Sarah",
+    title: "Corazon Alhido-Sacpa",
     description:
       "There are many of lorem ipsum available but the have in some form.",
   },
   {
     id: 5,
-    image: "team-page-img-5.jpg",
-    //name: "Hallen",
-    title: "Volunteer",
+    image: "anon.png",
+    //name: "Sarah",
+    title: "Cherry Ann Cabarrubias",
     description:
       "There are many of lorem ipsum available but the have in some form.",
   },
   {
-    id: 6,
-    image: "team-page-img-6.jpg",
-    //name: "Pitter",
-    title: "Volunteer",
+    id: 5,
+    image: "anon.png",
+    //name: "Sarah",
+    title: "John Rey Dayucos",
+    description:
+      "There are many of lorem ipsum available but the have in some form.",
+  },
+  {
+    id: 5,
+    image: "anon.png",
+    //name: "Sarah",
+    title: "Leah Donato",
+    description:
+      "There are many of lorem ipsum available but the have in some form.",
+  },
+  {
+    id: 5,
+    image: "anon.png",
+    //name: "Sarah",
+    title: "Chester King-eo",
+    description:
+      "There are many of lorem ipsum available but the have in some form.",
+  },
+  {
+    id: 5,
+    image: "anon.png",
+    //name: "Sarah",
+    title: "Ferdinand Lawan",
+    description:
+      "There are many of lorem ipsum available but the have in some form.",
+  },
+  {
+    id: 5,
+    image: "anon.png",
+    //name: "Sarah",
+    title: "Rhodora Ngolob",
+    description:
+      "There are many of lorem ipsum available but the have in some form.",
+  },
+  {
+    id: 5,
+    image: "anon.png",
+    //name: "Sarah",
+    title: "Christian Pascual",
+    description:
+      "There are many of lorem ipsum available but the have in some form.",
+  },
+  {
+    id: 5,
+    image: "anon.png",
+    //name: "Sarah",
+    title: "Katrina Reyes",
+    description:
+      "There are many of lorem ipsum available but the have in some form.",
+  },
+  {
+    id: 5,
+    image: "anon.png",
+    //name: "Sarah",
+    title: "Elizabeth Sagubo",
+    description:
+      "There are many of lorem ipsum available but the have in some form.",
+  },
+  {
+    id: 5,
+    image: "anon.png",
+    //name: "Sarah",
+    title: "Darly Tagarino",
     description:
       "There are many of lorem ipsum available but the have in some form.",
   },
