@@ -8,7 +8,7 @@ const teamUC = [
   },
   {
     id: 2,
-    image: 'anon.png',
+    image: 'darlyn-tagarino.jpg',
     //name: "Sarah",
     title: 'Darlyn Tagarino',
     description: 'There are many of lorem ipsum available but the have in some form.',

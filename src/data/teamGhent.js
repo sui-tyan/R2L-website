@@ -2,50 +2,44 @@ const teamGhent = [
   {
     id: 1,
     image: 'christopher-vandeviver.jpg',
-    //name: "Janne",
-    title: 'Christophe Vandeviver',
+    title: 'Prof. Dr. Christophe Vandeviver',
     description:
-      'Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.',
+      'Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology of Ghent University. He is the UGhent Lead in Domain 6.',
   },
   {
     id: 2,
     image: 'tine-destrooper.jpg',
-    //name: "Janne",
-    title: 'Tine Destrooper',
+    title: 'Prof. Dr. Tine Destrooper',
     description:
-      'Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.',
+      'Prof. Dr. Tine Destrooper is an associate professor at the Faculty of Law and Criminology of Ghent University. She is the UGhent Lead in Domain 5.',
   },
   {
     id: 3,
     image: 'tom-beken.jpg',
-    //name: "Janne",
-    title: 'Tom Vander Beken',
+    title: 'Prof. Dr. Tom Vander Beken',
     description:
-      'Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.',
+      'Prof. Dr. Tom Vander Beken is a full professor in Criminology and Criminal Law of Ghent University. He is the UGhent Lead in Domain 2.',
   },
   {
     id: 4,
     image: 'antoinette-verhage.jpg',
-    //name: "Janne",
-    title: 'Antoinette Verhage',
+    title: 'Prof. Dr. Antoinette Verhage',
     description:
-      'Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.',
+      'Prof. Dr. Antoinette Verhage is a professor of Criminology at Ghent University. She is the UGhent Lead in Domain 4.',
   },
   {
     id: 5,
     image: 'marc-cools.jpg',
-    //name: "Janne",
-    title: 'Marc Cools',
+    title: 'Prof. Dr. Marc Cools',
     description:
-      'Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.',
+      'Prof. Dr. Marc Cool is a professor of Criminology at Ghent University. He is the UGhent Lead in Domain 1.',
   },
   {
     id: 6,
     image: 'jelle-janssens.jpg',
-    //name: "Janne",
-    title: 'Jelle Janssens',
+    title: 'Prof. Dr. Jelle Janssens',
     description:
-      'Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.',
+      'Prof. Dr. Jelle Janssens expertise to the European Network for the Administrative Approach. He is the UGhent Lead in Domain 3.',
   },
   {
     id: 7,
@@ -53,7 +47,7 @@ const teamGhent = [
     //name: "Janne",
     title: 'Jeroen Adam',
     description:
-      'Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.',
+      'Jeroen Adam is an associate professor and project coordinator at Ghent University. He is the UGhent Co-Lead 2 in Domain 1 and 5.',
   },
   {
     id: 8,
@@ -61,7 +55,7 @@ const teamGhent = [
     //name: "Janne",
     title: 'Arne Vandenbogaerde',
     description:
-      'Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.',
+      'Arne Vandenbogaerde is a research policy officer at Ghent University. She is the UGhent Co-Lead 2 in Domain 2,3 and 6.',
   },
   {
     id: 9,
@@ -69,7 +63,7 @@ const teamGhent = [
     //name: "Janne",
     title: 'Noel Klima',
     description:
-      'Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.',
+      'Noel Klima is a research coordinator at Ghent University. He is the UGhent Co-Lead 1 in Domain 3 and 5.',
   },
 
   {
@@ -78,7 +72,7 @@ const teamGhent = [
     //name: "Janne",
     title: "Kathleen D'hanis",
     description:
-      'Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.',
+      'She is the UGhent Co-Lead 1 in Domain 6.',
   },
 
   {
@@ -87,7 +81,7 @@ const teamGhent = [
     //name: "Janne",
     title: 'Elke Evrard',
     description:
-      'Prof. Dr. Christophe Vandeviver is a Research Professor in Criminology (Ghent University Research Council, BOFZAP) at the Institute for International Research on Criminal Policy (IRCP), Ghent University.',
+      'Elke Evrard is a faculty of law and criminology at Ghent University. She is the UGhent Co-Lead 2 in Domain 3.',
   },
 ];
 
