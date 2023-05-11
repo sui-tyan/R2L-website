@@ -18,7 +18,7 @@ const NewsTwo = () => {
         <div className="section-title text-center">
           <span className="section-title__tagline">Get Daily Updates</span>
           <h2 className="section-title__title">
-            Latest news & articles directly <br /> coming from the blog
+          Project Activities
           </h2>
         </div>
         <Row>
