@@ -2,12 +2,11 @@ const newsTwo = [
   {
     id: 1,
     image: "news-event-1.jpg",
-    date: "20 Jan, 2021",
-    title: "Women's Month Forum",
+    date: "November 23, 2022",
+    title: "A Lecture-Forum on Transitional Justice",
     description:
-      "The UC College of Criminal Justice Education - CSC, in collaboration with the Office of Student Affairs and Services, UC College of Arts and Sciences - CSC, and College Teacher Education -CSC, conducted a  Women’s Month Forum on March 16, 2023 at the UC auditorium.",
-    author: "Admin",
-    comments: 2,
+      "Prof. Destrooper Tine discussed a lecture-forum that delved into the topic of transitional justice.",
+    author: "Admin"
   },
   {
     id: 2,
@@ -30,6 +29,16 @@ const newsTwo = [
     author: "Admin",
     comments: 2,
   },
+  {
+    id: 4,
+    image: "news-two-img-3.jpg",
+    date: "20 Jan, 2021",
+    title: "Insert a title of the current blog 3",
+    description:
+      "There are many variations of but the majority have simply free text available not suffered.",
+    author: "Admin",
+    comments: 2,
+  }
 ];
 
 export default newsTwo;
