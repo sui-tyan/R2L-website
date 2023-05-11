@@ -23,14 +23,14 @@ const Home2 = () => {
         {/* <MainSliderThree /> */}
         <Introduction />
         <FourIcon />
-        <WeInspire />
-        <BrandOne />
-        <EventsOne />
+        {/* <WeInspire /> */}
+        {/* <BrandOne /> */}
         {/* <Volunteer /> */}
         {/* <CausesTwo />
         <Counters /> */}
         <NewsTwo />
-        {/* <GalleryOne className="gallery-two" /> */}
+        <GalleryOne className="gallery-two" />
+        <EventsOne />
       </Layout>
     </div>
   );
