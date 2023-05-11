@@ -41,8 +41,7 @@ const EventsOne = () => {
                 </h2>
               </div>
               <p className="events-one__text">
-                There are many variations of passages of lorem ipsum available
-                but the majority have suffered.
+                Here are some events and activities that our project has previously held.
               </p>
               <a href="#" className="events-one__btn thm-btn">
                 <i className="fas fa-arrow-circle-right"></i>Learn More

@@ -15,7 +15,7 @@ const Introduction = () => {
               </div>
               <div className="introduction__content">
                 <p className="introduction__text">
-                  Members of the R2L project, working together to promote youth
+                  Members of the Rights2LIFE project, working together to promote youth
                   leadership and civic engagement in their communities.
                 </p>
               </div>
@@ -27,13 +27,10 @@ const Introduction = () => {
                 <span className="section-title__tagline">
                   Our Introductions
                 </span>
-                <h2 className="section-title__title">Rights to Life</h2>
+                <h2 className="section-title__title">Rights2LIFE</h2>
               </div>
               <p className="introduction__right-text">
-                The Philippines is currently experiencing a worsening disregard
-                for the rule of law and human rights, which includes
-                extra-judicial killings and illegal arrests. The University of
-                the Cordilleras aims to promote a responsive criminal justice
+                The University of the Cordilleras aims to promote a responsive criminal justice
                 system through education and research, leading to intermediate
                 changes in human rights-based education, research and
                 development, community outreach, competent faculty and students,
@@ -52,9 +49,9 @@ const Introduction = () => {
                   </li>
                 ))}
               </ul>
-              <a href="#" className="introduction__btn thm-btn">
+              {/* <a href="#" className="introduction__btn thm-btn">
                 <i className="fas fa-arrow-circle-right"></i>Learn More
-              </a>
+              </a> */}
             </div>
           </Col>
         </Row>

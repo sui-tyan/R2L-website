@@ -17,9 +17,9 @@ const SingleNews = ({ news = {} }) => {
               </a>
             </Link>
           </div>
-          <div className="news-two__date">
+          {/* <div className="news-two__date">
             <p>{date}</p>
-          </div>
+          </div> */}
         </div>
         <div className="news-two__content">
           <ul className="list-unstyled news-two__meta">
@@ -33,7 +33,7 @@ const SingleNews = ({ news = {} }) => {
             </li>
             <li>
               <a href="#">
-                <i className="far fa-comments"></i> {comments} Comments
+                <i className="far fa-comments"></i> {date} 
               </a>
             </li>
           </ul>

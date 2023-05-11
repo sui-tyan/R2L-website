@@ -10,7 +10,7 @@ const contactData = {
   ...contact,
   image,
   description:
-  'Rights to Life: Towards a Responsive Criminal Justice System in the Philippines',
+  'Rights2LIFE: Towards a Responsive Criminal Justice System in the Philippines',
 };
 
 export default contactData;
