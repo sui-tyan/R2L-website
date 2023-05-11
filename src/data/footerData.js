@@ -1,4 +1,4 @@
-import bg from '@/images/backgrounds/footer-bg.jpg';
+import bg from '@/images/backgrounds/footer-uc.jpg';
 import footerImage from '@/images/resources/footer-logo.jpg';
 import { contact } from './contactData';
 
@@ -7,8 +7,7 @@ const footerData = {
   link: 'Halpes',
   copyrightYear: new Date().getFullYear(),
   about:
-    'Rights to Life:\n \nTowards a Responsive Criminal Justice System in the Philippines',
-  bottomLogo: footerImage.src,
+    'Rights2LIFE: Towards a Responsive Criminal Justice System in the Philippines Achieving a responsive criminal justice system will usher the dream of reaching the sustainable development goal of peace, security and strong institutions.', bottomLogo: footerImage.src,
   footerBg: bg.src,
   social: [
     {

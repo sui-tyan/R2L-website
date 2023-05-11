@@ -3415,6 +3415,7 @@ h6 {
 }
 
 .footer-widget__text {
+  text-align: justify;
   font-size: 16px;
   color: #b8bbc9;
   margin: 0;
@@ -3769,11 +3770,13 @@ h6 {
   font-weight: 900;
   line-height: 32px;
   margin-bottom: 10px;
+  
 }
 
 .introduction__content-box p {
   font-size: 16px;
   margin: 0;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
@@ -4827,6 +4830,7 @@ h6 {
 }
 
 .news-two__text {
+  text-align: justify;
   font-size: 16px;
   margin: 0;
 }
