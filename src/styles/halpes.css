@@ -696,6 +696,9 @@ h6 {
   .main-menu .mobile-nav__toggler {
     display: none;
   }
+  .main-menu .main-menu-three-mobile__logo {
+    display: none;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -933,7 +936,7 @@ h6 {
   position: relative;
   display: block;
   padding: 0 30px;
-  box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05); */
 }
 
 @media (min-width: 992) {
@@ -998,7 +1001,8 @@ h6 {
   /* margin-left: 150px; */
   justify-content: center;
   width: 100%;
-  float: left;
+  float: right;
+  /* padding: 47px 0 47px 0; */
 }
 
 .main-menu-three__btn {
@@ -1049,6 +1053,24 @@ h6 {
   padding-top: 39.5px;
   padding-bottom: 38.5px;
 }
+
+.main-menu-three-mobile__logo {
+  height: auto;
+  width: 50%;
+  /* background-color: #000; */
+  float: left;
+}
+
+.main-menu-three-mobile__logo img{
+  max-width: 80%;
+  width: 7rem;
+  padding: 5px 5px 5px 5px;
+}
+/* .container-width-override {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+} */
 
 /*--------------------------------------------------------------
 # Animations

@@ -15,12 +15,12 @@ const HeaderThree = () => {
 
   return (
     <header className="main-header-three clearfix">
-      <Container className="main-header-three__container">
+      <Container className="main-header-three__container ">
         <Row className="justify-content-md-center">
           <Col>
             <div
               className="main-menu-three__logo-top"
-              // style={{ display: scrollTop ? "none" : "" }}
+              style={{ display: scrollTop ? "none" : "" }}
             >
               <Link href="/">
                 <a>
@@ -40,10 +40,21 @@ const HeaderThree = () => {
                 }
               >
                 <div className="main-menu-three__container clearfix">
+                  <div
+                    className="main-menu-three-mobile__logo"
+                    // style={{ display: "none" }}
+                  >
+                    <Link href="/">
+                      <a>
+                        <Image src={logo.src} alt="Logo of Rights2Life" />
+                      </a>
+                    </Link>
+                  </div>
                   <div className="main-menu-three__inner-upper clearfix">
                     <div
                       className="main-menu-three__logo"
-                      style={{ display: scrollTop ? "" : "none" }}
+                      // style={{ display: scrollTop ? "" : "none" }}
+                      style={{ display: scrollTop ? "block" : "none" }}
                     >
                       <Link href="/">
                         <a>
@@ -58,12 +69,14 @@ const HeaderThree = () => {
                           : "main-menu-three__inner clearfix"
                       }
                     >
-                      <span
-                        onClick={() => toggleMenu()}
-                        className="mobile-nav__toggler"
-                      >
-                        <i className="fa fa-bars"></i>
-                      </span>
+                      <Col md={6}>
+                        <span
+                          onClick={() => toggleMenu()}
+                          className="mobile-nav__toggler"
+                        >
+                          <i className="fa fa-bars"></i>
+                        </span>
+                      </Col>
                       <ul className="main-menu__list">
                         {navItems.map((navItem) => (
                           <NavItem key={navItem.id} navItem={navItem} />

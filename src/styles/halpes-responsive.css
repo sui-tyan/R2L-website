@@ -243,6 +243,9 @@
   .main-menu-three__logo-top{
     display: none;
   }
+  .main-menu-three-mobile__logo {
+    display: block;
+  }
 }
 
 /* Tablet Layout: 768px. */
@@ -502,6 +505,9 @@
   }
   .main-menu-three__logo-top{
     display: none;
+  }
+  .main-menu-three-mobile__logo {
+    display: block;
   }
 }
 
@@ -1156,6 +1162,10 @@
   .main-menu-three__logo-top{
     display: none;
   }
+
+  .main-menu-three-mobile__logo {
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
@@ -1176,6 +1186,12 @@
 
   .three-boxes__icon span {
     top: 4px;
+  }
+  .main-menu-three__logo{
+    display: none;
+  }
+  .main-menu-three-mobile__logo {
+    display: none;
   }
 }
 
