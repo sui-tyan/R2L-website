@@ -12,10 +12,6 @@ const SingleFunding = ({ funding = {} }) => {
             src={require(`@/images/funding/${image}`).default.src}
             alt=""
           />
-          {/* <div className="funding-section__hover-content-box">
-            <h2>{title}</h2>
-            <p>{category}</p>
-          </div> */}
         </div>
       </div>
     </Col>

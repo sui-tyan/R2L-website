@@ -7633,8 +7633,6 @@ h6 {
   position: relative;
   display: block;
   background-color: var(--thm-base);
-  align-items: center;
-  justify-content: center;
 }
 
 .funding-section__single {
@@ -7662,92 +7660,13 @@ h6 {
   position: absolute;
   top: 0;
   left: 0;
-  content: "";
-  background: rgba(var(--thm-primary-rgb), 0.9);
-  -webkit-transition: all 700ms ease;
-  -ms-transition: all 700ms ease;
-  -o-transition: all 700ms ease;
-  transition: all 700ms ease;
-  -webkit-transform: translateY(-101%);
-  -ms-transform: translateY(-101%);
-  -o-transform: translateY(-101%);
-  -moz-transform: translateY(-101%);
-  transform: translateY(-101%);
   z-index: 1;
 }
 
-.funding-section__single:hover .funding-section__img-box:before {
-  opacity: 1;
-  -webkit-transform: translateY(0%);
-  -ms-transform: translateY(0%);
-  -o-transform: translateY(0%);
-  -moz-transform: translateY(0%);
-  transform: translateY(0%);
-}
-
 .funding-section__img-box img {
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: opacity 500ms ease, -webkit-transform 500ms ease;
-  transition: opacity 500ms ease, -webkit-transform 500ms ease;
-  transition: transform 500ms ease, opacity 500ms ease;
-  transition: transform 500ms ease, opacity 500ms ease,
-    -webkit-transform 500ms ease;
-
-  /* Temporary */
   scale: 80%;
 }
 
-/* .funding-section__single:hover .funding-section__img-box img {
-  transform: scale(1.05);
-} */
-
-.funding-section__hover-content-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  -webkit-transform: translateY(50px);
-  -ms-transform: translateY(50px);
-  transform: translateY(50px);
-  z-index: 2;
-
-  /* Temporary */
-  scale: 80%;
-}
-
-.funding-section__hover-content-box h2 {
-  font-size: 24px;
-  color: #ffffff;
-  font-weight: 900;
-  line-height: 34px;
-  margin-bottom: 14px;
-}
-
-.funding-section__hover-content-box p {
-  font-size: 30px;
-  color: #ffffff;
-  font-family: var(--thm-reey-font);
-  margin: 0;
-  font-weight: 400;
-}
-
-.funding-section__single:hover .funding-section__hover-content-box {
-  -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0);
-  opacity: 1;
-  transition: all 500ms ease 500ms;
-  -webkit-transition: all 500ms ease 500ms;
-  -ms-transition: all 500ms ease 500ms;
-  -o-transition: all 500ms ease 500ms;
-}
 
 /*--------------------------------------------------------------
 # Galley Page
