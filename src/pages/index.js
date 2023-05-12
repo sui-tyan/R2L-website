@@ -17,7 +17,6 @@ import React from "react";
 const Home2 = () => {
   return (
     <div>
-      {/* <Funding></Funding> */}
       <Layout pageTitle="">
         <MainSliderTwo />
         {/* <MainSliderThree /> */}

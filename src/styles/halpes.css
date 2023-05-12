@@ -7632,33 +7632,36 @@ h6 {
 .funding-section {
   position: relative;
   display: block;
-  /* padding: 0px 0 00px; */
-  background-color: var(--thm-base)
+  background-color: var(--thm-base);
+  align-items: center;
+  justify-content: center;
 }
 
 .funding-section__single {
   position: relative;
-  display: block;
+  display: flex;
   margin-bottom: 5px;
   margin-top: 5px;
-  height: 100%;
-  width: 100%;
-  /* height: auto;
-  width: auto; */
+  align-items: center;
+  justify-content: center;
 }
 
 .funding-section__img-box {
   position: relative;
   display: block;
-  overflow: hidden;
+  max-width: 250px;
+}
+
+.funding-section__container {
+  max-width: 730px;
+  align-items: center;
+  justify-content: center;
 }
 
 .funding-section__img-box:before {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
   content: "";
   background: rgba(var(--thm-primary-rgb), 0.9);
   -webkit-transition: all 700ms ease;
