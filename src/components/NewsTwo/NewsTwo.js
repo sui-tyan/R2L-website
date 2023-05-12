@@ -20,9 +20,9 @@ const NewsTwo = () => {
           <h2 className="section-title__title">Recent Activities To Date</h2>
         </div>
         <Row>
-          {newsTwo.map((news) => (
-            <SingleNews key={news.id} news={news} />
-          ))}
+          {newsTwo
+            .map((news) => <SingleNews key={news.id} news={news} />)
+            .reverse()}
         </Row>
       </Container>
     </section>
