@@ -239,6 +239,10 @@
     display: flex;
     justify-content: center;
   }
+
+  .main-menu-three__logo-top{
+    display: none;
+  }
 }
 
 /* Tablet Layout: 768px. */
@@ -495,6 +499,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }
+  .main-menu-three__logo-top{
+    display: none;
   }
 }
 
@@ -1145,6 +1152,9 @@
   .three-boxes__icon {
     text-align: center;
     margin: 0 0 20px;
+  }
+  .main-menu-three__logo-top{
+    display: none;
   }
 }
 

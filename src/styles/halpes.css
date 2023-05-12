@@ -515,7 +515,7 @@ h6 {
 
 .main-menu .main-menu__list>li>a,
 .stricky-header .main-menu__list>li>a {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -942,14 +942,40 @@ h6 {
     align-self: center;
   }
 }
-
-/* .main-menu-three__logo {
-  position: relative;
+/* 
+.main-menu-three__logo-top {
+  position:relative;
   display: block;
-  float: left;
-  text-align: center;
-  padding: 28.5px 0;
-} */
+  float:left;
+  overflow:visible;
+  height: 0px;
+  width: auto;
+  left: 11vw;
+} 
+*/
+
+.main-menu-three__container {
+  display: inline;
+  background-color: #ffff;
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.main-menu-three__logo-top {
+  position: relative;
+  display: flex;
+  /* background-color: black; */
+  top: 11%;
+  max-width: 100%;
+
+}
+
+
+.main-menu-three__logo-top img{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
 
 
 .main-menu-three__logo {
@@ -7632,7 +7658,7 @@ h6 {
 .funding-section {
   position: relative;
   display: block;
-  background-color: var(--thm-base);
+  background-color: #fff;
 }
 
 .funding-section__single {
