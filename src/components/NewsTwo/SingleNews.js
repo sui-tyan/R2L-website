@@ -28,14 +28,14 @@ const SingleNews = ({ news = {} }) => {
                 <i className="far fa-user-circle"></i> {author}
               </a>
             </li>
-            <li>
+            {/* <li>
               <span>/</span>
             </li>
             <li>
               <a href="#">
                 <i className="far fa-comments"></i> {date} 
               </a>
-            </li>
+            </li> */}
           </ul>
           <h3>
             <Link href="/news-details">{title}</Link>
