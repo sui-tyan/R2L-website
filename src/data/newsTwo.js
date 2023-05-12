@@ -6,7 +6,7 @@ const newsTwo = [
     title: "A Lecture-Forum on Transitional Justice",
     description:
       "Prof. Destrooper Tine discussed a lecture-forum that delved into the topic of transitional justice.",
-    author: "Admin"
+    author: "Admin",
   },
   {
     id: 2,
@@ -29,16 +29,6 @@ const newsTwo = [
     author: "Admin",
     comments: 2,
   },
-  {
-    id: 4,
-    image: "news-two-img-3.jpg",
-    date: "20 Jan, 2021",
-    title: "Insert a title of the current blog 3",
-    description:
-      "There are many variations of but the majority have simply free text available not suffered.",
-    author: "Admin",
-    comments: 2,
-  }
 ];
 
 export default newsTwo;
