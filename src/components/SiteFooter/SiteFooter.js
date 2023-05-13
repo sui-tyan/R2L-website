@@ -1,7 +1,7 @@
-import footerData from "@/data/footerData";
-import Link from "next/link";
-import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import footerData from '@/data/footerData';
+import Link from 'next/link';
+import React from 'react';
+import { Col, Container, Image, Row } from 'react-bootstrap';
 
 const {
   exploreList,
@@ -19,14 +19,12 @@ const {
 const SiteFooter = () => {
   return (
     <footer className="site-footer">
-      <div
-        className="site-footer-bg"
-        style={{ backgroundImage: `url(${footerBg})` }}
-      ></div>
+      <div className="site-footer-bg" style={{ backgroundImage: `url(${footerBg})` }}></div>
       <Container>
         <div className="site-footer__top">
           <Row>
-            <Col xl={6} lg={6} md={6} className="fadeInUp">
+            <Col xl={1}></Col>
+            <Col xl={4} lg={6} md={6} className="fadeInUp">
               <div className="footer-widget__column footer-widget__about">
                 <h3 className="footer-widget__title">About</h3>
                 <p className="footer-widget__text">{about}</p>
@@ -35,13 +33,8 @@ const SiteFooter = () => {
                 </a> */}
               </div>
             </Col>
-            <Col
-              xl={3}
-              lg={6}
-              md={6}
-              className="wow fadeInUp"
-              data-wow-delay="200ms"
-            >
+            <Col xl={1}></Col>
+            <Col xl={3} lg={6} md={6} className="wow fadeInUp" data-wow-delay="200ms">
               <div className="footer-widget__column footer-widget__explore clearfix">
                 <h3 className="footer-widget__title">Explore</h3>
                 <ul className="footer-widget__explore-list list-unstyled">
@@ -162,7 +155,7 @@ const SiteFooter = () => {
                   </p>
                 </div>
               </div>
-            </Col> */} 
+            </Col> */}
           </Row>
         </div>
       </Container>
