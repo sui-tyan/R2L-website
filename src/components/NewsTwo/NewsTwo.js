@@ -16,8 +16,8 @@ const NewsTwo = () => {
       </Jarallax>
       <Container>
         <div className="section-title text-center">
-          <span className="section-title__tagline">Project Updates</span>
-          <h2 className="section-title__title">Recent Activities To Date</h2>
+          <span className="section-title__tagline">Our Updates</span>
+          <h2 className="section-title__title">Project Activities</h2>
         </div>
         <Row>
           {newsTwo

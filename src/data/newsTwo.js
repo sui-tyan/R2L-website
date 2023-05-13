@@ -2,6 +2,15 @@ const newsTwo = [
   {
     id: 1,
     image: "news-event-1.jpg",
+    date: "November 5, 2022",
+    title: "Barangay Assembly",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    author: "Admin",
+  },
+  {
+    id: 2,
+    image: "news-event-2.jpg",
     date: "November 23, 2022",
     title: "A Lecture-Forum on Transitional Justice",
     description:
@@ -9,36 +18,35 @@ const newsTwo = [
     author: "Admin",
   },
   {
-    id: 2,
-    image: "news-event-4.jpg",
-    date: "20 Jan, 2021",
-    title:
-      "Lecture Forum on the Implication of the EDSA Revolution on Civil and Political Rights",
+    id: 3,
+    // image: "news-two-img-3.jpg",
+    image: "news-event-3.jpg",
+    date: "December 6, 2021",
+    title: "Community Outreach",
     description:
-      "The first speaker, Atty. Jose Molintas, delivered an insightful discussion of the EDSA Revolution, criminal justice system of the Philippines, martial law, and directorship. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     author: "Admin",
     comments: 2,
   },
   {
-    id: 3,
-    // image: "news-two-img-3.jpg",
-    image: "news-event-3.jpg",
-    date: "20 Jan, 2021",
-    title: "Community Outreach",
+    id: 4,
+    image: "news-event-4.jpg",
+    date: "March 9, 2023",
+    title:
+      "Lecture Forum on the EDSA Revolution",
     description:
-      "There are many variations of but the majority have simply free text available not suffered.",
+      "Atty. Jose Molintas, delivered an insightful discussion of the EDSA Revolution, criminal justice system of the Philippines, martial law, and directorship. ",
     author: "Admin",
     comments: 2,
   },
-
   {
     id: 5,
     // image: "news-two-img-3.jpg",
     image: "news-event-5.jpg",
-    date: "20 Jan, 2021",
-    title: "Women's Month",
+    date: "March 16, 2023",
+    title: "Forum on Role of Women in the Society",
     description:
-      "There are many variations of but the majority have simply free text available not suffered.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     author: "Admin",
     comments: 2,
   },
@@ -46,10 +54,10 @@ const newsTwo = [
     id: 6,
     // image: "news-two-img-3.jpg",
     image: "news-event-6.jpg",
-    date: "20 Jan, 2021",
-    title: "Benchmarking",
+    date: "May 8, 2023",
+    title: "Benchmarking in Ateneo",
     description:
-      "There are many variations of but the majority have simply free text available not suffered.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     author: "Admin",
     comments: 2,
   },
