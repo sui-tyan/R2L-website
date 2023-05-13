@@ -2,7 +2,7 @@ import Layout from "@/components/Layout/Layout";
 import PageHeader from "@/components/PageHeader/PageHeader";
 import MeetTheTeam from "@/components/MeetTheTeam/MeetTheTeam";
 import React from "react";
-import bg from "@/images/backgrounds/page-header-bg-1-2.jpg";
+import bg from "@/images/backgrounds/page-header-bg-1-3.jpg";
 
 const Volunteers = () => {
   return (
