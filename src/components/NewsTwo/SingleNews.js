@@ -23,11 +23,11 @@ const SingleNews = ({ news = {} }) => {
         </div>
         <div className="news-two__content">
           <ul className="list-unstyled news-two__meta">
-            <li>
+            {/* <li>
               <a href="#">
                 <i className="far fa-user-circle"></i> {author}
               </a>
-            </li>
+            </li> */}
             {/* <li>
               <span>/</span>
             </li>
