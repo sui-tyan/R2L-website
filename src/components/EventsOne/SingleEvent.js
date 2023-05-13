@@ -31,15 +31,16 @@ const SingleEvent = ({ event = {}, eventsPage }) => {
               {time} */}
             </p>
             <h3 className="events-one__bottom-title">
-              <Link href="/event-details">
-                <a>
-                  {title.split("\n").map((t, i) => (
-                    <span className="d-block" key={i}>
-                      {t}
-                    </span>
-                  ))}
-                </a>
-              </Link>
+              {/* Link to article */}
+              {/* <Link href="/event-details"> */}
+              <a>
+                {title.split("\n").map((t, i) => (
+                  <span className="d-block" key={i}>
+                    {t}
+                  </span>
+                ))}
+              </a>
+              {/* </Link> */}
             </h3>
           </div>
         </div>
