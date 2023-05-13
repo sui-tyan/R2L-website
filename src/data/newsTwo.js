@@ -10,7 +10,7 @@ const newsTwo = [
   },
   {
     id: 2,
-    image: "news-event-2.jpg",
+    image: "news-event-4.jpg",
     date: "20 Jan, 2021",
     title:
       "Lecture Forum on the Implication of the EDSA Revolution on Civil and Political Rights",
@@ -21,9 +21,33 @@ const newsTwo = [
   },
   {
     id: 3,
-    image: "news-two-img-3.jpg",
+    // image: "news-two-img-3.jpg",
+    image: "news-event-3.jpg",
     date: "20 Jan, 2021",
-    title: "Insert a title of the current blog 3",
+    title: "Community Outreach",
+    description:
+      "There are many variations of but the majority have simply free text available not suffered.",
+    author: "Admin",
+    comments: 2,
+  },
+
+  {
+    id: 5,
+    // image: "news-two-img-3.jpg",
+    image: "news-event-5.jpg",
+    date: "20 Jan, 2021",
+    title: "Women's Month",
+    description:
+      "There are many variations of but the majority have simply free text available not suffered.",
+    author: "Admin",
+    comments: 2,
+  },
+  {
+    id: 6,
+    // image: "news-two-img-3.jpg",
+    image: "news-event-6.jpg",
+    date: "20 Jan, 2021",
+    title: "Benchmarking",
     description:
       "There are many variations of but the majority have simply free text available not suffered.",
     author: "Admin",
