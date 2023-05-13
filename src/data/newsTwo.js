@@ -35,7 +35,7 @@ const newsTwo = [
     title:
       "Lecture Forum on the EDSA Revolution",
     description:
-      "Atty. Jose Molintas, delivered an insightful discussion of the EDSA Revolution, criminal justice system of the Philippines, martial law, and directorship. ",
+      "Atty. Jose Molintas discussed the EDSA Revolution, criminal justice system of the Philippines, martial law, and directorship. ",
     author: "Admin",
     comments: 2,
   },

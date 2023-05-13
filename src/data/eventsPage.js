@@ -2,16 +2,16 @@ const eventsPage = [
   {
     id: 1,
     image: "events-page-img-1.jpg",
-    date: "20 Jan",
+    date: "May",
     time: "8:00 pm",
-    title: "Play for the \n world with us",
+    title: "Team travels \n to Belgium",
   },
   {
     id: 2,
     image: "events-page-img-2.jpg",
-    date: "20 Jan",
+    date: "1 Jun",
     time: "8:00 pm",
-    title: "Mission for Fresh \n & Clean Water",
+    title: "Launching of \n & R2l Website",
   },
   {
     id: 3,
@@ -26,21 +26,7 @@ const eventsPage = [
     date: "20 Jan",
     time: "8:00 pm",
     title: "Rights for \n street childrens",
-  },
-  {
-    id: 5,
-    image: "events-page-img-5.jpg",
-    date: "20 Jan",
-    time: "8:00 pm",
-    title: "Help for \n needy people",
-  },
-  {
-    id: 6,
-    image: "events-page-img-6.jpg",
-    date: "20 Jan",
-    time: "8:00 pm",
-    title: "Donation day \n for people",
-  },
+  }
 ];
 
 export default eventsPage;

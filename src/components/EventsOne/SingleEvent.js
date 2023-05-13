@@ -27,8 +27,8 @@ const SingleEvent = ({ event = {}, eventsPage }) => {
           </div>
           <div className="events-one__bottom">
             <p>
-              <i className="far fa-clock"></i>
-              {time}
+              {/* <i className="far fa-clock"></i>
+              {time} */}
             </p>
             <h3 className="events-one__bottom-title">
               <Link href="/event-details">

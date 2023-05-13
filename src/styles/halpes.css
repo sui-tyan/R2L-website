@@ -4219,10 +4219,12 @@ h6 {
 .events-one__img {
   position: relative;
   display: block;
+ 
 }
 
 .events-one__img>img {
   width: 100%;
+  filter: brightness(50%);
 }
 
 .events-one__date-box {
