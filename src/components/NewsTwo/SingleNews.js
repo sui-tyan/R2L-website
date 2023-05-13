@@ -11,11 +11,12 @@ const SingleNews = ({ news = {} }) => {
         <div className="news-two__img-box">
           <div className="news-two__img">
             <Image src={require(`@/images/blog/${image}`).default.src} alt="" />
-            <Link href="/news-details">
+            {/* Link to article */}
+            {/* <Link href="/news-details">
               <a>
                 <i className="fa fa-plus"></i>
               </a>
-            </Link>
+            </Link> */}
           </div>
           {/* <div className="news-two__date">
             <p>{date}</p>
@@ -38,7 +39,9 @@ const SingleNews = ({ news = {} }) => {
             </li> */}
           </ul>
           <h3>
-            <Link href="/news-details">{title}</Link>
+            {/* Link to article */}
+            {/* <Link href="/news-details">{title}</Link> */}
+            {title}
           </h3>
           <p className="news-two__text">{description}</p>
         </div>
