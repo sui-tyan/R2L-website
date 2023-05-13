@@ -8,24 +8,32 @@ const events = [
   },
   {
     id: 2,
-    image: "events-one-img-2.jpg",
-    date: "June",
-   //time: "8:00 pm",
-    title: "Launching of \n & R2L Website",
-  },
-  {
-    id: 3,
     image: "events-one-img-3.jpg",
     date: "June",
     //time: "8:00 pm",
-    title: "Call for \n research proposal",
+    title: "Call for \n Research Proposals",
+  },
+  {
+    id: 3,
+    image: "events-one-img-2.jpg",
+    date: "July",
+   //time: "8:00 pm",
+    title: "Official Launching of \n Rights2LIFE Website",
   },
   {
     id: 4,
     image: "events-one-img-4.jpg",
-    date: "June",
+    date: "July",
    //time: "8:00 pm",
-    title: "Research design \n  training workshop",
+    title: "Criminological Research \n Design Training ",
+  }
+  ,
+  {
+    id: 5,
+    image: "events-one-img-5.jpg",
+    date: "July",
+   //time: "8:00 pm",
+    title: "University of the Cordilleras\n Criminology Curriculum Review ",
   }
 ];
 
