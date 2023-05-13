@@ -1,5 +1,5 @@
 import introduction from "@/data/introduction";
-import image from "@/images/resources/introduction-img-1.jpg";
+import image from "@/images/resources/introduction-img2.png";
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 
@@ -15,8 +15,9 @@ const Introduction = () => {
               </div>
               <div className="introduction__content">
                 <p className="introduction__text">
-                  Members of the Rights2LIFE project, working together to promote youth
-                  leadership and civic engagement in their communities.
+                  Members of the Rights2LIFE project, working together to
+                  promote youth leadership and civic engagement in their
+                  communities.
                 </p>
               </div>
             </div>
@@ -30,11 +31,12 @@ const Introduction = () => {
                 <h2 className="section-title__title">Rights2LIFE</h2>
               </div>
               <p className="introduction__right-text">
-                The University of the Cordilleras aims to promote a responsive criminal justice
-                system through education and research, leading to intermediate
-                changes in human rights-based education, research and
-                development, community outreach, competent faculty and students,
-                multi-stakeholder partnerships, and well-equipped resources.
+                The University of the Cordilleras aims to promote a responsive
+                criminal justice system through education and research, leading
+                to intermediate changes in human rights-based education,
+                research and development, community outreach, competent faculty
+                and students, multi-stakeholder partnerships, and well-equipped
+                resources.
               </p>
               <ul className="introduction__icon-wrap list-unstyled">
                 {introduction.map(({ id, title, description, icon }) => (
