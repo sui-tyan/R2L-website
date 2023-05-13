@@ -3424,6 +3424,7 @@ h6 {
 .site-footer {
   position: relative;
   display: block;
+  place-items: center;
   padding: 92px 0 92px;
 }
 
