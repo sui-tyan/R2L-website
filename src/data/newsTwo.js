@@ -22,9 +22,9 @@ const newsTwo = [
     // image: "news-two-img-3.jpg",
     image: "news-event-3.jpg",
     date: "December 6, 2021",
-    title: "Community Outreach",
+    title: "Loacan, Tocmo, Itogon Community Outreach",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "Barangay Loacan's Tocmo Integrated School teachers, local government officials, and University of Cordilleras officials held a strategic planning for community outreach.",
     author: "Admin",
     comments: 2,
   },
@@ -55,9 +55,9 @@ const newsTwo = [
     // image: "news-two-img-3.jpg",
     image: "news-event-6.jpg",
     date: "May 8, 2023",
-    title: "Benchmarking in Ateneo",
+    title: "First benchmarking with the Ateneo Human Rights Center",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      "The Rights2LIFE team led by Dr. Darlyn Tagarino met with Ateneo Human Rights Center for a partnership, exploring curriculum enrichment mentorship.",
     author: "Admin",
     comments: 2,
   },
