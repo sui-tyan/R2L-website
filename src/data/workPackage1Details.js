@@ -10,11 +10,11 @@ const text2 =
 const summaryText =
   "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing.";
 
-const causesDetails = {
+const workPackage1Details = {
   raised: "25,270",
   goal: "30,000",
   category: "Medical",
-  title: "Raise Fund for Clean & Healthy Water",
+  title: "Work Packages 1",
 
   images: [image, image2, image3],
   texts: [text1, text2],
@@ -46,4 +46,4 @@ const causesDetails = {
   ],
 };
 
-export default causesDetails;
+export default workPackage1Details;

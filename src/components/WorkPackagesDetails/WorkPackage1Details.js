@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import CausesDetailsLeft from "./CausesDetailsLeft";
-import CausesDetailsRight from "./CausesDetailsRight";
+import CausesDetailsLeft from "./WorkPackage1Left";
+import CausesDetailsRight from "./WorkPackage1Right";
 
-const CausesDetailsPage = () => {
+const WorkPackage1Details = () => {
   return (
     <section className="causes-details">
       <Container>
@@ -20,4 +20,4 @@ const CausesDetailsPage = () => {
   );
 };
 
-export default CausesDetailsPage;
+export default WorkPackage1Details;

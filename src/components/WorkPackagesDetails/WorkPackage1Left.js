@@ -1,4 +1,4 @@
-import causesDetails from "@/data/causesDetails";
+import workPackage1Details from "@/data/workPackage1Details";
 import { social } from "@/data/NavItems";
 import download from "@/images/resources/causes-details-download-icon.png";
 import React from "react";
@@ -16,7 +16,7 @@ const {
   images,
   texts,
   summaryText,
-} = causesDetails;
+} = workPackage1Details;
 
 const CausesDetailsLeft = () => {
   const raisedNumber = +raised.split(",").join("");
@@ -28,11 +28,11 @@ const CausesDetailsLeft = () => {
       <div className="causes-details__img">
         <div className="causes-details__img-box">
           <Image src={images[0].src} alt="" />
-          <div className="causes-details__category">
+          {/* <div className="causes-details__category">
             <span>{category}</span>
-          </div>
+          </div> */}
         </div>
-        <div className="causes-details__progress">
+        {/* <div className="causes-details__progress">
           <div className="bar">
             <div
               className="bar-inner count-bar"
@@ -52,7 +52,7 @@ const CausesDetailsLeft = () => {
               <span>${goal}</span> Goal
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="causes-details__text-box">
         <h3>{title}</h3>
@@ -92,7 +92,7 @@ const CausesDetailsLeft = () => {
           </ul>
         </div>
       </div>
-      <div className="causes-details__share">
+      {/* <div className="causes-details__share">
         <div className="causes-details__share-btn-box">
           <a href="#" className="causes-details__share-btn thm-btn">
             <i className="fas fa-arrow-circle-right"></i>Donate Us Now
@@ -105,8 +105,8 @@ const CausesDetailsLeft = () => {
             </a>
           ))}
         </div>
-      </div>
-      <div className="causes-details__download">
+      </div> */}
+      {/* <div className="causes-details__download">
         <div className="causes-details__left">
           <div className="icon">
             <Image src={download.src} alt="" />
@@ -120,14 +120,14 @@ const CausesDetailsLeft = () => {
             <i className="fas fa-arrow-circle-right"></i>Download Now
           </a>
         </div>
-      </div>
-      <div className="comment-one">
+      </div> */}
+      {/* <div className="comment-one">
         <h3 className="comment-one__title">Comments</h3>
         {comments.map((comment) => (
           <SingleComment key={comment.id} comment={comment} />
         ))}
-      </div>
-      <CommentForm />
+      </div> */}
+      {/* <CommentForm /> */}
     </div>
   );
 };
