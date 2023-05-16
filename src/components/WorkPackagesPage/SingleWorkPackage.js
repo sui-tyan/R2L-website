@@ -11,7 +11,7 @@ const SingleWorkPackage = ({ news = {} }) => {
         <div className="workpkg__img-box">
           <div className="workpkg__img">
             <Image src={require(`@/images/blog/${image}`).default.src} alt="" />
-            <Link href="/news-details">
+            <Link href={news.detailUrl}>
               <a>
                 <i className="fa fa-plus"></i>
               </a>
@@ -38,7 +38,7 @@ const SingleWorkPackage = ({ news = {} }) => {
             </li>
           </ul> */}
           <h3>
-            <Link href="/news-details">{title}</Link>
+            <Link href={news.detailUrl}>{title}</Link>
           </h3>
           <p className="workpkg__text">{description}</p>
         </div>

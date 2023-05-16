@@ -50,7 +50,7 @@ const navItems = [
   {
     id: 3,
     name: "Work Packages",
-    href: "/causes",
+    href: "/work-packages",
     // href: "/404",
     subNavItems: [
       {
