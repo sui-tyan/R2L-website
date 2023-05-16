@@ -31,12 +31,12 @@ const SingleSlideThree = ({ singleSlide = {} }) => {
               <a href={href} className="thm-btn">
                 <i className="fas fa-arrow-circle-right"></i>Learn More
               </a>
-              <div className="main-slider-three-shape">
+              {/* <div className="main-slider-three-shape">
                 <Image
                   src={require(`@/images/shapes/${image}`).default.src}
                   alt=""
                 />
-              </div>
+              </div> */}
             </div>
           </Col>
         </Row>
