@@ -6,12 +6,13 @@ import CommentForm from "../CommentForm/CommentForm";
 import SingleComment from "./SingleComment";
 
 const CausesDetailsLeft = (data) => {
+  console.log(data.data);
   const {
-    comments,
+    // comments,
     summaryList,
     raised,
     goal,
-    category,
+    // category,
     title,
     images,
     texts,
