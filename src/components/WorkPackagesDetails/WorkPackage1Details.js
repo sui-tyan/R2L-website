@@ -3,16 +3,16 @@ import { Col, Container, Row } from "react-bootstrap";
 import CausesDetailsLeft from "./WorkPackage1Left";
 import CausesDetailsRight from "./WorkPackage1Right";
 
-const WorkPackage1Details = () => {
+const WorkPackage1Details = (data) => {
   return (
     <section className="causes-details">
       <Container>
         <Row>
           <Col xl={8} lg={7}>
-            <CausesDetailsLeft />
+            <CausesDetailsLeft data={data.data} />
           </Col>
           <Col xl={4} lg={5}>
-            <CausesDetailsRight />
+            <CausesDetailsRight data={data.data} />
           </Col>
         </Row>
       </Container>

@@ -53,26 +53,27 @@ const navItems = [
     href: "/work-packages",
     // href: "/404",
     subNavItems: [
-      {
-        id: 1,
-        name: "Work Packages",
-        href: "/workpackages",
-        // subItems: [
-        //   {
-        //     id: 1,
-        //     name: "Work Package 1",
-        //     href: "/workpackage-one",
-        //   },
-        //   { id: 2, name: "Work Package 2", href: "/workpackage-two" },
-        //   { id: 3, name: "Work Package 3", href: "/workpackage-three" },
-        //   { id: 4, name: "Work Package 4", href: "/workpackage-four" },
-        //   { id: 5, name: "Work Package 5", href: "/workpackage-five" },
-        //   { id: 6, name: "Work Package 6", href: "/workpackage-six" },
-        // ],
-      },
-      { id: 2, name: "Publications", href: "/publications" },
-      { id: 3, name: "News and Events", href: "/news-and-events" },
-      { id: 4, name: "News Details", href: "/news-details" },
+      // {
+      //   id: 1,
+      //   name: "Work Packages",
+      //   href: "/work-packages",
+      //   // subItems: [
+      //   //   {
+      //   //     id: 1,
+      //   //     name: "Work Package 1",
+      //   //     href: "/workpackage-one",
+      //   //   },
+      //   //   { id: 2, name: "Work Package 2", href: "/workpackage-two" },
+      //   //   { id: 3, name: "Work Package 3", href: "/workpackage-three" },
+      //   //   { id: 4, name: "Work Package 4", href: "/workpackage-four" },
+      //   //   { id: 5, name: "Work Package 5", href: "/workpackage-five" },
+      //   //   { id: 6, name: "Work Package 6", href: "/workpackage-six" },
+      //   // ],
+      // },
+      // { id: 2, name: "Publications", href: "/publications" },
+      // { id: 3, name: "News and Events", href: "/news-and-events" },
+      // { id: 4, name: "News Details", href: "/news-details" },
+
     ],
   },
   {

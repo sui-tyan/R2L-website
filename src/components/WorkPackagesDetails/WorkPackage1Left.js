@@ -1,4 +1,3 @@
-import workPackage1Details from "@/data/workPackage1Details";
 import { social } from "@/data/NavItems";
 import download from "@/images/resources/causes-details-download-icon.png";
 import React from "react";
@@ -6,19 +5,19 @@ import { Col, Image, Row } from "react-bootstrap";
 import CommentForm from "../CommentForm/CommentForm";
 import SingleComment from "./SingleComment";
 
-const {
-  comments,
-  summaryList,
-  raised,
-  goal,
-  category,
-  title,
-  images,
-  texts,
-  summaryText,
-} = workPackage1Details;
+const CausesDetailsLeft = (data) => {
+  const {
+    comments,
+    summaryList,
+    raised,
+    goal,
+    category,
+    title,
+    images,
+    texts,
+    summaryText,
+  } = data.data;
 
-const CausesDetailsLeft = () => {
   const raisedNumber = +raised.split(",").join("");
   const goalNumber = +goal.split(",").join("");
   const percent = Math.round((raisedNumber / goalNumber) * 100) + "%";
