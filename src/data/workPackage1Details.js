@@ -44,6 +44,47 @@ const workPackage1Details = {
       time: "3 hours ago",
     },
   ],
+  sidebar: {
+    activities: [
+      {
+        id: 1,
+        image: "recent-donation-img-1.jpg",
+        amount: "Date here",
+        name: "Event Title Here",
+        // time: "3 hours ago",
+        text: "Some texts",
+      },
+      {
+        id: 2,
+        image: "recent-donation-img-2.jpg",
+        amount: "Date here",
+        name: "Event Title Here",
+        // time: "3 hours ago",
+        text: "Some texts",
+      },
+      {
+        id: 3,
+        image: "recent-donation-img-3.jpg",
+        amount: "Date here",
+        name: "Event Title Here",
+        // time: "3 hours ago",
+        text: "Some texts",
+      },
+      {
+        id: 4,
+        image: "recent-donation-img-4.jpg",
+        amount: "Date here",
+        name: "Event Title Here",
+        // time: "3 hours ago",
+        text: "Some texts",
+      },
+    ],
+    lead: {
+      name: "Insert name here",
+      education: "education",
+      location: "location",
+    },
+  },
 };
 
 export default workPackage1Details;

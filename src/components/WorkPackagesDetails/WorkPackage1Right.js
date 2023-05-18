@@ -2,42 +2,10 @@ import organizer from "@/images/resources/causes-details-organizar-img-1.jpg";
 import React from "react";
 import { Image } from "react-bootstrap";
 
-const activities = [
-  {
-    id: 1,
-    image: "recent-donation-img-1.jpg",
-    amount: "Date here",
-    name: "Event Title Here",
-    // time: "3 hours ago",
-    text: "Some texts",
-  },
-  {
-    id: 2,
-    image: "recent-donation-img-2.jpg",
-    amount: "Date here",
-    name: "Event Title Here",
-    // time: "3 hours ago",
-    text: "Some texts",
-  },
-  {
-    id: 3,
-    image: "recent-donation-img-3.jpg",
-    amount: "Date here",
-    name: "Event Title Here",
-    // time: "3 hours ago",
-    text: "Some texts",
-  },
-  {
-    id: 4,
-    image: "recent-donation-img-4.jpg",
-    amount: "Date here",
-    name: "Event Title Here",
-    // time: "3 hours ago",
-    text: "Some texts",
-  },
-];
+const CausesDetailsRight = (data) => {
+  const activities = data.data.sidebar.activities;
+  const lead = data.data.sidebar.lead;
 
-const CausesDetailsRight = () => {
   return (
     <div className="causes-details__right">
       <div className="causes-details__organizer">
@@ -47,14 +15,16 @@ const CausesDetailsRight = () => {
         <div className="causes-details__organizer-content">
           <p>Created 20 Jan, 2021</p>
           <h5>
-            Lead Person: <span>Insert a Name Here</span>
+            Lead Person: <span>{lead.name}</span>
           </h5>
           <ul className="causes-details__organizer-list list-unstyled">
             <li>
-              <i className="fas fa-map-marker-alt"></i>Education
+              <i className="fas fa-map-marker-alt"></i>
+              {lead.education}
             </li>
             <li>
-              <i className="fas fa-map-marker-alt"></i>Location
+              <i className="fas fa-map-marker-alt"></i>
+              {lead.location}
             </li>
           </ul>
         </div>
