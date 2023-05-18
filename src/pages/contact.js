@@ -5,16 +5,16 @@ import Funding from '@/components/Funding/Funding';
 import Layout from '@/components/Layout/Layout';
 import PageHeader from '@/components/PageHeader/PageHeader';
 import React from 'react';
+import bg from '@/images/backgrounds/contactus-bg.jpg';
 
 const Contact = () => {
   return (
     <div>
-      <Funding></Funding>
       <Layout pageTitle="Home Three">
-        <PageHeader pageTitle="Contact" />
+        <PageHeader header={bg} pageTitle="Contact" />
         <ContactPage />
-        <GoogleMap />
-        <BecomeVolunteer />
+        {/* <GoogleMap /> */}
+        {/* <BecomeVolunteer /> */}
       </Layout>
     </div>
   );
