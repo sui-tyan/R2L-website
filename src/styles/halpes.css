@@ -6261,7 +6261,8 @@ h6 {
 }
 
 .causes-details__organizer-img img {
-  width: 60px;
+  width: 100px;
+  top: 50%;
 }
 
 .causes-details__organizer-content {
