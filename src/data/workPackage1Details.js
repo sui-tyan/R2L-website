@@ -49,8 +49,9 @@ const workPackage1Details = {
       {
         id: 1,
         image: 'recent-donation-img-1.jpg',
+
         amount: 'Date here',
-        name: 'Event Title Here',
+        name: 'A Lecture-Forum On Transitional Justice',
         // time: "3 hours ago",
         text: 'Some texts',
       },
@@ -58,7 +59,7 @@ const workPackage1Details = {
         id: 2,
         image: 'recent-donation-img-2.jpg',
         amount: 'Date here',
-        name: 'Event Title Here',
+        name: 'Remembering EDSA: Implications of the EDSA Revolution to Political and Civil Rights',
         // time: "3 hours ago",
         text: 'Some texts',
       },
@@ -66,7 +67,7 @@ const workPackage1Details = {
         id: 3,
         image: 'recent-donation-img-3.jpg',
         amount: 'Date here',
-        name: 'Event Title Here',
+        name: 'WE for gender equality and inclusive society": Womens’ Month Forum ',
         // time: "3 hours ago",
         text: 'Some texts',
       },

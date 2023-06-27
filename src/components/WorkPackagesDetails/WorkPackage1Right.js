@@ -34,7 +34,7 @@ const CausesDetailsRight = (data) => {
           <a href="/news">News and Events</a>
         </h3>
         <ul className="list-unstyled causes-details__donations-list">
-          {activities.map(({ id, amount, image, name, text, time }) => (
+          {activities.map(({ id, amount, image, name, text }) => (
             <li key={id}>
               <div className="causes-details__donations-img">
                 <Image src={require(`@/images/resources/${image}`).default.src} alt="" />
@@ -42,7 +42,8 @@ const CausesDetailsRight = (data) => {
               <div className="causes-details__donations-content">
                 <h4>{amount}</h4>
                 <h5>
-                  <a href="/event-details">{name}</a> <span>{time}</span>
+                  <a href="/event-details-wp1">{name}</a>
+                  {/* <span>{time}</span> */}
                 </h5>
                 <p>{text}</p>
               </div>
