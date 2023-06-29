@@ -1,90 +1,72 @@
-import image2 from '@/images/resources/causes-details-images-1.jpg';
-import image3 from '@/images/resources/causes-details-images-2.jpg';
-import image from '@/images/resources/causes-details-img.jpg';
-import thelmaPalaoag from '@/images/team/thelma-palaoag.jpg';
+import image2 from "@/images/resources/causes-details-images-1.jpg";
+import image3 from "@/images/resources/causes-details-images-2.jpg";
+import image from "@/images/resources/causes-details-img.jpg";
+import scyldSegundo from "@/images/team/scyld-segundo.jpg";
 
-const text1 =
-  "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.";
-const text2 =
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
+const text1 = `Research results will be disseminated to the communities, at the same time,
+  building local government and community capabilities to overcome hurdles that
+  prevail.`;
 
-const summaryText =
-  "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing.";
+const text2 = `The project will develop a model of going to the communities appropriately
+  prepared and equipped with the required knowledge and skills. Immersion and
+  community consultations will help identify the approaches to take. `;
+
+const summaryText = `The project
+  envisions an outreach model that actively involves the local governments and
+  the community folks in disseminating and effecting change. Moreover, it hopes
+  to follow through and not just do one-shot visits in order to bring about
+  deeper impact. `;
 
 const workPackage3Details = {
-  raised: '25,270',
-  goal: '30,000',
-  category: 'Medical',
-  title: 'Strengthened Research and Development attuned to the needs of the times',
+  raised: "25,270",
+  goal: "30,000",
+  category: "Medical",
+  title: "Enlightened and empowered communities through intensified outreach",
 
   images: [image, image2, image3],
   texts: [text1, text2],
   summaryText,
   summaryList: [
-    'Making this first true generator',
-    'Many desktop publish packages',
-    'Lorem Ipsum is not simply',
-    'If you are going to passage',
-    'It has roots in a piece',
+    "Making this first true generator",
+    "Many desktop publish packages",
+    "Lorem Ipsum is not simply",
+    "If you are going to passage",
+    "It has roots in a piece",
   ],
   comments: [
     {
       id: 1,
-      image: 'comment-1-1.jpg',
+      image: "comment-1-1.jpg",
       message:
-        'Sending love. My nephews Nick and Anthony Salaber are your teammates, so I know the caliber person you are. Our whole family is sending our best to you and your family.',
-      sender: 'David Marks',
-      time: '3 hours ago',
+        "Sending love. My nephews Nick and Anthony Salaber are your teammates, so I know the caliber person you are. Our whole family is sending our best to you and your family.",
+      sender: "David Marks",
+      time: "3 hours ago",
     },
     {
       id: 2,
-      image: 'comment-1-2.jpg',
+      image: "comment-1-2.jpg",
       message:
-        'Sending love. My nephews Nick and Anthony Salaber are your teammates, so I know the caliber person you are. Our whole family is sending our best to you and your family.',
-      sender: 'Christine Eve',
-      time: '3 hours ago',
+        "Sending love. My nephews Nick and Anthony Salaber are your teammates, so I know the caliber person you are. Our whole family is sending our best to you and your family.",
+      sender: "Christine Eve",
+      time: "3 hours ago",
     },
   ],
   sidebar: {
     activities: [
       {
         id: 1,
-        image: 'recent-donation-img-1.jpg',
-        amount: 'Date here',
-        name: 'Event Title Here',
+        image: "recent-donation-img-1.jpg",
+        amount: "April 26, 2023",
+        name: "Loakan, Tocmo, Itogon Community Outreach",
         // time: "3 hours ago",
-        text: 'Some texts',
-      },
-      {
-        id: 2,
-        image: 'recent-donation-img-2.jpg',
-        amount: 'Date here',
-        name: 'Event Title Here',
-        // time: "3 hours ago",
-        text: 'Some texts',
-      },
-      {
-        id: 3,
-        image: 'recent-donation-img-3.jpg',
-        amount: 'Date here',
-        name: 'Event Title Here',
-        // time: "3 hours ago",
-        text: 'Some texts',
-      },
-      {
-        id: 4,
-        image: 'recent-donation-img-4.jpg',
-        amount: 'Date here',
-        name: 'Event Title Here',
-        // time: "3 hours ago",
-        text: 'Some texts',
+        text: "The community outreach in Barangay Loacan, Sitio Tocmo in Itogon, Benguet went full gear...",
       },
     ],
     lead: {
-      image: thelmaPalaoag,
-      name: 'Dr. Thelma D. Palaoag',
-      education: 'CITCS',
-      location: 'University of the Cordilleras. Governor Pack Road, Baguio City 2600, Philippines',
+      image: scyldSegundo,
+      name: "Scyld C. Segundo",
+      education: "CCJE",
+      location: "University of the Cordilleras",
     },
   },
 };
