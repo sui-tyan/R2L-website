@@ -5,7 +5,7 @@ const workPackages = [
     title: "Work Package 1",
     detailUrl: "/work-package-1",
     description:
-      "There are many variations of but the majority have simply free text available not suffered.",
+      "A human-rights based education is in place: curriculum review and revision",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const workPackages = [
     title: "Work Package 2",
     detailUrl: "/work-package-2",
     description:
-      "There are many variations of but the majority have simply free text available not suffered.",
+      "A Strengthened Research and Development attuned to the needs of the times",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const workPackages = [
     title: "Work Package 3",
     detailUrl: "/work-package-3",
     description:
-      "There are many variations of but the majority have simply free text available not suffered.",
+      "Enlightened and empowered communities through intensified outreach",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const workPackages = [
     title: "Work Package 4",
     detailUrl: "/work-package-4",
     description:
-      "There are many variations of but the majority have simply free text available not suffered.",
+      "Competent criminal justice movers among the faculty members, students and the community",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const workPackages = [
     title: "Work Package 5",
     detailUrl: "/work-package-5",
     description:
-      "There are many variations of but the majority have simply free text available not suffered.",
+      "A system-transformation multi-stakeholder partnership in human rights advocacy",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const workPackages = [
     title: "Work Package 6",
     detailUrl: "/work-package-6",
     description:
-      "There are many variations of but the majority have simply free text available not suffered.",
+      "Well-equipped laboratories and library resources for advanced criminal justice education and re-search",
   },
 ];
 
