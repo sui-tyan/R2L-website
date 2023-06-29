@@ -7,7 +7,7 @@ const footerData = {
   link: 'Halpes',
   copyrightYear: new Date().getFullYear(),
   about:
-    'Rights2LIFE: Towards a Responsive Criminal Justice System in the Philippines Achieving a responsive criminal justice system will usher the dream of reaching the sustainable development goal of peace, security and strong institutions.', bottomLogo: footerImage.src,
+    'Rights2LIFE: Towards a Responsive Criminal Justice System in the Philippines - Achieving a responsive criminal justice system that will usher the dream of reaching the sustainable development goal of peace, security and strong institutions.', bottomLogo: footerImage.src,
   footerBg: bg.src,
   social: [
     {
