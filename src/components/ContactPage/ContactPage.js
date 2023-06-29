@@ -14,7 +14,7 @@ const ContactPage = () => {
         <div className="section-title text-center">
           <span className="section-title__tagline">Contact With Us</span>
           <h2 className="section-title__title">
-            We love to hear from our <br /> happy customers
+            We love to hear from you
           </h2>
         </div>
         <Row>

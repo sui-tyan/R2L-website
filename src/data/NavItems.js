@@ -79,8 +79,7 @@ const navItems = [
   {
     id: 4,
     name: "Contact Us",
-    // href: "/contact",
-    href: "/404",
+    href: "/contact",
     subNavItems: [
       // { id: 1, name: 'Events', href: '/events' },
       // { id: 2, name: 'Event Details', href: '/event-details' },
