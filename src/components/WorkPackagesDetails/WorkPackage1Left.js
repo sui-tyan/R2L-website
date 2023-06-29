@@ -1,12 +1,12 @@
-import { social } from "@/data/NavItems";
-import download from "@/images/resources/causes-details-download-icon.png";
-import React from "react";
-import { Col, Image, Row } from "react-bootstrap";
-import CommentForm from "../CommentForm/CommentForm";
-import SingleComment from "./SingleComment";
+import { social } from '@/data/NavItems';
+import download from '@/images/resources/causes-details-download-icon.png';
+import React from 'react';
+import { Col, Image, Row } from 'react-bootstrap';
+import CommentForm from '../CommentForm/CommentForm';
+import SingleComment from './SingleComment';
 
 const CausesDetailsLeft = (data) => {
-  console.log(data.data);
+  // console.log(data.data);
   const {
     // comments,
     summaryList,
@@ -19,9 +19,9 @@ const CausesDetailsLeft = (data) => {
     summaryText,
   } = data.data;
 
-  const raisedNumber = +raised.split(",").join("");
-  const goalNumber = +goal.split(",").join("");
-  const percent = Math.round((raisedNumber / goalNumber) * 100) + "%";
+  const raisedNumber = +raised.split(',').join('');
+  const goalNumber = +goal.split(',').join('');
+  const percent = Math.round((raisedNumber / goalNumber) * 100) + '%';
 
   return (
     <div className="causes-details__left-bar">

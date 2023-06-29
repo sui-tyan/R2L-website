@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { Image } from 'react-bootstrap';
 
 const CausesDetailsRight = (data) => {
@@ -6,6 +7,9 @@ const CausesDetailsRight = (data) => {
   const lead = data.data.sidebar.lead;
   const organizerImg = data.data.sidebar.lead.image;
 
+  // const handleClick = () => {
+  //   console.log(activities);
+  // };
   return (
     <div className="causes-details__right">
       <div className="causes-details__organizer">
@@ -36,14 +40,21 @@ const CausesDetailsRight = (data) => {
         <ul className="list-unstyled causes-details__donations-list">
           {activities.map(({ id, amount, image, name, text }) => (
             <li key={id}>
+              {console.log(id)}
               <div className="causes-details__donations-img">
                 <Image src={require(`@/images/resources/${image}`).default.src} alt="" />
               </div>
               <div className="causes-details__donations-content">
                 <h4>{amount}</h4>
                 <h5>
-                  <a href="/event-details-wp1">{name}</a>
-                  {/* <span>{time}</span> */}
+                  <Link
+                    href={{
+                      pathname: `/event-details-wp1`,
+                      query: { id: id },
+                    }}
+                  >
+                    <a>{name}</a>
+                  </Link>
                 </h5>
                 <p>{text}</p>
               </div>

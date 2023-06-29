@@ -1,27 +1,39 @@
-// import eventsDetailsWP1 from '@/data/eventsDetailsWP1';
 import React from 'react';
+import { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 
 const EventsDetailsPage = (data) => {
-  const id = data.data.id;
-  const image = data.data.image;
-  const date = data.data.date;
-  const title = data.data.title;
-  const texts = data.data.texts;
-  return (
+  const details = data.data;
+  const router = useRouter();
+  const getData = router.query;
+
+  // const [index, setIndex] = useEffect();
+  const [element, setElement] = useState('');
+  // const { id, image, date, title, texts } = data.data;
+  // console.log(id, image, date, title, texts);
+  useEffect(() => {
+    details.map((currentelement, index) => {
+      // console.log(currentelement);
+      if (Number(getData.id) === currentelement.id) {
+        console.log('aasdfs');
+        setElement(currentelement);
+      }
+    });
+  });
+  return element === '' ? (
+    <h1>404-Page Not Found</h1>
+  ) : (
     <section className="event-details">
       <Container>
         <Row>
           <Col xl={12}>
+            {/* {details.map((id, image) => console.log(id))} */}
+
             <div className="events-details__img">
-              <Image src={image.src} alt="" />
+              <Image src={element.image?.src} alt="" />
               <div className="event-details__date-box">
-                <p>
-                  {date}
-                  {/* {date.split(' ').map((t, i, o) => (
-                    <span className="d-block">{(t, i, o)}</span>
-                  ))} */}
-                </p>
+                <p>{element.date}</p>
               </div>
             </div>
           </Col>
@@ -30,13 +42,8 @@ const EventsDetailsPage = (data) => {
           <Col xl={8} lg={7}>
             <div className="event-details__left">
               <div className="event-details__top-content">
-                <h2 className="event-details__title">{title}</h2>
-                {texts}
-                {/* {texts.map((t, i) => (
-                  <p className={`event-details__text-${i + 1}`} key={i}>
-                    {t}
-                  </p>
-                ))} */}
+                <h2 className="event-details__title">{element.title}</h2>
+                {element.texts}
               </div>
               {/* <div className="event-details__bottom-content">
                 <h3 className="event-details__bottom-title">Event Requirements</h3>
