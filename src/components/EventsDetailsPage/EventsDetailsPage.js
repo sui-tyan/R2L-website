@@ -14,9 +14,9 @@ const EventsDetailsPage = (data) => {
   // console.log(id, image, date, title, texts);
   useEffect(() => {
     details.map((currentelement, index) => {
-      // console.log(currentelement);
+      console.log(currentelement);
       if (Number(getData.id) === currentelement.id) {
-        console.log('aasdfs');
+        // console.log('aasdfs');
         setElement(currentelement);
       }
     });

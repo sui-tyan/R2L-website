@@ -9,7 +9,7 @@ const text3 =
 // const text4 =
 //   'It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum ley of type and scrambled it to make a type specimen book.';
 
-const eventsDetailsWP1 = [
+const eventsDetailsWP6 = [
   {
     id: 1,
     image,
@@ -32,4 +32,4 @@ const eventsDetailsWP1 = [
     texts: [text3],
   },
 ];
-export default eventsDetailsWP1;
+export default eventsDetailsWP6;
