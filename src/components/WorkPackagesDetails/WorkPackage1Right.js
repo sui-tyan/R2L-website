@@ -17,7 +17,7 @@ const CausesDetailsRight = (data) => {
           <Image src={organizerImg.src} alt="" width="100" />
         </div>
         <div className="causes-details__organizer-content">
-          <p>Created 20 Jan, 2021</p>
+          {/* <p>Created 20 Jan, 2021</p> */}
           <h5>
             Lead Person: <span>{lead.name}</span>
           </h5>

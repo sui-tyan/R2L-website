@@ -4,12 +4,11 @@ import image from '@/images/resources/causes-details-img.jpg';
 import thelmaPalaoag from '@/images/team/thelma-palaoag.jpg';
 
 const text1 =
-  "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.";
+  "Research and development for UC will be leveled up beginning from an identification of needs, and the upgrading of faculty members’ and stu-dents’ skill in research formulation, implementation, and analysis especially in the field of Criminology and Criminal Justice. The target is mainstreaming research and research capabilities to an international standard that can be worthy of dissemination in reputable journals. Moreover, the project will see how research can really inform education and outreach."  
 const text2 =
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
-
+  "Whatever enhancements can be done to improve the content of the curriculum, of course offerings, and of pedagogies can best come from a good research. For a more relevant outreach, research can provide the needed data on approaches and content that will and should be delivered." 
 const summaryText =
-  "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing.";
+  "The project hopes to see UC no longer doing research that stays unread and not disseminated. On the other hand, it hopes to see UC conducting researches that are actually addressing needs and problems, as well as the pushing frontiers in Criminology and related fields."
 
 const workPackage2Details = {
   raised: '25,270',

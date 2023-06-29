@@ -1,13 +1,12 @@
 import image2 from '@/images/resources/causes-details-images-1.jpg';
 import image3 from '@/images/resources/causes-details-images-2.jpg';
 import image from '@/images/resources/causes-details-img.jpg';
-import thelmaPalaoag from '@/images/team/thelma-palaoag.jpg';
+import chesterKingeo from '@/images/team/anon.png';
 
 const text1 =
-  "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.";
+  "TVarious joint programs between and among the academe, government, international bodies, and civil society will be identified and implemented that will heighten the awareness and advocacy for human rights in respective spaces. The end in view is a unified effort that is structured and systemic.";
 const text2 =
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
-
+  "The project hopes to see this come about in the form of a consortium that will strive not only towards integration but on synergy as well among the members."
 const summaryText =
   "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing.";
 
@@ -15,7 +14,7 @@ const workPackage5Details = {
   raised: '25,270',
   goal: '30,000',
   category: 'Medical',
-  title: 'Strengthened Research and Development attuned to the needs of the times',
+  title: 'A system-transformation multi-stakeholder partnership in human rights advocacy',
 
   images: [image, image2, image3],
   texts: [text1, text2],
@@ -81,10 +80,10 @@ const workPackage5Details = {
       },
     ],
     lead: {
-      image: thelmaPalaoag,
-      name: 'Dr. Thelma D. Palaoag',
-      education: 'CITCS',
-      location: 'University of the Cordilleras. Governor Pack Road, Baguio City 2600, Philippines',
+      image: chesterKingeo,
+      name: 'Chester D. King-eo',
+      education: 'CCJE',
+      location: 'University of the Cordilleras',
     },
   },
 };
