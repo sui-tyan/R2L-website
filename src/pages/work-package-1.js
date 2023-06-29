@@ -8,7 +8,10 @@ const CausesDetails = () => {
   return (
     <Layout pageTitle="Work Package 1">
       <PageHeader pageTitle="Work Package 1" />
-      <WorkPackage1Details data={workPackage1Details} />
+      <WorkPackage1Details
+        data={workPackage1Details}
+        eventUrl={"/event-details-wp1"}
+      />
     </Layout>
   );
 };
