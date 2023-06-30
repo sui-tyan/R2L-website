@@ -38,10 +38,10 @@ const CausesDetailsRight = ({ data, eventUrl }) => {
           {activities.map(({ id, amount, image, name, text }) => (
             <li key={id}>
               <div className="causes-details__donations-img">
-                <Image
+                {/* <Image
                   src={require(`@/images/resources/${image}`).default.src}
                   alt=""
-                />
+                /> */}
               </div>
               <div className="causes-details__donations-content">
                 <h4>{amount}</h4>

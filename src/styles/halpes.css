@@ -7228,15 +7228,21 @@ h6 {
 
 .event-details__top-content {
   position: relative;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 39px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .event-details__title {
   font-size: 36px;
   font-weight: 900;
   line-height: 46px;
-  margin-bottom: 9px;
+  margin-bottom: 19px;
+
 }
 
 .event-details__text-1 {
