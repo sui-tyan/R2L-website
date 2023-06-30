@@ -62,6 +62,13 @@ const workPackage4Details = {
         // time: "3 hours ago",
         text: "Prof Tine Destrooper shared her experience to about 20 faculty...",
       },
+      {
+        id: 2,
+        image: "recent-donation-img-2.jpg",
+        amount: "October 23, 2022",
+        name: "Ghent University Study Visit Re-echo Session",
+        text: "Ghent University Study Visit Re-Echo Session, led by...",
+      },
     ],
     lead: {
       image: cherryCabarrubias,
