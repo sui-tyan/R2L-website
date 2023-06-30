@@ -1,7 +1,7 @@
-import image2 from "@/images/resources/causes-details-images-1.jpg";
-import image3 from "@/images/resources/causes-details-images-2.jpg";
+import image2 from "@/images/resources/work-pkg6-img2.png";
+import image3 from "@/images/resources/work-pkg6-img3.png";
 import image from "@/images/team/anon.png";
-import image1 from "@/images/resources/causes-details-img.jpg";
+import image1 from "@/images/resources/work-pkg6-img1.png";
 
 const text1 =
   "The needed equipment towards modernization will be identified as research exposure and activities will be done with the Ghent University. This will involve not just the criminology and forensic laboratories but the ICT laboratories to support the development of advanced applications in the field.";
