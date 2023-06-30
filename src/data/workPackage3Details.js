@@ -1,6 +1,6 @@
-import image2 from "@/images/resources/causes-details-images-1.jpg";
-import image3 from "@/images/resources/causes-details-images-2.jpg";
-import image from "@/images/resources/causes-details-img.jpg";
+import image from "@/images/resources/work-pkg3-img1.jpg";
+import image2 from "@/images/resources/work-pkg3-img2.jpg";
+import image3 from "@/images/resources/work-pkg3-img3.jpg";
 import scyldSegundo from "@/images/team/scyld-segundo.jpg";
 
 const text1 = `Research results will be disseminated to the communities, at the same time,

@@ -42,7 +42,7 @@ const EventsOne = () => {
               </div>
               <p className="events-one__text">
                 Here are some events and activities that our project has
-                previously held.
+                planned.
               </p>
               <a href="#" className="events-one__btn thm-btn">
                 <i className="fas fa-arrow-circle-right"></i>Learn More

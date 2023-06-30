@@ -10,7 +10,7 @@ import bg from "@/images/backgrounds/contactus-bg.png";
 const Contact = () => {
   return (
     <div>
-      <Layout pageTitle="Home Three">
+      <Layout pageTitle="Contact Us">
         <PageHeader header={bg} pageTitle="Contact" />
         <ContactPage />
         {/* <GoogleMap /> */}
