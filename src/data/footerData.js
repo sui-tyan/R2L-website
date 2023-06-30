@@ -34,22 +34,22 @@ const footerData = {
   exploreList: [
     {
       id: 1,
-      href: '#',
+      href: '/',
       title: 'Home',
     },
     {
       id: 2,
-      href: '#',
+      href: '/team',
       title: 'Meet the Team',
     },
     {
       id: 3,
-      href: '#',
+      href: '/work-packages',
       title: 'Work Packages',
     },
     {
       id: 4,
-      href: '#',
+      href: '/contact',
       title: 'Contact Us',
     },
     // {
