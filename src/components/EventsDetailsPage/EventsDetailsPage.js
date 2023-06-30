@@ -14,9 +14,7 @@ const EventsDetailsPage = (data) => {
   // console.log(id, image, date, title, texts);
   useEffect(() => {
     details.map((currentelement, index) => {
-      console.log(currentelement);
       if (Number(getData.id) === currentelement.id) {
-        // console.log('aasdfs');
         setElement(currentelement);
       }
     });
@@ -45,17 +43,7 @@ const EventsDetailsPage = (data) => {
                 <h2 className="event-details__title">{element.title}</h2>
                 {element.texts}
               </div>
-              {/* <div className="event-details__bottom-content">
-                <h3 className="event-details__bottom-title">Event Requirements</h3>
-                {requirements.map((r, i) => (
-                  <p key={i} className={`event-details__bottom-text-${i + 1}`}>
-                    {r}
-                  </p>
-                ))}
-                <a href="#" className="event-details__bottom-content-btn thm-btn">
-                  <i className="fas fa-arrow-circle-right"></i>Register Now
-                </a>
-              </div> */}
+              <div className="event-details__bottom-content"></div>
             </div>
           </Col>
           {/* <Col xl={4} lg={5}>
