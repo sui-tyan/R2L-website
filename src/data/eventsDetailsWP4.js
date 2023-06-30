@@ -7,15 +7,15 @@ const text2 =
   "On November 23, 2023, Prof Tine Destrooper shared her experience to about 20 faculty members of the College of Criminal Criminal Justice and the College of Arts and Sciences of the University of the Cordilleras who were receptive to ways in which various courses with aspects of human rights may be better taught.";
 
 const eventsDetailsWP4 = [
+  // {
+  //   id: 1,
+  //   image,
+  //   date: "6/1/23",
+  //   title: "Criminological Research Design Training",
+  //   texts: [text1],
+  // },
   {
     id: 1,
-    image,
-    date: "6/1/23",
-    title: "Criminological Research Design Training",
-    texts: [text1],
-  },
-  {
-    id: 2,
     image: lecture,
     date: "10/23/22",
     title:

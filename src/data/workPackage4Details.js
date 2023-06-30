@@ -46,16 +46,16 @@ const workPackage4Details = {
   ],
   sidebar: {
     activities: [
+      //{
+      //  id: 1,
+      //  image: "recent-donation-img-1.jpg",
+      //  amount: "June 1, 2023",
+      //  name: "Criminological Research Design Training",
+      //  // time: "3 hours ago",
+      //  text: "A series of training on Criminological Research Design Formulation...",
+      //},
       {
         id: 1,
-        image: "recent-donation-img-1.jpg",
-        amount: "June 1, 2023",
-        name: "Criminological Research Design Training",
-        // time: "3 hours ago",
-        text: "A series of training on Criminological Research Design Formulation...",
-      },
-      {
-        id: 2,
         image: "recent-donation-img-2.jpg",
         amount: "October 23, 2022",
         name: "Lecture-Workshop on Learning Resources and Delivery Techniques of Human Rights Courses",
