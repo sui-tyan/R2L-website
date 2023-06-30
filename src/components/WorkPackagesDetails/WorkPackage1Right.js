@@ -32,7 +32,7 @@ const CausesDetailsRight = ({ data, eventUrl }) => {
       </div>
       <div className="causes-details__donations">
         <h3 className="causes-details__donations-title">
-          <a href="/news">News and Events</a>
+          <Link href="/news">News and Events</Link>
         </h3>
         <ul className="list-unstyled causes-details__donations-list">
           {activities.map(({ id, amount, image, name, text }) => (
