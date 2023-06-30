@@ -1,4 +1,5 @@
 import image from "@/images/resources/event-details-img-1.jpg";
+import lecture from "@/images/resources/events-wp4-lecture.jpg";
 
 const text1 =
   "A series of training on Criminological Research Design Formulation in partnership with Ghent University will be conducted sometime in June and July, 2023. Some slots will be open to the public. More information about the training will be uploaded by the first week of June, 2023.";
@@ -15,7 +16,7 @@ const eventsDetailsWP4 = [
   },
   {
     id: 2,
-    image,
+    image: lecture,
     date: "10/23/22",
     title:
       "Lecture-Workshop on Learning Resources and Delivery Techniques of Human Rights Courses",
