@@ -5,7 +5,7 @@ import Funding from "@/components/Funding/Funding";
 import Layout from "@/components/Layout/Layout";
 import PageHeader from "@/components/PageHeader/PageHeader";
 import React from "react";
-import bg from "@/images/backgrounds/contactus-bg.jpg";
+import bg from "@/images/backgrounds/contactus-bg.png";
 
 const Contact = () => {
   return (

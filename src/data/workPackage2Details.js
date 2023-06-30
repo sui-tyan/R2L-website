@@ -1,6 +1,6 @@
-import image2 from "@/images/resources/causes-details-images-1.jpg";
-import image3 from "@/images/resources/causes-details-images-2.jpg";
-import image from "@/images/resources/causes-details-img.jpg";
+import image2 from "@/images/resources/work-pkg2-img3.png";
+import image3 from "@/images/resources/work-pkg2-img2.png";
+import image from "@/images/resources/work-pkg2-img1.png";
 import thelmaPalaoag from "@/images/team/thelma-palaoag.jpg";
 
 const text1 =
