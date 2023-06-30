@@ -1,7 +1,7 @@
-import image2 from "@/images/resources/causes-details-images-1.jpg";
-import image3 from "@/images/resources/causes-details-images-2.jpg";
 import image from "@/images/team/darlyn-tagarino.jpg";
-import image1 from "@/images/resources/causes-details-img.jpg";
+import image3 from "@/images/resources/work-pkg5-img3.jpg";
+import image2 from "@/images/resources/work-pkg5-img2.jpg";
+import image1 from "@/images/resources/work-pkg5-img1.jpg";
 
 const text1 =
   "TVarious joint programs between and among the academe, government, international bodies, and civil society will be identified and implemented that will heighten the awareness and advocacy for human rights in respective spaces. The end in view is a unified effort that is structured and systemic.";
@@ -82,8 +82,8 @@ const workPackage5Details = {
     ],
     lead: {
       image,
-      name: "Chester D. King-eo",
-      education: "CCJE",
+      name: "Dr. Darlyn D. Tagarino",
+      education: "CBA",
       location: "University of the Cordilleras",
     },
   },
