@@ -6,8 +6,8 @@ import workPackage5Details from "@/data/workPackage5Details";
 
 const CausesDetails = () => {
   return (
-    <Layout pageTitle="Work Package 1">
-      <PageHeader pageTitle="Work Package 1" />
+    <Layout pageTitle="Work Package 5">
+      <PageHeader pageTitle="Work Package 5" />
       <WorkPackage1Details
         data={workPackage5Details}
         eventUrl={"/event-details-wp5"}
