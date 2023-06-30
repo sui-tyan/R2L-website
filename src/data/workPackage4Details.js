@@ -1,6 +1,6 @@
-import image2 from "@/images/resources/causes-details-images-1.jpg";
-import image3 from "@/images/resources/causes-details-images-2.jpg";
-import image from "@/images/resources/causes-details-img.jpg";
+import image from "@/images/resources/work-pkg4-img1.jpg";
+import image2 from "@/images/resources/work-pkg4-img2.jpg";
+import image3 from "@/images/resources/work-pkg4-img3.jpg";
 import cherryCabarrubias from "@/images/team/anon.png";
 
 const text1 =
