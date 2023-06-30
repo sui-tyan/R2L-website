@@ -1,6 +1,4 @@
-import image2 from '@/images/resources/causes-details-images-1.jpg';
-import image3 from '@/images/resources/causes-details-images-2.jpg';
-import image from '@/images/resources/causes-details-img.jpg';
+import image from '@/images/team/robino-cawi.jpg';
 
 import human_rights from '@/images/resources/work-package-img-rec1.jpg';
 import human_rights1 from '@/images/resources/work-package-square-1.jpg';
