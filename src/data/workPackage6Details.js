@@ -1,7 +1,7 @@
 import image2 from "@/images/resources/causes-details-images-1.jpg";
 import image3 from "@/images/resources/causes-details-images-2.jpg";
-import image from "@/images/resources/causes-details-img.jpg";
-import thelmaPalaoag from "@/images/team/thelma-palaoag.jpg";
+import image from "@/images/team/anon.png";
+import image1 from "@/images/resources/causes-details-img.jpg";
 
 const text1 =
   "The needed equipment towards modernization will be identified as research exposure and activities will be done with the Ghent University. This will involve not just the criminology and forensic laboratories but the ICT laboratories to support the development of advanced applications in the field.";
@@ -18,7 +18,7 @@ const workPackage6Details = {
   title:
     "Well-equipped laboratories and library resources for advanced criminal justice education and research",
 
-  images: [image, image2, image3],
+  images: [image1, image2, image3],
   texts: [text1, text2],
   summaryText,
   summaryList: [
@@ -82,11 +82,10 @@ const workPackage6Details = {
       },
     ],
     lead: {
-      image: thelmaPalaoag,
-      name: "Dr. Thelma D. Palaoag",
+      image,
+      name: "Chester D. King-eo",
       education: "CITCS",
-      location:
-        "University of the Cordilleras. Governor Pack Road, Baguio City 2600, Philippines",
+      location: "University of the Cordilleras",
     },
   },
 };

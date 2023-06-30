@@ -1,15 +1,15 @@
 const workPackages = [
   {
     id: 1,
-    image: "news-page-img-1.jpg",
+    image: "work-package1.JPG",
     title: "Work Package 1",
     detailUrl: "/work-package-1",
     description:
-      "A human-rights based education is in place: curriculum review and revision",
+      "A human-rights based education is in place: curriculum review and revision ",
   },
   {
     id: 2,
-    image: "news-page-img-1.jpg",
+    image: "work-package2.JPG",
     title: "Work Package 2",
     detailUrl: "/work-package-2",
     description:
@@ -17,7 +17,7 @@ const workPackages = [
   },
   {
     id: 3,
-    image: "news-page-img-1.jpg",
+    image: "work-package3.jpg",
     title: "Work Package 3",
     detailUrl: "/work-package-3",
     description:
@@ -25,7 +25,7 @@ const workPackages = [
   },
   {
     id: 4,
-    image: "news-page-img-1.jpg",
+    image: "work-package4.JPG",
     title: "Work Package 4",
     detailUrl: "/work-package-4",
     description:
@@ -33,7 +33,7 @@ const workPackages = [
   },
   {
     id: 5,
-    image: "news-page-img-1.jpg",
+    image: "work-package5.JPG",
     title: "Work Package 5",
     detailUrl: "/work-package-5",
     description:
@@ -41,7 +41,7 @@ const workPackages = [
   },
   {
     id: 6,
-    image: "news-page-img-1.jpg",
+    image: "work-package6.JPG",
     title: "Work Package 6",
     detailUrl: "/work-package-6",
     description:

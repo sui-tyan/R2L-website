@@ -1,4 +1,7 @@
-import image from "@/images/resources/event-details-img-1.jpg";
+import image from "@/images/resources/events-wp1-transitional.jpg";
+import image2 from "@/images/resources/events-wp1-edsa.jpg";
+import image3 from "@/images/resources/events-wp1-womens.jpg";
+import image4 from "@/images/resources/events-wp1-labor.jpg";
 
 const text1 =
   "Prof. Dr. Tine Destrooper from the Faculty of Law, Department of Criminology, Criminal Law and Social Law spoke before 300 plus students on what transitional justice means and the importance of awareness and action that must be done on pending cases like that which exists in the Philippines.";
@@ -18,7 +21,7 @@ const eventsDetailsWP1 = [
   },
   {
     id: 2,
-    image,
+    image: image2,
     date: "5/09/23",
     title:
       "Remembering EDSA: Implications of the EDSA Revolution to Political and Civil Rights",
@@ -26,15 +29,15 @@ const eventsDetailsWP1 = [
   },
   {
     id: 3,
-    image,
+    image: image3,
     date: "5/16/23",
     title: 'WE for gender equality and inclusive society": Womens’ Month Forum',
     texts: [text3],
   },
   {
     id: 4,
-    image,
-    date: "06/28/2023",
+    image: image4,
+    date: "6/28/23",
     title: "Labor Rights Seminar",
     texts: [text4],
   },

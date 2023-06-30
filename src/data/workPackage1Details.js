@@ -1,14 +1,14 @@
 import image2 from "@/images/resources/causes-details-images-1.jpg";
 import image3 from "@/images/resources/causes-details-images-2.jpg";
-import image from "@/images/resources/causes-details-img.jpg";
+import image from "@/images/team/robino-cawi.jpg";
+import image1 from "@/images/resources/causes-details-img.jpg";
 
 const text1 =
   "This will see the formulation of a new curriculum that puts together the minds of Criminal Justice education providers in the region, in the country, and from Belgium. This revised curriculum will provide maximum exposure to Criminology students on understanding the principles, the issues, and the value of Human Rights to themselves, the communities, to the nation and the world. Not only Criminology students will be targeted but all tertiary level and Sen-ior High School students will be exposed to principles of Human Rights through their general education courses.";
 const text2 =
-  "The project will also aim to integrate Human Rights in the selected general education courses. Education is the best avenue to inculcate the value of Human Rights as all opportunities to exhaustively discuss issues about it, and see its value will be explored. For the duration of the project, the seeds will be planted to the students to value Human Rights as it should be valued. Education is the peaceful way to transform thinking and beliefs without resorting to force, and brings about lasting reform. Alongside the stu-dents, the teachers concerned who will be delivering the courses will be encouraged to ex-tend the knowledge and the value of respecting Human Rights to not only the students, but to their other spheres of influence as well. More importantly, through the project, UC will become a center for education, research, outreach and networking, promoting peace, justice and security in the region, and eventually in the country.";
+  "The project will also aim to integrate Human Rights in the selected general education courses. Education is the best avenue to inculcate the value of Human Rights as all opportunities to exhaustively discuss issues about it, and see its value will be explored. For the duration of the project, the seeds will be planted to the students to value Human Rights as it should be valued. Education is the peaceful way to transform thinking and beliefs without resorting to force, and brings about lasting reform. ";
 const summaryText =
-  "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing.";
-
+  "Alongside the students, the teachers concerned who will be delivering the courses will be encouraged to ex-tend the knowledge and the value of respecting Human Rights to not only the students, but to their other spheres of influence as well. More importantly, through the project, UC will become a center for education, research, outreach and networking, promoting peace, justice and security in the region, and eventually in the country.";
 const workPackage1Details = {
   raised: "25,270",
   goal: "30,000",
@@ -16,7 +16,7 @@ const workPackage1Details = {
   title:
     "A human-rights based education is in place: curriculum review and revision",
 
-  images: [image, image2, image3],
+  images: [image1, image2, image3],
   texts: [text1, text2],
   summaryText,
   summaryList: [
