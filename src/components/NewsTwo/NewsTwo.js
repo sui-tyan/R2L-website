@@ -17,7 +17,7 @@ const NewsTwo = () => {
       <Container>
         <div className="section-title text-center">
           <span className="section-title__tagline">Our Updates</span>
-          <h2 className="section-title__title">Project Activities</h2>
+          <h2 className="section-title__title">Upcoming Project Activities</h2>
         </div>
         <Row>
           {newsTwo
