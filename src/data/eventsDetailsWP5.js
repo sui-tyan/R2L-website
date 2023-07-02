@@ -1,4 +1,5 @@
 import image from '@/images/resources/event-details-img-1.jpg';
+import ateneo from '@/images/resources/events-wp5-ateneo.jpg';
 
 const text1 =
   'Attended by key representatives from two state schools, three private schools, the Philippine National Police Human Rights Office, and the Office for the Presidential Adviser for Peace, Reconciliation and Unity, the consultation confirmed the willingness of key Criminal Justice movers in the Cordillera Administrative Region to willingly work with the University of the Cordilleras. This is towards the establishment of a Consortium for Peace, Justice and Security, and for the operationalization of the Peace and Justice Innovation Center towards promoting human rights education, research and outreach in the Cordillera region.';
@@ -21,7 +22,7 @@ const eventsDetailsWP5 = [
   },
   {
     id: 2,
-    image,
+    image:ateneo,
     date: '05/08/23',
     title: 'First benchmarking with the Ateneo Human Rights Center',
     texts: [text2],
