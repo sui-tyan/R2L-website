@@ -4,9 +4,9 @@ import image2 from "@/images/resources/work-pkg5-img2.jpg";
 import image1 from "@/images/resources/work-pkg5-img1.jpg";
 
 const text1 =
-  'Various joint programs between and among the academe, government, international bodies, and civil society will be identified and implemented that will heighten the awareness and advocacy for human rights in respective spaces. The end in view is a unified effort that is structured and systemic.';
+  "Various joint programs between and among the academe, government, international bodies, and civil society will be identified and implemented that will heighten the awareness and advocacy for human rights in respective spaces. The end in view is a unified effort that is structured and systemic.";
 const text2 =
-  "The project hopes to see this come about in the form of a consortium that will strive not only towards integration but on synergy as well among the members."
+  "The project hopes to see this come about in the form of a consortium that will strive not only towards integration but on synergy as well among the members.";
 const summaryText =
   "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing.";
 
@@ -21,11 +21,11 @@ const workPackage5Details = {
   texts: [text1, text2],
   summaryText,
   summaryList: [
-    "Making this first true generator",
-    "Many desktop publish packages",
-    "Lorem Ipsum is not simply",
-    "If you are going to passage",
-    "It has roots in a piece",
+    "Joint programs for awareness.",
+    "Academe, government, civil society.",
+    "Unified and structured effort.",
+    "Consortium for integration.",
+    "Synergy among members.",
   ],
   comments: [
     {
@@ -49,35 +49,35 @@ const workPackage5Details = {
     activities: [
       {
         id: 1,
-        image: 'recent-donation-img-1.jpg',
-        amount: 'Date here',
-        name: 'Event Title Here',
+        image: "recent-donation-img-1.jpg",
+        amount: "Date here",
+        name: "Event Title Here",
         // time: "3 hours ago",
-        text: 'Some texts',
+        text: "Some texts",
       },
       {
         id: 2,
-        image: 'recent-donation-img-2.jpg',
-        amount: 'Date here',
-        name: 'Event Title Here',
+        image: "recent-donation-img-2.jpg",
+        amount: "Date here",
+        name: "Event Title Here",
         // time: "3 hours ago",
-        text: 'Some texts',
+        text: "Some texts",
       },
       {
         id: 3,
-        image: 'recent-donation-img-3.jpg',
-        amount: 'Date here',
-        name: 'Event Title Here',
+        image: "recent-donation-img-3.jpg",
+        amount: "Date here",
+        name: "Event Title Here",
         // time: "3 hours ago",
-        text: 'Some texts',
+        text: "Some texts",
       },
       {
         id: 4,
-        image: 'recent-donation-img-4.jpg',
-        amount: 'Date here',
-        name: 'Event Title Here',
+        image: "recent-donation-img-4.jpg",
+        amount: "Date here",
+        name: "Event Title Here",
         // time: "3 hours ago",
-        text: 'Some texts',
+        text: "Some texts",
       },
     ],
     lead: {

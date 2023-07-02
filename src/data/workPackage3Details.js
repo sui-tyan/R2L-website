@@ -27,11 +27,11 @@ const workPackage3Details = {
   texts: [text1, text2],
   summaryText,
   summaryList: [
-    "Making this first true generator",
-    "Many desktop publish packages",
-    "Lorem Ipsum is not simply",
-    "If you are going to passage",
-    "It has roots in a piece",
+    "Research to communities.",
+    "Building local capabilities.",
+    "Community consultations.",
+    "Active involvement for change.",
+    "Long-term impact focus.",
   ],
   comments: [
     {
