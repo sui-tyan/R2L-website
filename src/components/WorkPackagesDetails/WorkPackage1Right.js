@@ -9,12 +9,11 @@ const CausesDetailsRight = ({ data, eventUrl }) => {
 
   return (
     <div className="causes-details__right">
-      <div className="causes-details__organizer">
+      {/* <div className="causes-details__organizer">
         <div className="causes-details__organizer-img">
           <Image src={organizerImg.src} alt="" width="100" />
         </div>
         <div className="causes-details__organizer-content">
-          {/* <p>Created 20 Jan, 2021</p> */}
           <h5>
             Lead Person: <span>{lead.name}</span>
           </h5>
@@ -29,7 +28,7 @@ const CausesDetailsRight = ({ data, eventUrl }) => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
       <div className="causes-details__donations">
         <h3 className="causes-details__donations-title">
           <Link href="/news">News and Events</Link>
