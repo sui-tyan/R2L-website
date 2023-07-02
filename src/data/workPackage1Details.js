@@ -1,7 +1,7 @@
 import image from "@/images/team/robino-cawi.jpg";
 
 import human_rights from "@/images/resources/work-package-img-rec1.jpg";
-import human_rights1 from "@/images/resources/work-package-square-1.jpg";
+import human_rights1 from "@/images/resources/work-package-square-1.png";
 import human_rights2 from "@/images/resources/work-package-square-2.jpg";
 
 const text1 =
