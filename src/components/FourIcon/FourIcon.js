@@ -9,8 +9,8 @@ const FourIcon = () => {
       <Container>
         <Row>
           {fourIcons.map(({ id, title, icon, description, image, url }) => (
-            <Link href={url}>
-              <Col xl={4} lg={6} md={6} className="fadeInUp" key={id}>
+            <Col xl={4} lg={6} md={6} className="fadeInUp" key={id}>
+              <Link href={url} passHref>
                 <div className="four-icon__single">
                   <div className="four-icon__img">
                     <Image
@@ -26,8 +26,8 @@ const FourIcon = () => {
                     <span className={icon}></span>
                   </div>
                 </div>
-              </Col>
-            </Link>
+              </Link>
+            </Col>
           ))}
         </Row>
       </Container>
