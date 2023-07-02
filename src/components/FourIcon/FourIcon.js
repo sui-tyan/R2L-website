@@ -23,7 +23,10 @@ const FourIcon = () => {
                     </div>
                   </div>
                   <div className="four-icon__bottom-icon">
-                    <span className={icon}></span>
+                    {(() => {
+                      const Icon = icon;
+                      return Icon ? <Icon size={95} stroke={1}></Icon> : "";
+                    })()}
                   </div>
                 </div>
               </Link>

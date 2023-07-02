@@ -1,10 +1,19 @@
+import {
+  IconBrain,
+  IconBooks,
+  IconFriends,
+  IconGavel,
+  IconHeartHandshake,
+  IconDeviceDesktopAnalytics,
+} from "@tabler/icons-react";
+
 const fourIcons = [
   {
     id: 1,
     image: "work-package-img-square-1.jpg",
     title: "Work Package 1",
     description: "A Human rights-based education is in place.",
-    icon: "icon-dove",
+    icon: IconBrain,
     url: "/work-package-1",
   },
   {
@@ -13,7 +22,7 @@ const fourIcons = [
     title: "Work Package 2",
     description:
       "A Strengthened Research and Development attuned to the needs of the times.",
-    icon: "icon-cheque",
+    icon: IconBooks,
     url: "/work-package-2",
   },
   {
@@ -21,7 +30,7 @@ const fourIcons = [
     image: "work-package-img-square-3.jpg",
     title: "Work Package 3",
     description: "Enlightened and empowered communities through outreach.",
-    icon: "icon-donation",
+    icon: IconFriends,
     url: "/work-package-3",
   },
   {
@@ -30,7 +39,7 @@ const fourIcons = [
     title: "Work Package 4",
     description:
       "Competent criminal justice movers among the faculty members, students and the community.",
-    icon: "icon-handshake",
+    icon: IconGavel,
     url: "/work-package-4",
   },
   {
@@ -39,7 +48,7 @@ const fourIcons = [
     title: "Work Package 5",
     description:
       "A system-transformation multi-stakeholder partnership in human rights advocacy.",
-    icon: "icon-handshake",
+    icon: IconHeartHandshake,
     url: "/work-package-5",
   },
   {
@@ -48,7 +57,7 @@ const fourIcons = [
     title: "Work Package 6",
     description:
       "Well-equipped laboratories and library resources for advanced criminal justice education and research.",
-    icon: "icon-handshake",
+    icon: IconDeviceDesktopAnalytics,
     url: "/work-package-6",
   },
 ];
