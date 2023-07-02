@@ -5,6 +5,7 @@ const fourIcons = [
     title: "Work Package 1",
     description: "A Human rights-based education is in place.",
     icon: "icon-dove",
+    url: "/work-package-1",
   },
   {
     id: 2,
@@ -13,6 +14,7 @@ const fourIcons = [
     description:
       "A Strengthened Research and Development attuned to the needs of the times.",
     icon: "icon-cheque",
+    url: "/work-package-2",
   },
   {
     id: 3,
@@ -20,6 +22,7 @@ const fourIcons = [
     title: "Work Package 3",
     description: "Enlightened and empowered communities through outreach.",
     icon: "icon-donation",
+    url: "/work-package-3",
   },
   {
     id: 4,
@@ -28,6 +31,7 @@ const fourIcons = [
     description:
       "Competent criminal justice movers among the faculty members, students and the community.",
     icon: "icon-handshake",
+    url: "/work-package-4",
   },
   {
     id: 5,
@@ -36,6 +40,7 @@ const fourIcons = [
     description:
       "A system-transformation multi-stakeholder partnership in human rights advocacy.",
     icon: "icon-handshake",
+    url: "/work-package-5",
   },
   {
     id: 6,
@@ -44,6 +49,7 @@ const fourIcons = [
     description:
       "Well-equipped laboratories and library resources for advanced criminal justice education and research.",
     icon: "icon-handshake",
+    url: "/work-package-6",
   },
 ];
 
