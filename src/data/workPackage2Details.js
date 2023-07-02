@@ -50,10 +50,10 @@ const workPackage2Details = {
       {
         id: 1,
         image: "recent-donation-img-1.jpg",
-        amount: "Date here",
-        name: "Event Title Here",
+        amount: "July 2022",
+        name: "Rights2Life's Website Development Journey",
         // time: "3 hours ago",
-        text: "Some texts",
+        text: "The Rights2Life team has embarked on an exciting journey of website development to empower individuals and...",
       },
     ],
     lead: {
