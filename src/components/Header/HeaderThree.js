@@ -67,7 +67,7 @@ const HeaderThree = () => {
               >
                 <div className="main-menu-three__container not-mobile-hide clearfix">
                   <div className="main-menu-three__inner-upper clearfix">
-                    <div
+                    {/* <div
                       className="main-menu-three__logo"
                       style={{ display: scrollTop ? "" : "none" }}
                     >
@@ -76,7 +76,7 @@ const HeaderThree = () => {
                           <Image src={logo.src} alt="Logo of Rights2Life" />
                         </a>
                       </Link>
-                    </div>
+                    </div> */}
                     <div
                       className={
                         scrollTop
