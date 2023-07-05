@@ -1,9 +1,9 @@
-import contactData from '@/data/contactData';
-import React from 'react';
-import { Col, Container, Image, Row } from 'react-bootstrap';
-import ContactForm from './ContactForm';
-import GoogleMap from '../GoogleMap/GoogleMap';
-import uc from '@/images/teambanners/uc.jpg';
+import contactData from "@/data/contactData";
+import React from "react";
+import { Col, Container, Image, Row } from "react-bootstrap";
+import ContactForm from "./ContactForm";
+import GoogleMap from "../GoogleMap/GoogleMap";
+import uc from "@/images/resources/contact-page-img-1.png";
 
 const { tel, email, officeAddress, description } = contactData;
 
@@ -13,9 +13,7 @@ const ContactPage = () => {
       <Container>
         <div className="section-title text-center">
           <span className="section-title__tagline">Contact Us</span>
-          <h2 className="section-title__title">
-            We love to hear from you
-          </h2>
+          <h2 className="section-title__title">We love to hear from you</h2>
         </div>
         <Row>
           <Col xl={6} lg={6}>
