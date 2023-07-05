@@ -7701,17 +7701,17 @@ h6 {
 # Funding 
 --------------------------------------------------------------*/
 .funding-section {
-  position: relative;
   display: flex;
   background-color: #fff;
   max-width: 100%;
   align-items: center;
   justify-content: space-evenly;
-  display: flex;
 }
 
 .funding-section__container {
   padding: 0 0 0 0;
+  display:flex;
+  justify-content: center;
 }
 
 .funding-section__single {
@@ -7731,6 +7731,10 @@ h6 {
   justify-content: center;
   width: 100%;
   height: 100%;
+}
+
+.funding-section .row{
+  justify-content: center;
 }
 
 .funding-section__img-box:before {
