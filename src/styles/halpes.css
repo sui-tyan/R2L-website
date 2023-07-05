@@ -970,15 +970,16 @@ h6 {
   padding-left: 0;
   padding-right: 0;
 }
+
 .main-menu-three__logo-top {
-  position: relative;
-  display: flex;
   /* background-color: black; */
+  height:100%;
+  display: flex;
+  align-items:center;
   top: 11%;
   max-width: 100%;
 
 }
-
 
 .main-menu-three__logo-top img{
   position: relative;
