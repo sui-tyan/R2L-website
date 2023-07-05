@@ -10,12 +10,13 @@ import Funding from "../Funding/Funding";
 import NavItem from "./NavItem";
 
 const HeaderThree = () => {
-  const { scrollTop } = useScroll(223);
+  const { scroll, scrollTop } = useScroll(232);
   const { toggleMenu, toggleSearch } = useRootContext();
 
   return (
     <header className="main-header-three clearfix">
       <Container className="main-header-three__container ">
+        {console.log(scroll)}
         <Row className="justify-content-md-center">
           <Col>
             <div
@@ -34,27 +35,41 @@ const HeaderThree = () => {
             <div className="main-header-three__menu-box clearfix">
               <nav
                 className={
-                  scrollTop
-                    ? "stricky-header stricked-menu main-menu main-menu-three stricky-fixed slideInDown animated clearfix"
-                    : "main-menu main-menu-three slideIn animated clearfix"
+                  "main-menu main-menu-three slideIn animated clearfix"
                 }
               >
-                <div className="main-menu-three__container clearfix">
-                  <div
-                    className="main-menu-three-mobile__logo"
-                    // style={{ display: "none" }}
-                  >
+                <div className="main-menu-three__container-mobile clearfix">
+                  <div className="main-menu-three-mobile__logo">
                     <Link href="/">
                       <a>
                         <Image src={logo.src} alt="Logo of Rights2Life" />
                       </a>
                     </Link>
                   </div>
+                  <div className={"main-menu-three__inner clearfix"}>
+                    <Col md={6}>
+                      <span
+                        onClick={() => toggleMenu()}
+                        className="mobile-nav__toggler"
+                      >
+                        <i className="fa fa-bars"></i>
+                      </span>
+                    </Col>
+                  </div>
+                </div>
+              </nav>
+              <nav
+                className={
+                  scrollTop
+                    ? "stricky-header stricked-menu main-menu main-menu-three stricky-fixed slideInDown animated clearfix"
+                    : "main-menu main-menu-three slideIn animated clearfix"
+                }
+              >
+                <div className="main-menu-three__container not-mobile-hide clearfix">
                   <div className="main-menu-three__inner-upper clearfix">
                     <div
                       className="main-menu-three__logo"
-                      // style={{ display: scrollTop ? "" : "none" }}
-                      style={{ display: scrollTop ? "block" : "none" }}
+                      style={{ display: scrollTop ? "" : "none" }}
                     >
                       <Link href="/">
                         <a>
@@ -69,14 +84,6 @@ const HeaderThree = () => {
                           : "main-menu-three__inner clearfix"
                       }
                     >
-                      <Col md={6}>
-                        <span
-                          onClick={() => toggleMenu()}
-                          className="mobile-nav__toggler"
-                        >
-                          <i className="fa fa-bars"></i>
-                        </span>
-                      </Col>
                       <ul className="main-menu__list">
                         {navItems.map((navItem) => (
                           <NavItem key={navItem.id} navItem={navItem} />

@@ -964,12 +964,25 @@ h6 {
 */
 
 .main-menu-three__container {
-  display: inline;
+  display: flex;
   background-color: #ffff;
   max-width: 100%;
   padding-left: 0;
   padding-right: 0;
+  margin-top:5px;
 }
+
+.main-menu-three__container-mobile {
+  display: flex;
+  background-color: #ffff;
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top:5px;
+  justify-content: space-between;
+  align-items:center;
+}
+
 
 .main-menu-three__logo-top {
   /* background-color: black; */
@@ -1010,6 +1023,13 @@ h6 {
   width: 100%;
   float: right;
   /* padding: 47px 0 47px 0; */
+}
+
+
+@media (max-width: 1199px) {
+  .not-mobile-hide {
+    display: none;
+  }
 }
 
 .main-menu-three__btn {
