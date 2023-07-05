@@ -28,8 +28,8 @@ const Home2 = () => {
         {/* <CausesTwo />
         <Counters /> */}
         <NewsTwo />
-        <GalleryOne className="gallery-two" />
-        <EventsOne />
+        {/* <GalleryOne className="gallery-two" /> */}
+        {/* <EventsOne /> */}
       </Layout>
     </div>
   );

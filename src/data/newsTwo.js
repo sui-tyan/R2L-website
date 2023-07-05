@@ -1,65 +1,39 @@
 const newsTwo = [
   {
     id: 1,
-    image: "news-event-1.jpg",
-    date: "November 5, 2022",
-    title: "Workshop on Teaching Human Rights Courses",
+    image: "upcoming-event-1.jpg",
+    date: "July 10, 2022",
+    title: "Official Launching of the Rights2LIFE Website",
     description:
-      "Prof. Tine Destrooper shared teaching methods on human rights to 20 receptive faculty members from UC's College of Criminal Justice and Arts and Sciences.",
+      "The Rights2LIFE website will be fully launched in July 2023. This website will be the avenue to inform the public of the initiatives made by the University of the Cordilleras, Philippines and the Ghent University, Belgium under the VLIR-UOS TEAM project to achieve a more responsive criminal justice system in the Philippines.",
     author: "Admin",
   },
   {
     id: 2,
-    image: "news-event-2.jpg",
-    date: "November 24, 2022",
-    title: "A Lecture-Forum on Transitional Justice",
+    image: "upcoming-event-2.jpg",
+    date: "May - July 2023",
+    title: "University of the Cordilleras Criminology Curriculum Review",
     description:
-      "Prof. Tine Destrooper of Faculty of Law discussed transitional justice's significance to 300+ students, highlighting action needed for pending cases.",
+      "From May to July 2023, a series of curriculum reviews will be conducted with faculty members of the College of Criminal Justice Education. The focus will be on evaluating what aspects of human rights are not covered and ensuring a more comprehensive approach to human rights education.",
     author: "Admin",
   },
   {
     id: 3,
-    // image: "news-two-img-3.jpg",
-    image: "news-event-3.jpg",
-    date: "December 6, 2021",
-    title: "Loacan, Tocmo, Itogon Community Outreach",
+    image: "upcoming-event-3.jpg",
+    date: "June 2023",
+    title: "Call for Research Proposals",
     description:
-      "Barangay Loacan's Tocmo Integrated School teachers, local government officials, and University of Cordilleras officials held a strategic planning for community outreach.",
+      "Proposals for research in the field of human rights can be funded when the Call for Proposals will be made sometime in June, 2023. Funding per research ranging from PhP 50,000 to PhP 100, 000 can be provided depending on the nature of the researches that will be selected. The call is open to any field of inquiry alongside understanding human rights better in the Philippine setting.",
     author: "Admin",
-    comments: 2,
   },
   {
     id: 4,
-    image: "news-event-4.jpg",
-    date: "March 9, 2023",
-    title:
-      "EDSA Revolution's Impact on Political and Civil Rights",
+    image: "upcoming-event-4.jpg",
+    date: "June 2023",
+    title: "Criminological Research Design Training",
     description:
-      "Baguio City Councilor Hon. Jose Molintas and Atty. Joel Dizon of UC Faculty of Law urged over 200 students for unity in achieving true freedom and democracy.",
+      "A series of training on Criminological Research Design Formulation in partnership with Ghent University will be conducted sometime in June and July, 2023. Some slots will be open to the public. More information about the training will be uploaded by the first week of June, 2023.",
     author: "Admin",
-    comments: 2,
-  },
-  {
-    id: 5,
-    // image: "news-two-img-3.jpg",
-    image: "news-event-5.jpg",
-    date: "March 16, 2023",
-    title: "WE for gender equality and inclusive society: Womens’ Month Forum",
-    description:
-      "P/COL. Marites Villacarlos emphasized women's value and potential in nation-building despite gender inequality. She ends with the line, 'you are not a mere woman, you are more than enough.'",
-    author: "Admin",
-    comments: 2,
-  },
-  {
-    id: 6,
-    // image: "news-two-img-3.jpg",
-    image: "news-event-6.jpg",
-    date: "May 8, 2023",
-    title: "First benchmarking with the Ateneo Human Rights Center",
-    description:
-      "The Rights2LIFE team led by Dr. Darlyn Tagarino met with Ateneo Human Rights Center for a partnership, exploring curriculum enrichment mentorship.",
-    author: "Admin",
-    comments: 2,
   },
 ];
 

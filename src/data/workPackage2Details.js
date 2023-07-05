@@ -21,11 +21,11 @@ const workPackage2Details = {
   texts: [text1, text2],
   summaryText,
   summaryList: [
-    "Making this first true generator",
-    "Many desktop publish packages",
-    "Lorem Ipsum is not simply",
-    "If you are going to passage",
-    "It has roots in a piece",
+    "Upgrading research capabilities.",
+    "Informing education and outreach.",
+    "Enhancing curriculum through research.",
+    "Addressing needs, pushing frontiers.",
+    "Disseminating impactful research.",
   ],
   comments: [
     {
@@ -50,10 +50,10 @@ const workPackage2Details = {
       {
         id: 1,
         image: "recent-donation-img-1.jpg",
-        amount: "Date here",
-        name: "Event Title Here",
+        amount: "July 2022",
+        name: "Rights2Life's Website Development Journey",
         // time: "3 hours ago",
-        text: "Some texts",
+        text: "The Rights2Life team has embarked on an exciting journey of website development to empower individuals and...",
       },
     ],
     lead: {
