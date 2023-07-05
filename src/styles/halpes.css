@@ -101,9 +101,15 @@ h6 {
   padding-right: 15px;
 }
 
+/* @media (min-width: 1200px) { */
+  /* .container { */
+    /* max-width: 1200px; */
+  /* } */
+/* } */
+
 @media (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 1400px;
   }
 }
 
@@ -7695,8 +7701,16 @@ h6 {
 --------------------------------------------------------------*/
 .funding-section {
   position: relative;
-  display: block;
+  display: flex;
   background-color: #fff;
+  max-width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.funding-section__container {
+  padding: 0 0 0 0;
 }
 
 .funding-section__single {
@@ -7705,19 +7719,17 @@ h6 {
   margin-bottom: 5px;
   margin-top: 5px;
   align-items: center;
+  overflow: hidden; 
   justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 .funding-section__img-box {
-  position: relative;
-  display: block;
-  max-width: 250px;
-}
-
-.funding-section__container {
-  max-width: 730px;
-  align-items: center;
+  display: flex;
   justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 .funding-section__img-box:before {
@@ -7728,7 +7740,8 @@ h6 {
 }
 
 .funding-section__img-box img {
-  scale: 80%;
+  width:100%;
+  height:100%;
 }
 
 
