@@ -16,7 +16,6 @@ const HeaderThree = () => {
   return (
     <header className="main-header-three clearfix">
       <Container className="main-header-three__container ">
-        {console.log(scroll)}
         <Row className="justify-content-md-center">
           <Col>
             <div

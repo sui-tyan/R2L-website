@@ -10,3 +10,6 @@ deployment (e.g. `/home` vs `<githubrepo>/home`)
 Pushing to branch specified in `.github/workflows/node.js.yml` will trigger deployment.
 Test deployment with npm run build before deploying
 
+## Replacing images
+
+Use original image size. Crop images to fit old image size.

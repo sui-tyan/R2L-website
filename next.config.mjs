@@ -23,6 +23,9 @@ if (isGithubActions) {
   // trim off `<owner>/`
   const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, "");
 
+  // Disabled for application of subdomain rights2life.uc-bcf.edu.ph
+  // enable if using github.io domain.
+  
   //assetPrefix = `/${repo}/`;
   //basePath = `/${repo}`;
 }
