@@ -21,11 +21,10 @@ let basePath = "";
 
 if (isGithubActions) {
   // trim off `<owner>/`
-  //const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, "");
-  const repo = '';
+  const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, "");
 
   assetPrefix = `/${repo}/`;
-  basePath = `/${repo}`;
+  //basePath = `/${repo}`;
 }
 
 const nextConfig = {
