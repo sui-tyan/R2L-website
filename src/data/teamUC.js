@@ -60,7 +60,7 @@ const teamUC = [
     image: 'ferdinand-lawan.jpg',
     //name: "Sarah",
     title: 'Dr. Ferdinand Lawan',
-    description: 'Ferdinand is a faculty of Art and Science at University of the Cordilleras. He is a Partner in Domain 1.',
+    description: 'Ferdinand is a faculty of Art and Sciences at University of the Cordilleras. He is a Partner in Domain 1.',
   },
   {
     id: 10,
@@ -71,6 +71,13 @@ const teamUC = [
   },
   {
     id: 11,
+    image: 'john-dayucos.jpg',
+    //name: "Sarah",
+    title: 'John Rey Dayucos',
+    description: 'John is a faculty of Art and Sciences at University of the Cordilleras. He is a Partner in Domain 3.',
+  },
+  {
+    id: 12,
     image: 'nisha-pamaran.jpg',
     //name: "Sarah",
     title: 'Nisha Pamaran',
