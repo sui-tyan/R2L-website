@@ -10,9 +10,7 @@ const Funding = () => {
       <Container className="funding-section__container">
         <Row className="justify-content-xl-center">
           {fundingData.map((funding) => (
-            <Col md={4} sm={12} key={funding.id}>
-              <SingleFunding key={funding.id} funding={funding} />
-            </Col>
+            <SingleFunding key={funding.id} funding={funding} />
           ))}
         </Row>
       </Container>

@@ -11,7 +11,7 @@ const teamUC = [
     image: "darlyn-tagarino.jpg",
     title: "Dr. Darlyn Tagarino",
     description:
-      "Dr. Darlyn is a faculty of Criminal Justice Education at University of the Cordilleras. She is the Lead in Domain 5-A",
+      "Dr. Darlyn is a faculty of Business Administration at University of the Cordilleras. She is the Lead in Domain 5-A.",
   },
   {
     id: 3,
@@ -19,13 +19,19 @@ const teamUC = [
     title: "Dr. Robino Cawi",
     description:
       "Dr. Robino is the dean of Criminal Justice Education at University of the Cordilleras. He is the Lead in Domain 1-A",
+    image: "robino-cawi.jpg",
+    //name: "David",
+    title: "Dr. Robino Cawi",
+    description:
+      "Dr. Robino is the dean of Criminal Justice Education at University of the Cordilleras. He is the Lead in Domain 1-A.",
   },
   {
     id: 4,
     image: "thelma-palaoag.jpg",
+    //name: "Sarah",
     title: "Dr. Thelma Palaoag",
     description:
-      "Dr. Thelma is a faculty of Information Technology and Computer Science at University of the Cordilleras. She is the Lead in Domain 2-A",
+      "Dr. Thelma is a faculty of Information Technology and Computer Science at University of the Cordilleras. She is the Lead in Domain 2-A.",
   },
   {
     id: 5,
@@ -36,17 +42,59 @@ const teamUC = [
   },
   {
     id: 6,
-    image: "anon.png",
+    image: "cherry-cabarrubias.jpg",
+    //name: "Sarah",
     title: "Cherry Ann Cabarrubias",
     description:
-      "Cherry is a faculty of Criminal Justice Education at University of the Cordilleras. She is the Lead in Domain 4",
+      "Cherry is a faculty of Criminal Justice Education at University of the Cordilleras. She is the Lead in Domain 4.",
   },
   {
     id: 7,
-    image: "anon.png",
+    image: "chester-kingeo.jpg",
+    //name: "Sarah",
     title: "Chester King-eo",
     description:
-      "Chester is a faculty of Criminal Justice Education at University of the Cordilleras. He is the Lead in Domain 6",
+      "Chester is a faculty of Criminal Justice Education at University of the Cordilleras. He is the Lead in Domain 6.",
+  },
+  {
+    id: 8,
+    image: "elizabeth-sagubo.jpg",
+    //name: "Sarah",
+    title: "Elizabeth Sagubo",
+    description:
+      "Elizabeth is a faculty of Teacher Education at University of the Cordilleras. She is a Partner in Domain 1.",
+  },
+  {
+    id: 9,
+    image: "ferdinand-lawan.jpg",
+    //name: "Sarah",
+    title: "Dr. Ferdinand Lawan",
+    description:
+      "Ferdinand is a faculty of Art and Sciences at University of the Cordilleras. He is a Partner in Domain 1.",
+  },
+  {
+    id: 10,
+    image: "nica-togana.jpg",
+    //name: "Sarah",
+    title: "Nica Togana",
+    description:
+      "Nica is a faculty of Criminal Justice Education at University of the Cordilleras. She is a Partner in Domain 2.",
+  },
+  {
+    id: 11,
+    image: "john-dayucos.jpg",
+    //name: "Sarah",
+    title: "John Rey Dayucos",
+    description:
+      "John is a faculty of Art and Sciences at University of the Cordilleras. He is a Partner in Domain 3.",
+  },
+  {
+    id: 12,
+    image: "nisha-pamaran.jpg",
+    //name: "Sarah",
+    title: "Nisha Pamaran",
+    description:
+      "Nisha is the Administrative Staff and Researcher at University of the Cordilleras.",
   },
 ];
 

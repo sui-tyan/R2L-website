@@ -101,9 +101,15 @@ h6 {
   padding-right: 15px;
 }
 
+/* @media (min-width: 1200px) { */
+  /* .container { */
+    /* max-width: 1200px; */
+  /* } */
+/* } */
+
 @media (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 1400px;
   }
 }
 
@@ -958,21 +964,35 @@ h6 {
 */
 
 .main-menu-three__container {
-  display: inline;
+  display: flex;
   background-color: #ffff;
   max-width: 100%;
   padding-left: 0;
   padding-right: 0;
+  margin-top:5px;
 }
-.main-menu-three__logo-top {
-  position: relative;
+
+.main-menu-three__container-mobile {
   display: flex;
+  background-color: #ffff;
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top:5px;
+  justify-content: space-between;
+  align-items:center;
+}
+
+
+.main-menu-three__logo-top {
   /* background-color: black; */
+  height:100%;
+  display: flex;
+  align-items:center;
   top: 11%;
   max-width: 100%;
 
 }
-
 
 .main-menu-three__logo-top img{
   position: relative;
@@ -1003,6 +1023,13 @@ h6 {
   width: 100%;
   float: right;
   /* padding: 47px 0 47px 0; */
+}
+
+
+@media (max-width: 1199px) {
+  .not-mobile-hide {
+    display: none;
+  }
 }
 
 .main-menu-three__btn {
@@ -6309,7 +6336,7 @@ h6 {
   display: block;
   background: #eff5f4;
   padding: 40px 40px 14px 40px;
-  margin-top: 30px;
+
 }
 
 .causes-details__donations-title {
@@ -7694,9 +7721,17 @@ h6 {
 # Funding 
 --------------------------------------------------------------*/
 .funding-section {
-  position: relative;
-  display: block;
+  display: flex;
   background-color: #fff;
+  max-width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.funding-section__container {
+  padding: 0 0 0 0;
+  display:flex;
+  justify-content: center;
 }
 
 .funding-section__single {
@@ -7705,18 +7740,20 @@ h6 {
   margin-bottom: 5px;
   margin-top: 5px;
   align-items: center;
+  overflow: hidden; 
   justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 .funding-section__img-box {
-  position: relative;
-  display: block;
-  max-width: 250px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
-.funding-section__container {
-  max-width: 730px;
-  align-items: center;
+.funding-section .row{
   justify-content: center;
 }
 
@@ -7728,7 +7765,8 @@ h6 {
 }
 
 .funding-section__img-box img {
-  scale: 80%;
+  width:100%;
+  height:100%;
 }
 
 
