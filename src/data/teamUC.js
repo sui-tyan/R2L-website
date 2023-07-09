@@ -1,4 +1,5 @@
 const teamUC = [
+  //Partner Promoter
   {
     id: 1,
     image: "ariel-pumecha.jpg",
@@ -6,95 +7,96 @@ const teamUC = [
     description:
       "Dr. Ariel is the Vice President for Academics and Research at University of the Cordilleras. He is the partner promoter.",
   },
+  //Domain 1A
   {
     id: 2,
-    image: "darlyn-tagarino.jpg",
-    title: "Dr. Darlyn Tagarino",
+    image: "robino-cawi.jpg",
+    title: "Dr. Robino Cawi",
     description:
-      "Dr. Darlyn is a faculty of Business Administration at University of the Cordilleras. She is the Lead in Domain 5-A.",
+      "Dr. Robino is the Focal Person for Domain 1-A and the dean of Criminal Justice Education at University of the Cordilleras.",
   },
   {
     id: 3,
-    image: "robino-cawi.jpg",
-    title: "Dr. Robino Cawi",
+    image: "ferdinand-lawan.jpg",
+    title: "Dr. Ferdinand Lawan",
     description:
-      "Dr. Robino is the dean of Criminal Justice Education at University of the Cordilleras. He is the Lead in Domain 1-A",
-    image: "robino-cawi.jpg",
-    //name: "David",
-    title: "Dr. Robino Cawi",
-    description:
-      "Dr. Robino is the dean of Criminal Justice Education at University of the Cordilleras. He is the Lead in Domain 1-A.",
+      "Ferdinand is a faculty of Art and Sciences at University of the Cordilleras. He is a Member of Domain 1.",
   },
   {
     id: 4,
-    image: "thelma-palaoag.jpg",
-    //name: "Sarah",
-    title: "Dr. Thelma Palaoag",
+    image: "elizabeth-sagubo.jpg",
+    title: "Elizabeth Sagubo",
     description:
-      "Dr. Thelma is a faculty of Information Technology and Computer Science at University of the Cordilleras. She is the Lead in Domain 2-A.",
+      "Elizabeth is a faculty of Teacher Education at University of the Cordilleras. She is a Member of Domain 1.",
   },
+  //Domain 2-A
   {
     id: 5,
-    image: "scyld-segundo.jpg",
-    title: "Sclyd Segundo",
+    image: "thelma-palaoag.jpg",
+    title: "Dr. Thelma Palaoag",
     description:
-      "Sclyd is a faculty of Criminal Justice Education at University of the Cordilleras. He is the Lead in Domain 3.",
+      "Dr. Thelma is the Focal Person in Domain 2-A and a faculty of Information Technology and Computer Science at University of the Cordilleras.",
   },
   {
     id: 6,
-    image: "cherry-cabarrubias.jpg",
-    //name: "Sarah",
-    title: "Cherry Ann Cabarrubias",
+    image: "nica-togana.jpg",
+    title: "Nica Togana",
     description:
-      "Cherry is a faculty of Criminal Justice Education at University of the Cordilleras. She is the Lead in Domain 4.",
+      "Nica is a faculty of Criminal Justice Education at University of the Cordilleras. She is a Member of Domain 2.",
   },
+  //Domain 3
   {
     id: 7,
-    image: "chester-kingeo.jpg",
-    //name: "Sarah",
-    title: "Chester King-eo",
+    image: "scyld-segundo.jpg",
+    title: "Sclyd Segundo",
     description:
-      "Chester is a faculty of Criminal Justice Education at University of the Cordilleras. He is the Lead in Domain 6.",
+      "Sclyd is the Focal Person of Domain 3 and a faculty of Criminal Justice Education at University of the Cordilleras.",
   },
   {
     id: 8,
-    image: "elizabeth-sagubo.jpg",
-    //name: "Sarah",
-    title: "Elizabeth Sagubo",
+    image: "john-dayucos.jpg",
+    title: "John Rey Dayucos",
     description:
-      "Elizabeth is a faculty of Teacher Education at University of the Cordilleras. She is a Partner in Domain 1.",
+      "John is a faculty of Art and Sciences at University of the Cordilleras. He is a Member of Domain 3.",
   },
+  //Domain 4
   {
     id: 9,
-    image: "ferdinand-lawan.jpg",
-    //name: "Sarah",
-    title: "Dr. Ferdinand Lawan",
+    image: "cherry-cabarrubias.jpg",
+    title: "Cherry Ann Cabarrubias",
     description:
-      "Ferdinand is a faculty of Art and Sciences at University of the Cordilleras. He is a Partner in Domain 1.",
+      "Cherry is the Focal Person of Domain 4 and a faculty of Criminal Justice Education at University of the Cordilleras.",
   },
   {
     id: 10,
-    image: "nica-togana.jpg",
-    //name: "Sarah",
-    title: "Nica Togana",
+    image: "anon.png",
+    title: "Atty. Charlene Agrito",
     description:
-      "Nica is a faculty of Criminal Justice Education at University of the Cordilleras. She is a Partner in Domain 2.",
+      "Charlene is a faculty of Criminal Justice Education at University of the Cordilleras. She is a Member of Domain 4.",
   },
+  //Domain 5-A
   {
     id: 11,
-    image: "john-dayucos.jpg",
-    //name: "Sarah",
-    title: "John Rey Dayucos",
+    image: "darlyn-tagarino.jpg",
+    title: "Dr. Darlyn Tagarino",
     description:
-      "John is a faculty of Art and Sciences at University of the Cordilleras. He is a Partner in Domain 3.",
+      "Dr. Darlyn is the Focal Person of Domain 5-A and a faculty of Business Administration at University of the Cordilleras.",
   },
+  //Domain 6
   {
     id: 12,
+    image: "chester-kingeo.jpg",
+    title: "Chester King-eo",
+    description:
+      "Chester is the Focal Person of Domain 6 and a faculty of Criminal Justice Education at University of the Cordilleras.",
+  },
+  //Admin Staff and Researcher
+  {
+    id: 13,
     image: "nisha-pamaran.jpg",
-    //name: "Sarah",
     title: "Nisha Pamaran",
     description:
-      "Nisha is the Administrative Staff and Researcher at University of the Cordilleras.",
+      "Nisha is the Administrative Staff and Researcher of Rights2LIFE.",
   },
 ];
 
