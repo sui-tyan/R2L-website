@@ -1,8 +1,8 @@
-import inspireData from "@/data/inspireData";
-import bg from "@/images/backgrounds/faq-bg.jpg";
-import image from "@/images/resources/faq-img.jpg";
-import React, { useState } from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import inspireData from '@/data/inspireData';
+import bg from '@/images/backgrounds/faq-bg.jpg';
+import image from '@/images/resources/faq-img.jpg';
+import React, { useState } from 'react';
+import { Col, Container, Image, Row } from 'react-bootstrap';
 
 const WeInspire = () => {
   const [expand, setExpand] = useState(1);
@@ -26,13 +26,13 @@ const WeInspire = () => {
               </div>
               <div className="we-inspire__faq">
                 <div
-                  style={{ overflow: "hidden" }}
+                  style={{ overflow: 'hidden' }}
                   className="accordion-grp faq-one-accordion"
                 >
                   {inspireData.map(({ id, answer, question }) => (
                     <div
                       className={
-                        expand === id ? "accordion active" : "accordion"
+                        expand === id ? 'accordion active' : 'accordion'
                       }
                       key={id}
                     >

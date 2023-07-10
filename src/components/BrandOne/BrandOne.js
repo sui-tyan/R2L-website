@@ -1,8 +1,8 @@
-import brandOne from "@/data/brandOne";
-import dynamic from "next/dynamic";
-import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
-const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
+import brandOne from '@/data/brandOne';
+import dynamic from 'next/dynamic';
+import React from 'react';
+import { Col, Container, Image, Row } from 'react-bootstrap';
+const TinySlider = dynamic(() => import('tiny-slider-react'), { ssr: false });
 
 const settings = {
   lazyload: true,
@@ -33,7 +33,7 @@ const settings = {
   },
 };
 
-const BrandOne = ({ brandClass = "" }) => {
+const BrandOne = ({ brandClass = '' }) => {
   return (
     <section className={`brand-one ${brandClass}`}>
       <Container>
@@ -43,7 +43,7 @@ const BrandOne = ({ brandClass = "" }) => {
               {brandOne.map((image, index) => (
                 <div key={index}>
                   <div
-                    style={{ userSelect: "none" }}
+                    style={{ userSelect: 'none' }}
                     className="brand-one__single"
                   >
                     <div className="brand-one__img">

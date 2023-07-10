@@ -1,7 +1,7 @@
-import eventsPage from "@/data/eventsPage";
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import SingleEvent from "../EventsOne/SingleEvent";
+import eventsPage from '@/data/eventsPage';
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import SingleEvent from '../EventsOne/SingleEvent';
 
 const EventsPage = () => {
   return (

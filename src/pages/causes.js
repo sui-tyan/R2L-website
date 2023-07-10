@@ -1,8 +1,8 @@
-import CausesPage from "@/components/CausesPage/CausesPage";
-import Funding from "@/components/Funding/Funding";
-import Layout from "@/components/Layout/Layout";
-import PageHeader from "@/components/PageHeader/PageHeader";
-import React from "react";
+import CausesPage from '@/components/CausesPage/CausesPage';
+import Funding from '@/components/Funding/Funding';
+import Layout from '@/components/Layout/Layout';
+import PageHeader from '@/components/PageHeader/PageHeader';
+import React from 'react';
 
 const Causes = () => {
   return (

@@ -1,8 +1,8 @@
-import EventsDetailsPage from "@/components/EventsDetailsPage/EventsDetailsPage";
-import Layout from "@/components/Layout/Layout";
-import PageHeader from "@/components/PageHeader/PageHeader";
-import eventsDetails4 from "@/data/eventsDetailsWP4";
-import React from "react";
+import EventsDetailsPage from '@/components/EventsDetailsPage/EventsDetailsPage';
+import Layout from '@/components/Layout/Layout';
+import PageHeader from '@/components/PageHeader/PageHeader';
+import eventsDetails4 from '@/data/eventsDetailsWP4';
+import React from 'react';
 
 const EventDetails = () => {
   return (

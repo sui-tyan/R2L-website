@@ -1,10 +1,10 @@
-import React from "react";
-import { Container, Row } from "react-bootstrap";
-import SingleTeamOne from "./SingleTeamOne";
-import TeamBanner from "../TeamBanner/TeamBanner";
+import React from 'react';
+import { Container, Row } from 'react-bootstrap';
+import SingleTeamOne from './SingleTeamOne';
+import TeamBanner from '../TeamBanner/TeamBanner';
 
 // const TeamGhent = ({ className = "" }) => {
-const TeamGhent = ({ className = "", teamData, bannerData }) => {
+const TeamGhent = ({ className = '', teamData, bannerData }) => {
   return (
     <div>
       <TeamBanner data={bannerData} />

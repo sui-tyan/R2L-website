@@ -1,7 +1,7 @@
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import WorkPackageDetailsLeft from "./WorkPackageDetailsLeft";
-import Sidebar from "./Sidebar";
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import WorkPackageDetailsLeft from './WorkPackageDetailsLeft';
+import Sidebar from './Sidebar';
 
 const NewsDetailsPage = () => {
   return (

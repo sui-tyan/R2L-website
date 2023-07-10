@@ -1,6 +1,6 @@
-import image from "@/images/resources/helping-one-left-img.jpg";
-import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import image from '@/images/resources/helping-one-left-img.jpg';
+import React from 'react';
+import { Col, Container, Image, Row } from 'react-bootstrap';
 
 const HelpingOne = () => {
   return (

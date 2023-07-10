@@ -1,6 +1,6 @@
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import { SwiperSlide } from "swiper/react";
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import { SwiperSlide } from 'swiper/react';
 
 const SingleSlideTwo = ({ slide = {} }) => {
   const { bg, subTitle, title, href } = slide;

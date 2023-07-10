@@ -1,7 +1,7 @@
-import React from "react";
-import { useState, useEffect } from "react";
-import { useRouter } from "next/router";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import React from 'react';
+import { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
+import { Col, Container, Image, Row } from 'react-bootstrap';
 
 const EventsDetailsPage = (data) => {
   const details = data.data;
@@ -9,7 +9,7 @@ const EventsDetailsPage = (data) => {
   const getData = router.query;
 
   // const [index, setIndex] = useEffect();
-  const [element, setElement] = useState("");
+  const [element, setElement] = useState('');
   // const { id, image, date, title, texts } = data.data;
   // console.log(id, image, date, title, texts);
   useEffect(() => {
@@ -19,7 +19,7 @@ const EventsDetailsPage = (data) => {
       }
     });
   });
-  return element === "" ? (
+  return element === '' ? (
     <h1>404-Page Not Found</h1>
   ) : (
     <section className="event-details">

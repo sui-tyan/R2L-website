@@ -1,14 +1,14 @@
-import Header from "@/components/Header/Header";
-import Preloader from "@/components/Preloader";
-import { useRootContext } from "@/context/context";
-import useScroll from "@/hooks/useScroll";
-import Head from "next/head";
-import React, { useEffect, useState } from "react";
-import { Link as ScrollLink } from "react-scroll";
-import Funding from "../Funding/Funding";
-import MobileMenu from "../MobileMenu/MobileMenu";
-import Search from "../Search/Search";
-import SiteFooter from "../SiteFooter/SiteFooter";
+import Header from '@/components/Header/Header';
+import Preloader from '@/components/Preloader';
+import { useRootContext } from '@/context/context';
+import useScroll from '@/hooks/useScroll';
+import Head from 'next/head';
+import React, { useEffect, useState } from 'react';
+import { Link as ScrollLink } from 'react-scroll';
+import Funding from '../Funding/Funding';
+import MobileMenu from '../MobileMenu/MobileMenu';
+import Search from '../Search/Search';
+import SiteFooter from '../SiteFooter/SiteFooter';
 
 const Layout = ({ children, pageTitle }) => {
   const [loading, setLoading] = useState(true);
@@ -45,7 +45,7 @@ const Layout = ({ children, pageTitle }) => {
           smooth={true}
           duration={500}
           id="backToTop"
-          style={{ cursor: "pointer" }}
+          style={{ cursor: 'pointer' }}
           className="scroll-to-target scroll-to-top fadeIn animated"
         >
           <i className="fa fa-angle-up"></i>

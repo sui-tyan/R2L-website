@@ -1,7 +1,7 @@
-import BecomeVolunteerPage from "@/components/BecomeVolunteerPage/BecomeVolunteerPage";
-import Layout from "@/components/Layout/Layout";
-import PageHeader from "@/components/PageHeader/PageHeader";
-import React from "react";
+import BecomeVolunteerPage from '@/components/BecomeVolunteerPage/BecomeVolunteerPage';
+import Layout from '@/components/Layout/Layout';
+import PageHeader from '@/components/PageHeader/PageHeader';
+import React from 'react';
 
 const BecomeVolunteer = () => {
   return (

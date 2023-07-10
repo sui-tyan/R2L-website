@@ -1,11 +1,11 @@
-import countersTwo from "@/data/countersTwo";
-import bg from "@/images/backgrounds/counters-two-bg.jpg";
-import dynamic from "next/dynamic";
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import JarallaxImage from "../Jarallax/JarallaxImage";
+import countersTwo from '@/data/countersTwo';
+import bg from '@/images/backgrounds/counters-two-bg.jpg';
+import dynamic from 'next/dynamic';
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import JarallaxImage from '../Jarallax/JarallaxImage';
 
-const Jarallax = dynamic(() => import("../Jarallax/Jarallax"), { ssr: false });
+const Jarallax = dynamic(() => import('../Jarallax/Jarallax'), { ssr: false });
 
 const CountersTwo = () => {
   return (
@@ -36,7 +36,7 @@ const CountersTwo = () => {
                       <span className={icon}></span>
                     </div>
                     <h4>
-                      {title.split(" ").map((t, i) => (
+                      {title.split(' ').map((t, i) => (
                         <span key={i} className="d-block">
                           {t}
                         </span>

@@ -1,6 +1,6 @@
-import Link from "next/link";
-import React from "react";
-import { Image } from "react-bootstrap";
+import Link from 'next/link';
+import React from 'react';
+import { Image } from 'react-bootstrap';
 
 const SingleNews = ({ news = {} }) => {
   const { title, image, href, comments, date } = news;

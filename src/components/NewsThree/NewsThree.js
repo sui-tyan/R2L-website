@@ -1,7 +1,7 @@
-import newsTwo from "@/data/newsTwo";
-import React from "react";
-import { Container, Row } from "react-bootstrap";
-import SingleNews from "../NewsTwo/SingleNews";
+import newsTwo from '@/data/newsTwo';
+import React from 'react';
+import { Container, Row } from 'react-bootstrap';
+import SingleNews from '../NewsTwo/SingleNews';
 
 const NewsThree = () => {
   return (

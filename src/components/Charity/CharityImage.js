@@ -1,8 +1,8 @@
-import img3 from "@/images/resources/welcome-one-heart-icon.png";
-import img1 from "@/images/resources/welcome-one-img-1.jpg";
-import img2 from "@/images/resources/welcome-one-img-2.jpg";
-import React from "react";
-import { Col, Image } from "react-bootstrap";
+import img3 from '@/images/resources/welcome-one-heart-icon.png';
+import img1 from '@/images/resources/welcome-one-img-1.jpg';
+import img2 from '@/images/resources/welcome-one-img-2.jpg';
+import React from 'react';
+import { Col, Image } from 'react-bootstrap';
 
 const CharityImage = () => {
   return (

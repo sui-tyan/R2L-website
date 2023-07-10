@@ -1,8 +1,8 @@
 const navItems = [
   {
     id: 1,
-    name: "Home",
-    href: "/",
+    name: 'Home',
+    href: '/',
     subNavItems: [
       //Don't remove subNavItems array to prevent error
       // {
@@ -38,8 +38,8 @@ const navItems = [
   },
   {
     id: 2,
-    name: "Meet the Team",
-    href: "/team",
+    name: 'Meet the Team',
+    href: '/team',
     subNavItems: [
       // { id: 1, name: "About", href: "/about" },
       // { id: 2, name: "Volunteers", href: "/volunteers" },
@@ -49,8 +49,8 @@ const navItems = [
   },
   {
     id: 3,
-    name: "Work Packages",
-    href: "/work-packages",
+    name: 'Work Packages',
+    href: '/work-packages',
     // href: "/404",
     subNavItems: [
       // {
@@ -78,8 +78,8 @@ const navItems = [
   },
   {
     id: 4,
-    name: "Contact Us",
-    href: "/contact",
+    name: 'Contact Us',
+    href: '/contact',
     subNavItems: [
       // { id: 1, name: 'Events', href: '/events' },
       // { id: 2, name: 'Event Details', href: '/event-details' },
@@ -105,8 +105,8 @@ const navItems = [
 export default navItems;
 
 export const social = [
-  { icon: "fa-twitter", link: "" },
-  { icon: "fa-facebook-square", link: "" },
+  { icon: 'fa-twitter', link: '' },
+  { icon: 'fa-facebook-square', link: '' },
   // { icon: "fa-dribbble", link: "" },
-  { icon: "fa-instagram", link: "" },
+  { icon: 'fa-instagram', link: '' },
 ];

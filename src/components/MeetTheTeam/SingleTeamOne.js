@@ -1,6 +1,6 @@
-import { social } from "@/data/NavItems";
-import React from "react";
-import { Col, Image } from "react-bootstrap";
+import { social } from '@/data/NavItems';
+import React from 'react';
+import { Col, Image } from 'react-bootstrap';
 
 const SingleTeamOne = ({ team = {} }) => {
   const { image, name, title, description } = team;

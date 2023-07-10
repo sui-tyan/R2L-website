@@ -1,9 +1,9 @@
-import { social } from "@/data/NavItems";
-import workPackageDetails from "@/data/workPackageDetails";
-import React from "react";
-import { Image } from "react-bootstrap";
-import SingleComment from "../WorkPackagesDetails/SingleComment";
-import CommentForm from "../CommentForm/CommentForm";
+import { social } from '@/data/NavItems';
+import workPackageDetails from '@/data/workPackageDetails';
+import React from 'react';
+import { Image } from 'react-bootstrap';
+import SingleComment from '../WorkPackagesDetails/SingleComment';
+import CommentForm from '../CommentForm/CommentForm';
 
 const {
   image,

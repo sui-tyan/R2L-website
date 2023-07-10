@@ -1,10 +1,10 @@
-import events from "@/data/events";
-import dynamic from "next/dynamic";
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import SingleEvent from "./SingleEvent";
+import events from '@/data/events';
+import dynamic from 'next/dynamic';
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import SingleEvent from './SingleEvent';
 
-const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
+const TinySlider = dynamic(() => import('tiny-slider-react'), { ssr: false });
 
 const settings = {
   lazyload: true,
@@ -13,7 +13,7 @@ const settings = {
   items: 1,
   autoplay: true,
   autoHeight: true,
-  controlsContainer: "#events-one-nav",
+  controlsContainer: '#events-one-nav',
   gutter: 0,
   responsive: {
     768: {

@@ -1,7 +1,7 @@
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import CausesDetailsLeft from "./WorkPackage1Left";
-import CausesDetailsRight from "./WorkPackage1Right";
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import CausesDetailsLeft from './WorkPackage1Left';
+import CausesDetailsRight from './WorkPackage1Right';
 
 const WorkPackage1Details = ({ data, eventUrl }) => {
   console.log(data);

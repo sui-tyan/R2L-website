@@ -1,8 +1,8 @@
-import whyChoose from "@/data/whyChoose";
-import bg from "@/images/backgrounds/why-choose-bg.jpg";
-import Link from "next/link";
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import whyChoose from '@/data/whyChoose';
+import bg from '@/images/backgrounds/why-choose-bg.jpg';
+import Link from 'next/link';
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 
 const {
   tagline,
@@ -32,7 +32,7 @@ const WhyChoose = () => {
               <div className="section-title text-left">
                 <span className="section-title__tagline">{tagline}</span>
                 <h2 className="section-title__title">
-                  {title.split("\n").map((t, i) => (
+                  {title.split('\n').map((t, i) => (
                     <span className="d-block" key={i}>
                       {t}
                     </span>
@@ -70,7 +70,7 @@ const WhyChoose = () => {
                   <div className="bar">
                     <div
                       className="bar-inner count-bar"
-                      style={{ width: "36%" }}
+                      style={{ width: '36%' }}
                       data-percent="36%"
                     >
                       <div className="count-text opacity-100">36%</div>

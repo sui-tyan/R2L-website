@@ -1,10 +1,10 @@
-import { useRootContext } from "@/context/context";
-import navItems, { social } from "@/data/NavItems";
-import logo from "@/images/resources/logo-2.png";
-import Link from "next/link";
-import React from "react";
-import { Image } from "react-bootstrap";
-import NavItem from "./NavItem";
+import { useRootContext } from '@/context/context';
+import navItems, { social } from '@/data/NavItems';
+import logo from '@/images/resources/logo-2.png';
+import Link from 'next/link';
+import React from 'react';
+import { Image } from 'react-bootstrap';
+import NavItem from './NavItem';
 
 const MobileMenu = () => {
   const { toggleMenu, menuStatus } = useRootContext();
@@ -12,7 +12,7 @@ const MobileMenu = () => {
   return (
     <div
       className={`mobile-nav__wrapper  animated fadeInLeft${
-        menuStatus ? " expanded" : ""
+        menuStatus ? ' expanded' : ''
       }`}
     >
       <div

@@ -1,16 +1,16 @@
-import React, { useState } from "react";
-import { Col } from "react-bootstrap";
-import ReactVisibilitySensor from "react-visibility-sensor";
+import React, { useState } from 'react';
+import { Col } from 'react-bootstrap';
+import ReactVisibilitySensor from 'react-visibility-sensor';
 
 const countBar = [
   {
     id: 1,
-    title: "Charity",
+    title: 'Charity',
     percent: 83,
   },
   {
     id: 2,
-    title: "Donations",
+    title: 'Donations',
     percent: 38,
   },
 ];

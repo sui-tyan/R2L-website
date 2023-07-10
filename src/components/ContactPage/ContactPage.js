@@ -1,9 +1,9 @@
-import contactData from "@/data/contactData";
-import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
-import ContactForm from "./ContactForm";
-import GoogleMap from "../GoogleMap/GoogleMap";
-import uc from "@/images/resources/contact-page-img-1.png";
+import contactData from '@/data/contactData';
+import React from 'react';
+import { Col, Container, Image, Row } from 'react-bootstrap';
+import ContactForm from './ContactForm';
+import GoogleMap from '../GoogleMap/GoogleMap';
+import uc from '@/images/resources/contact-page-img-1.png';
 
 const { tel, email, officeAddress, description } = contactData;
 

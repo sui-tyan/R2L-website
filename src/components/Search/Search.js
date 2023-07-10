@@ -1,5 +1,5 @@
-import { useRootContext } from "@/context/context";
-import React from "react";
+import { useRootContext } from '@/context/context';
+import React from 'react';
 
 const Search = () => {
   const { openSearch, toggleSearch } = useRootContext();
@@ -7,11 +7,11 @@ const Search = () => {
   const handleSearch = (e) => {
     e.preventDefault();
     const formData = new FormData(e.target);
-    console.log(formData.get("search"));
+    console.log(formData.get('search'));
   };
 
   return (
-    <div className={`search-popup${openSearch ? " active" : ""}`}>
+    <div className={`search-popup${openSearch ? ' active' : ''}`}>
       <div
         onClick={toggleSearch}
         className="search-popup__overlay search-toggler"

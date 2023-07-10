@@ -1,5 +1,5 @@
-import VideoData from "@/data/videoData";
-import React from "react";
+import VideoData from '@/data/videoData';
+import React from 'react';
 
 const Video = ({ setOpen }) => {
   const { title } = VideoData;
@@ -11,7 +11,7 @@ const Video = ({ setOpen }) => {
           e.preventDefault();
           setOpen(true);
         }}
-        style={{ cursor: "pointer" }}
+        style={{ cursor: 'pointer' }}
         className="video-img help-them__top-video-btn video-popup"
         title="Play Icon"
         id="videolink"

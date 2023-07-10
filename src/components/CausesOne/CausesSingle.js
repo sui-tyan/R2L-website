@@ -1,7 +1,7 @@
-import Link from "next/link";
-import React, { useState } from "react";
-import { Image } from "react-bootstrap";
-import ReactVisibilitySensor from "react-visibility-sensor";
+import Link from 'next/link';
+import React, { useState } from 'react';
+import { Image } from 'react-bootstrap';
+import ReactVisibilitySensor from 'react-visibility-sensor';
 
 const CausesSingle = ({ cause = {}, causePage }) => {
   const [countStart, setCountStart] = useState(false);
@@ -13,14 +13,14 @@ const CausesSingle = ({ cause = {}, causePage }) => {
   };
 
   const { image, category, title, description, raised, goal } = cause;
-  const raisedNumber = +raised.split(",").join("");
-  const goalNumber = +goal.split(",").join("");
+  const raisedNumber = +raised.split(',').join('');
+  const goalNumber = +goal.split(',').join('');
   const percent = Math.round((raisedNumber / goalNumber) * 100);
 
   return (
-    <div className={causePage ? "" : "my-4"}>
+    <div className={causePage ? '' : 'my-4'}>
       <div
-        style={causePage ? {} : { userSelect: "none" }}
+        style={causePage ? {} : { userSelect: 'none' }}
         className="causes-one__single animated fadeInLeft"
       >
         <div className="causes-one__img">

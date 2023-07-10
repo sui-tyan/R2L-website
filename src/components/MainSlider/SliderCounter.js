@@ -1,7 +1,7 @@
-import { mainSliderCounter } from "@/data/mainSliderData";
-import React, { useState } from "react";
-import CountUp from "react-countup";
-import ReactVisibilitySensor from "react-visibility-sensor";
+import { mainSliderCounter } from '@/data/mainSliderData';
+import React, { useState } from 'react';
+import CountUp from 'react-countup';
+import ReactVisibilitySensor from 'react-visibility-sensor';
 
 const SliderCounter = () => {
   const [countStart, setCountStart] = useState(false);

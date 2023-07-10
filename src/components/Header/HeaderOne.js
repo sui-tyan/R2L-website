@@ -1,11 +1,11 @@
-import { useRootContext } from "@/context/context";
-import navItems, { social } from "@/data/NavItems";
-import useScroll from "@/hooks/useScroll";
-import logo from "@/images/resources/logo-1.png";
-import Link from "next/link";
-import React from "react";
-import { Image } from "react-bootstrap";
-import NavItem from "./NavItem";
+import { useRootContext } from '@/context/context';
+import navItems, { social } from '@/data/NavItems';
+import useScroll from '@/hooks/useScroll';
+import logo from '@/images/resources/logo-1.png';
+import Link from 'next/link';
+import React from 'react';
+import { Image } from 'react-bootstrap';
+import NavItem from './NavItem';
 
 const HeaderOne = () => {
   const { scrollTop } = useScroll(130);
@@ -55,15 +55,15 @@ const HeaderOne = () => {
           <nav
             className={
               scrollTop
-                ? "stricky-header stricked-menu main-menu stricky-fixed slideInDown animated"
-                : "main-menu slideIn animated"
+                ? 'stricky-header stricked-menu main-menu stricky-fixed slideInDown animated'
+                : 'main-menu slideIn animated'
             }
           >
             <div
               className={
                 scrollTop
-                  ? "sticky-header__content main-menu__inner"
-                  : "main-menu__inner"
+                  ? 'sticky-header__content main-menu__inner'
+                  : 'main-menu__inner'
               }
             >
               <span
@@ -80,7 +80,7 @@ const HeaderOne = () => {
               <div className="main-menu__right">
                 <span
                   onClick={toggleSearch}
-                  style={{ cursor: "pointer" }}
+                  style={{ cursor: 'pointer' }}
                   className="main-menu__search search-toggler icon-magnifying-glass"
                 ></span>
                 <a href="#" className="main-menu__cart icon-shopping-cart "></a>

@@ -1,11 +1,11 @@
-import newsTwo from "@/data/newsTwo";
-import bg from "@/images/backgrounds/news-section-bg.jpg";
-import dynamic from "next/dynamic";
-import React from "react";
-import { Container, Row } from "react-bootstrap";
-import JarallaxImage from "../Jarallax/JarallaxImage";
-import SingleNews from "./SingleNews";
-const Jarallax = dynamic(() => import("../Jarallax/Jarallax"), { ssr: false });
+import newsTwo from '@/data/newsTwo';
+import bg from '@/images/backgrounds/news-section-bg.jpg';
+import dynamic from 'next/dynamic';
+import React from 'react';
+import { Container, Row } from 'react-bootstrap';
+import JarallaxImage from '../Jarallax/JarallaxImage';
+import SingleNews from './SingleNews';
+const Jarallax = dynamic(() => import('../Jarallax/Jarallax'), { ssr: false });
 
 const NewsTwo = () => {
   return (

@@ -1,10 +1,10 @@
-import testimonial from "@/data/testimonial";
-import bg from "@/images/backgrounds/testimonial-1-bg.jpg";
-import dynamic from "next/dynamic";
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import TestimonialSingle from "./TestimonialSingle";
-const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
+import testimonial from '@/data/testimonial';
+import bg from '@/images/backgrounds/testimonial-1-bg.jpg';
+import dynamic from 'next/dynamic';
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import TestimonialSingle from './TestimonialSingle';
+const TinySlider = dynamic(() => import('tiny-slider-react'), { ssr: false });
 
 const settings = {
   lazyload: true,
@@ -15,7 +15,7 @@ const settings = {
   autoHeight: true,
   controls: true,
   gutter: 0,
-  controlsContainer: "#testimonial-one-carousel-nav",
+  controlsContainer: '#testimonial-one-carousel-nav',
   responsive: {
     768: {
       items: 2,
@@ -24,7 +24,7 @@ const settings = {
   },
 };
 
-const TestimonialOne = ({ className = "" }) => {
+const TestimonialOne = ({ className = '' }) => {
   return (
     <section className={`testimonial-one ${className}`}>
       <div

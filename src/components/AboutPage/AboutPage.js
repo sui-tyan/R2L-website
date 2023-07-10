@@ -1,8 +1,8 @@
-import aboutProgress from "@/data/aboutProgress";
-import image from "@/images/resources/about-page-img-1.jpg";
-import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
-import AboutProgressbar from "./AboutProgressbar";
+import aboutProgress from '@/data/aboutProgress';
+import image from '@/images/resources/about-page-img-1.jpg';
+import React from 'react';
+import { Col, Container, Image, Row } from 'react-bootstrap';
+import AboutProgressbar from './AboutProgressbar';
 
 const AboutPage = () => {
   return (

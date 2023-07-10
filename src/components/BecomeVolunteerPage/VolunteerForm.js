@@ -1,14 +1,14 @@
-import React from "react";
-import { Col, Row } from "react-bootstrap";
+import React from 'react';
+import { Col, Row } from 'react-bootstrap';
 
 const inputs = [
-  "name",
-  "email",
-  "phone",
-  "address",
-  "dateOfBirth",
-  "occupation",
-  "message",
+  'name',
+  'email',
+  'phone',
+  'address',
+  'dateOfBirth',
+  'occupation',
+  'message',
 ];
 
 const VolunteerForm = () => {

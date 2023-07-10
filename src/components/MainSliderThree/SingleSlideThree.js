@@ -1,9 +1,9 @@
-import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
-import { SwiperSlide } from "swiper/react";
+import React from 'react';
+import { Col, Container, Image, Row } from 'react-bootstrap';
+import { SwiperSlide } from 'swiper/react';
 
 const SingleSlideThree = ({ singleSlide = {} }) => {
-  const { image, bg, subTitle, title = "", href } = singleSlide;
+  const { image, bg, subTitle, title = '', href } = singleSlide;
 
   return (
     <SwiperSlide>
@@ -22,7 +22,7 @@ const SingleSlideThree = ({ singleSlide = {} }) => {
             <div className="main-slider__content">
               <p>{subTitle}</p>
               <h2>
-                {title.split("\n").map((t, i) => (
+                {title.split('\n').map((t, i) => (
                   <span key={i} className="d-block">
                     {t}
                   </span>

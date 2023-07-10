@@ -1,6 +1,6 @@
-import Link from "next/link";
-import React from "react";
-import { Image } from "react-bootstrap";
+import Link from 'next/link';
+import React from 'react';
+import { Image } from 'react-bootstrap';
 
 const SingleEvent = ({ event = {}, eventsPage }) => {
   const { id, date, time, title, image } = event;
@@ -9,7 +9,7 @@ const SingleEvent = ({ event = {}, eventsPage }) => {
     <div>
       <div
         className="events-one__single"
-        style={{ userSelect: eventsPage ? "unset" : "none" }}
+        style={{ userSelect: eventsPage ? 'unset' : 'none' }}
       >
         <div className="events-one__img">
           <Image
@@ -18,7 +18,7 @@ const SingleEvent = ({ event = {}, eventsPage }) => {
           />
           <div className="events-one__date-box">
             <p>
-              {date.split(" ").map((t, i) => (
+              {date.split(' ').map((t, i) => (
                 <span className="d-block" key={i}>
                   {t}
                 </span>
@@ -34,7 +34,7 @@ const SingleEvent = ({ event = {}, eventsPage }) => {
               {/* Link to article */}
               {/* <Link href="/event-details"> */}
               <a>
-                {title.split("\n").map((t, i) => (
+                {title.split('\n').map((t, i) => (
                   <span className="d-block" key={i}>
                     {t}
                   </span>

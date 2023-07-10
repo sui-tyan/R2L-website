@@ -1,5 +1,5 @@
-import React from "react";
-import { Col, Image } from "react-bootstrap";
+import React from 'react';
+import { Col, Image } from 'react-bootstrap';
 
 const SingleFunding = ({ funding = {} }) => {
   const { image, title, category } = funding;

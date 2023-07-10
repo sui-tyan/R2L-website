@@ -1,11 +1,11 @@
-import teamUC from "@/data/teamUC";
-import React from "react";
-import ucBannerData from "@/data/bannerDataUC";
-import TeamSection from "./TeamSection";
-import ghentBannerData from "@/data/bannerDataGhent";
-import teamGhent from "@/data/teamGhent";
+import teamUC from '@/data/teamUC';
+import React from 'react';
+import ucBannerData from '@/data/bannerDataUC';
+import TeamSection from './TeamSection';
+import ghentBannerData from '@/data/bannerDataGhent';
+import teamGhent from '@/data/teamGhent';
 
-const MeetTheTeam = ({ className = "" }) => {
+const MeetTheTeam = ({ className = '' }) => {
   return (
     // <section className={`team-one ${className}`}>
     <section>

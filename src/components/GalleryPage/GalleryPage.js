@@ -1,7 +1,7 @@
-import galleryPageData from "@/data/galleryPageData";
-import React from "react";
-import { Container, Row } from "react-bootstrap";
-import SingleGallery from "./SingleGallery";
+import galleryPageData from '@/data/galleryPageData';
+import React from 'react';
+import { Container, Row } from 'react-bootstrap';
+import SingleGallery from './SingleGallery';
 
 const GalleryPage = () => {
   return (

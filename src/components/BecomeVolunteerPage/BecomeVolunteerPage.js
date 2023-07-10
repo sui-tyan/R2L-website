@@ -1,8 +1,8 @@
-import becomeVolunteerList from "@/data/becomeVolunteerList";
-import image from "@/images/resources/become-a-volunteer.jpg";
-import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
-import VolunteerForm from "./VolunteerForm";
+import becomeVolunteerList from '@/data/becomeVolunteerList';
+import image from '@/images/resources/become-a-volunteer.jpg';
+import React from 'react';
+import { Col, Container, Image, Row } from 'react-bootstrap';
+import VolunteerForm from './VolunteerForm';
 
 const BecomeVolunteerPage = () => {
   return (

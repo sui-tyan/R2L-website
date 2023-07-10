@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from 'react';
 
 const useScroll = (scrollSize = 0) => {
   const [scroll, setScroll] = useState(0);
@@ -15,9 +15,9 @@ const useScroll = (scrollSize = 0) => {
 
   useEffect(() => {
     handleSet();
-    window.addEventListener("scroll", handleSet);
+    window.addEventListener('scroll', handleSet);
 
-    return () => window.removeEventListener("scroll", handleSet);
+    return () => window.removeEventListener('scroll', handleSet);
   }, [handleSet]);
 
   return { scroll, scrollTop };

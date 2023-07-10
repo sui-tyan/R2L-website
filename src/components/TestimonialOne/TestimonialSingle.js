@@ -1,12 +1,12 @@
-import React from "react";
-import { Image } from "react-bootstrap";
+import React from 'react';
+import { Image } from 'react-bootstrap';
 
 const TestimonialSingle = ({ singleTestimonial }) => {
   const { name, description, category, image } = singleTestimonial;
 
   return (
     <div>
-      <div style={{ userSelect: "none" }} className="testimonial-one__single">
+      <div style={{ userSelect: 'none' }} className="testimonial-one__single">
         <p className="testimonial-one__text">{description}</p>
         <div className="testimonial-one__client-info">
           <div className="testimonial-one__client-img">

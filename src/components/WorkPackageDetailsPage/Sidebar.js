@@ -1,6 +1,6 @@
-import { workPackageDetailsPage } from "@/data/workPackageDetails";
-import React from "react";
-import { Image } from "react-bootstrap";
+import { workPackageDetailsPage } from '@/data/workPackageDetails';
+import React from 'react';
+import { Image } from 'react-bootstrap';
 
 const { postList, tags, categories } = workPackageDetailsPage;
 
@@ -8,7 +8,7 @@ const Sidebar = () => {
   const handleSubmit = (e) => {
     e.placeholder();
     const formData = new FormData(e.target);
-    console.log(formData.get("search"));
+    console.log(formData.get('search'));
   };
 
   return (

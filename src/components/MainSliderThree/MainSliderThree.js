@@ -1,28 +1,28 @@
-import mainSliderThree from "@/data/mainSliderThree";
-import React from "react";
+import mainSliderThree from '@/data/mainSliderThree';
+import React from 'react';
 import SwiperCore, {
   Autoplay,
   EffectFade,
   Navigation,
   Pagination,
-} from "swiper";
-import { Swiper } from "swiper/react";
-import SingleSlideThree from "./SingleSlideThree";
+} from 'swiper';
+import { Swiper } from 'swiper/react';
+import SingleSlideThree from './SingleSlideThree';
 
 SwiperCore.use([Autoplay, Navigation, EffectFade, Pagination]);
 
 const mainSlideOptions = {
   slidesPerView: 1,
   loop: true,
-  effect: "fade",
+  effect: 'fade',
   pagination: {
-    el: "#main-slider-pagination",
-    type: "bullets",
+    el: '#main-slider-pagination',
+    type: 'bullets',
     clickable: true,
   },
   navigation: {
-    nextEl: "#main-slider__swiper-button-next",
-    prevEl: "#main-slider__swiper-button-prev",
+    nextEl: '#main-slider__swiper-button-next',
+    prevEl: '#main-slider__swiper-button-prev',
   },
   autoplay: {
     delay: 5000,

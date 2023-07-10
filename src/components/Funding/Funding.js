@@ -1,7 +1,7 @@
-import fundingData from "@/data/fundingData";
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import SingleFunding from "./SingleFunding";
+import fundingData from '@/data/fundingData';
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import SingleFunding from './SingleFunding';
 
 const Funding = () => {
   return (

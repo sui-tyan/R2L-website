@@ -1,11 +1,11 @@
-import { useRootContext } from "@/context/context";
-import navItems, { social } from "@/data/NavItems";
-import useScroll from "@/hooks/useScroll";
-import logo from "@/images/resources/logo-2.png";
-import Link from "next/link";
-import React from "react";
-import { Container, Image } from "react-bootstrap";
-import NavItem from "./NavItem";
+import { useRootContext } from '@/context/context';
+import navItems, { social } from '@/data/NavItems';
+import useScroll from '@/hooks/useScroll';
+import logo from '@/images/resources/logo-2.png';
+import Link from 'next/link';
+import React from 'react';
+import { Container, Image } from 'react-bootstrap';
+import NavItem from './NavItem';
 
 const HeaderTwo = () => {
   const { scrollTop } = useScroll(130);
@@ -58,7 +58,7 @@ const HeaderTwo = () => {
               <div className="main-header-two__btn">
                 <Link href="/causes-details">
                   <a className="main-header-two__donate-btn">
-                    <i className="fa fa-heart"></i>Donate{" "}
+                    <i className="fa fa-heart"></i>Donate{' '}
                   </a>
                 </Link>
               </div>
@@ -70,16 +70,16 @@ const HeaderTwo = () => {
         <nav
           className={
             scrollTop
-              ? "stricky-header stricked-menu main-menu main-menu__two stricky-fixed slideInDown animated"
-              : "main-menu main-menu__two slideIn animated"
+              ? 'stricky-header stricked-menu main-menu main-menu__two stricky-fixed slideInDown animated'
+              : 'main-menu main-menu__two slideIn animated'
           }
         >
           <Container>
             <div
               className={
                 scrollTop
-                  ? "sticky-header__content main-menu__inner clearfix"
-                  : "main-menu__inner clearfix"
+                  ? 'sticky-header__content main-menu__inner clearfix'
+                  : 'main-menu__inner clearfix'
               }
             >
               <span
@@ -103,7 +103,7 @@ const HeaderTwo = () => {
                 </div>
                 <span
                   onClick={toggleSearch}
-                  style={{ cursor: "pointer" }}
+                  style={{ cursor: 'pointer' }}
                   className="main-menu__search search-toggler icon-magnifying-glass"
                 ></span>
                 <a

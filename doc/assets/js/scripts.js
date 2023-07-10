@@ -21,7 +21,7 @@
 	
 	$('.dropdown-toggle').dropdown();
 	
-	$(".collapse").collapse();
+	$('.collapse').collapse();
 	
 	$(window).one('scroll', function(){
 		$('.navbar').scrollspy();

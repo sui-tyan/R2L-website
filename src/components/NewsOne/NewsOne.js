@@ -1,9 +1,9 @@
-import newsData from "@/data/NewsData";
-import image from "@/images/blog/news-one-img-1.jpg";
-import Link from "next/link";
-import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
-import SingleNews from "./SingleNews";
+import newsData from '@/data/NewsData';
+import image from '@/images/blog/news-one-img-1.jpg';
+import Link from 'next/link';
+import React from 'react';
+import { Col, Container, Image, Row } from 'react-bootstrap';
+import SingleNews from './SingleNews';
 
 const NewsOne = () => {
   return (

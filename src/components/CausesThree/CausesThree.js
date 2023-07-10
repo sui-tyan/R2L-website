@@ -1,10 +1,10 @@
-import causesThree from "@/data/causesThree";
-import dynamic from "next/dynamic";
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import CausesSingle from "../CausesOne/CausesSingle";
+import causesThree from '@/data/causesThree';
+import dynamic from 'next/dynamic';
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import CausesSingle from '../CausesOne/CausesSingle';
 
-const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
+const TinySlider = dynamic(() => import('tiny-slider-react'), { ssr: false });
 
 const settings = {
   lazyload: true,

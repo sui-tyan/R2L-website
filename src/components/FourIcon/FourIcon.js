@@ -1,7 +1,7 @@
-import fourIcons from "@/data/fourIcons";
-import React from "react";
-import Link from "next/link";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import fourIcons from '@/data/fourIcons';
+import React from 'react';
+import Link from 'next/link';
+import { Col, Container, Image, Row } from 'react-bootstrap';
 
 const FourIcon = () => {
   return (
@@ -25,7 +25,7 @@ const FourIcon = () => {
                   <div className="four-icon__bottom-icon">
                     {(() => {
                       const Icon = icon;
-                      return Icon ? <Icon size={95} stroke={1}></Icon> : "";
+                      return Icon ? <Icon size={95} stroke={1}></Icon> : '';
                     })()}
                   </div>
                 </div>

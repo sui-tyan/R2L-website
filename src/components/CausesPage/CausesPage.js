@@ -1,7 +1,7 @@
-import causesPageData from "@/data/causesPageData";
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import CausesSingle from "../CausesOne/CausesSingle";
+import causesPageData from '@/data/causesPageData';
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import CausesSingle from '../CausesOne/CausesSingle';
 
 const CausesPage = () => {
   return (

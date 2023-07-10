@@ -1,6 +1,6 @@
-import { useRouter } from "next/router";
-import React, { useEffect, useState } from "react";
-import context from "./context";
+import { useRouter } from 'next/router';
+import React, { useEffect, useState } from 'react';
+import context from './context';
 
 const ContextProvider = ({ children }) => {
   const [menuStatus, setMenuStatus] = useState(false);
@@ -12,7 +12,7 @@ const ContextProvider = ({ children }) => {
     setMenuStatus((preMenuStatus) =>
       value === undefined
         ? !preMenuStatus
-        : typeof value === "boolean"
+        : typeof value === 'boolean'
         ? value
         : !!value
     );

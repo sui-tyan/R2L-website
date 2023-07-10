@@ -1,6 +1,6 @@
-import image from "@/images/resources/need-help-img-1.jpg";
-import React from "react";
-import { Image } from "react-bootstrap";
+import image from '@/images/resources/need-help-img-1.jpg';
+import React from 'react';
+import { Image } from 'react-bootstrap';
 
 const NeedHelp = () => {
   return (

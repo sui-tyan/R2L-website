@@ -1,7 +1,7 @@
-import React from "react";
-import { Col, Row } from "react-bootstrap";
+import React from 'react';
+import { Col, Row } from 'react-bootstrap';
 
-const inputs = ["name", "email", "message"];
+const inputs = ['name', 'email', 'message'];
 
 const CommentForm = () => {
   const handleSubmit = (e) => {

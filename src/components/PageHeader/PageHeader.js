@@ -1,8 +1,8 @@
-import bg from "@/images/backgrounds/workpackages-bg.jpg";
-import Link from "next/link";
-import React from "react";
+import bg from '@/images/backgrounds/workpackages-bg.jpg';
+import Link from 'next/link';
+import React from 'react';
 
-const PageHeader = ({ pageTitle = "", header = bg }) => {
+const PageHeader = ({ pageTitle = '', header = bg }) => {
   return (
     <section className="page-header">
       <div

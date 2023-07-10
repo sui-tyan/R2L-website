@@ -1,7 +1,7 @@
-import React from "react";
-import { Container, Row } from "react-bootstrap";
-import CharityContent from "./CharityContent";
-import CharityImage from "./CharityImage";
+import React from 'react';
+import { Container, Row } from 'react-bootstrap';
+import CharityContent from './CharityContent';
+import CharityImage from './CharityImage';
 
 const Charity = () => {
   return (

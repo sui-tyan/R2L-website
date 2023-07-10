@@ -1,13 +1,13 @@
-import helpThem from "@/data/helpThem";
-import VideoData from "@/data/videoData";
-import bg from "@/images/backgrounds/help-them-bg.jpg";
-import dynamic from "next/dynamic";
-import React, { useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import JarallaxImage from "../Jarallax/JarallaxImage";
-import Video from "./Video";
-import VideoModal from "./VideoModal";
-const Jarallax = dynamic(() => import("../Jarallax/Jarallax"), { ssr: false });
+import helpThem from '@/data/helpThem';
+import VideoData from '@/data/videoData';
+import bg from '@/images/backgrounds/help-them-bg.jpg';
+import dynamic from 'next/dynamic';
+import React, { useState } from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import JarallaxImage from '../Jarallax/JarallaxImage';
+import Video from './Video';
+import VideoModal from './VideoModal';
+const Jarallax = dynamic(() => import('../Jarallax/Jarallax'), { ssr: false });
 
 const HelpThem = () => {
   const [isOpen, setOpen] = useState(false);

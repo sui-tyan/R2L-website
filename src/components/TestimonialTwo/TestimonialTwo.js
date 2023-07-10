@@ -1,7 +1,7 @@
-import testimonialTwo from "@/data/testimonialTwo";
-import React from "react";
-import { Container, Row } from "react-bootstrap";
-import SingleTestimonial from "./SingleTestimonial";
+import testimonialTwo from '@/data/testimonialTwo';
+import React from 'react';
+import { Container, Row } from 'react-bootstrap';
+import SingleTestimonial from './SingleTestimonial';
 
 const TestimonialTwo = () => {
   return (

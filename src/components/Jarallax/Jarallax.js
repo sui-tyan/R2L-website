@@ -1,11 +1,11 @@
-import { jarallax, jarallaxVideo } from "jarallax";
-import "jarallax/dist/jarallax.css";
-import React, { useEffect, useRef } from "react";
+import { jarallax, jarallaxVideo } from 'jarallax';
+import 'jarallax/dist/jarallax.css';
+import React, { useEffect, useRef } from 'react';
 
 // Optional video extension
 jarallaxVideo();
 
-const Jarallax = ({ className = "", children, ...props }) => {
+const Jarallax = ({ className = '', children, ...props }) => {
   const element = useRef();
 
   // Init Jarallax.
@@ -18,7 +18,7 @@ const Jarallax = ({ className = "", children, ...props }) => {
     // Destroy Jarallax.
     return () => {
       if (current) {
-        jarallax(current, "destroy");
+        jarallax(current, 'destroy');
       }
     };
   }, [props]);
@@ -27,7 +27,7 @@ const Jarallax = ({ className = "", children, ...props }) => {
   useEffect(() => {
     const { current } = element;
     if (current) {
-      jarallax(current, "destroy");
+      jarallax(current, 'destroy');
       jarallax(current, props);
     }
   }, [props]);

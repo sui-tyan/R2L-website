@@ -1,8 +1,8 @@
-import galleryData from "@/data/galleryData";
-import dynamic from "next/dynamic";
-import React from "react";
-import { Image } from "react-bootstrap";
-const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
+import galleryData from '@/data/galleryData';
+import dynamic from 'next/dynamic';
+import React from 'react';
+import { Image } from 'react-bootstrap';
+const TinySlider = dynamic(() => import('tiny-slider-react'), { ssr: false });
 
 const settings = {
   lazyload: true,
@@ -29,7 +29,7 @@ const settings = {
   },
 };
 
-const GalleryOne = ({ className = "" }) => {
+const GalleryOne = ({ className = '' }) => {
   return (
     <section className={`gallery-one ${className}`}>
       <div className="gallery-one__container-box clearfix">
@@ -37,7 +37,7 @@ const GalleryOne = ({ className = "" }) => {
           {galleryData.map(({ id, image, title, subTitle }) => (
             <div key={id}>
               <div
-                style={{ userSelect: "none" }}
+                style={{ userSelect: 'none' }}
                 className="gallery-one__single"
               >
                 <div className="gallery-one__img-box">

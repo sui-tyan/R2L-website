@@ -1,11 +1,11 @@
-import bg from "@/images/backgrounds/join-one-bg.jpg";
-import dynamic from "next/dynamic";
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import JarallaxImage from "../Jarallax/JarallaxImage";
-const Jarallax = dynamic(() => import("../Jarallax/Jarallax"), { ssr: false });
+import bg from '@/images/backgrounds/join-one-bg.jpg';
+import dynamic from 'next/dynamic';
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import JarallaxImage from '../Jarallax/JarallaxImage';
+const Jarallax = dynamic(() => import('../Jarallax/Jarallax'), { ssr: false });
 
-const JoinOne = ({ className = "" }) => {
+const JoinOne = ({ className = '' }) => {
   return (
     <section className={`join-one ${className}`}>
       <Jarallax className="join-one-bg" speed={0.2} imgPosition="50% 0%">

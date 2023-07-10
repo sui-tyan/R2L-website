@@ -1,7 +1,7 @@
-import footerData from "@/data/footerData";
-import Link from "next/link";
-import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import footerData from '@/data/footerData';
+import Link from 'next/link';
+import React from 'react';
+import { Col, Container, Image, Row } from 'react-bootstrap';
 
 const {
   exploreList,

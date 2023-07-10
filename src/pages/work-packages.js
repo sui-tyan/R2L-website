@@ -1,7 +1,7 @@
-import Layout from "@/components/Layout/Layout";
-import WorkPackages from "@/components/WorkPackagesPage/WorkPackagesPage";
-import PageHeader from "@/components/PageHeader/PageHeader";
-import React from "react";
+import Layout from '@/components/Layout/Layout';
+import WorkPackages from '@/components/WorkPackagesPage/WorkPackagesPage';
+import PageHeader from '@/components/PageHeader/PageHeader';
+import React from 'react';
 
 const News = () => {
   return (

@@ -1,8 +1,8 @@
-import { useRootContext } from "@/context/context";
-import Link from "next/link";
-import { useRouter } from "next/router";
-import React, { useState } from "react";
-import SubNavItem from "./SubNavItem";
+import { useRootContext } from '@/context/context';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import React, { useState } from 'react';
+import SubNavItem from './SubNavItem';
 
 const NavItem = ({ item = {} }) => {
   const { pathname } = useRouter();
@@ -18,14 +18,14 @@ const NavItem = ({ item = {} }) => {
   const { name, href, subNavItems } = item;
 
   return (
-    <li className={`dropdown${pathname === href ? " current" : ""}`}>
+    <li className={`dropdown${pathname === href ? ' current' : ''}`}>
       <Link href={href}>
-        <a className={expand ? " expanded" : ""}>
+        <a className={expand ? ' expanded' : ''}>
           {name}
           <button
             onClick={handleExpand}
             ariaLabel="dropdown toggler"
-            className={expand ? "expanded" : ""}
+            className={expand ? 'expanded' : ''}
           >
             <i className="fa fa-angle-down"></i>
           </button>
@@ -33,7 +33,7 @@ const NavItem = ({ item = {} }) => {
       </Link>
       <ul
         style={{
-          display: expand ? "block" : "none",
+          display: expand ? 'block' : 'none',
         }}
       >
         {subNavItems.map((subItem) => (

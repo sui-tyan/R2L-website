@@ -1,7 +1,7 @@
-import featureOne from "@/data/featureOne";
-import React from "react";
-import { Container, Row } from "react-bootstrap";
-import SingleFeature from "./SingleFeature";
+import featureOne from '@/data/featureOne';
+import React from 'react';
+import { Container, Row } from 'react-bootstrap';
+import SingleFeature from './SingleFeature';
 
 const FeatureOne = () => {
   return (

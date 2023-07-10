@@ -1,10 +1,10 @@
-import causesData from "@/data/causesData";
-import dynamic from "next/dynamic";
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import CausesSingle from "./CausesSingle";
+import causesData from '@/data/causesData';
+import dynamic from 'next/dynamic';
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import CausesSingle from './CausesSingle';
 
-const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
+const TinySlider = dynamic(() => import('tiny-slider-react'), { ssr: false });
 
 const settings = {
   lazyload: true,
@@ -14,7 +14,7 @@ const settings = {
   autoplay: true,
   autoHeight: true,
   controls: false,
-  navPosition: "bottom",
+  navPosition: 'bottom',
   gutter: 0,
   responsive: {
     768: {

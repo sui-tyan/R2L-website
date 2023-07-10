@@ -1,6 +1,6 @@
-import Link from "next/link";
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import Link from 'next/link';
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 
 const BecomeVolunteer = () => {
   return (

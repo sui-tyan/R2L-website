@@ -2,8 +2,8 @@
  * adapted from becomevolunteer
  */
 
-import React from "react";
-import { Image, Col, Container, Row } from "react-bootstrap";
+import React from 'react';
+import { Image, Col, Container, Row } from 'react-bootstrap';
 
 const TeamBanner = (props) => {
   return (

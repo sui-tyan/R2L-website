@@ -1,5 +1,5 @@
-import Link from "next/link";
-import React, { useState } from "react";
+import Link from 'next/link';
+import React, { useState } from 'react';
 
 const SubNavItem = ({ subItem = {} }) => {
   const [expand, setExpand] = useState(false);
@@ -15,13 +15,13 @@ const SubNavItem = ({ subItem = {} }) => {
   return (
     <li>
       <Link href={href}>
-        <a className={expand && subItems?.length ? " expanded" : ""}>
+        <a className={expand && subItems?.length ? ' expanded' : ''}>
           {name}
           {subItems?.length && (
             <button
               onClick={handleExpand}
               ariaLabel="dropdown toggler"
-              className={expand ? "expanded" : ""}
+              className={expand ? 'expanded' : ''}
             >
               <i className="fa fa-angle-down"></i>
             </button>
@@ -30,7 +30,7 @@ const SubNavItem = ({ subItem = {} }) => {
       </Link>
       <ul
         style={{
-          display: expand ? "block" : "none",
+          display: expand ? 'block' : 'none',
         }}
       >
         {subItems?.map((item) => (

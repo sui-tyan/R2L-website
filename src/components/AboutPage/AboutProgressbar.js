@@ -1,6 +1,6 @@
-import React from "react";
-import { CircularProgressbar } from "react-circular-progressbar";
-import "react-circular-progressbar/dist/styles.css";
+import React from 'react';
+import { CircularProgressbar } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 
 const AboutProgressbar = ({ progress = {} }) => {
   const { percentage, title } = progress;
@@ -15,16 +15,16 @@ const AboutProgressbar = ({ progress = {} }) => {
             text={`${percentage}%`}
             styles={{
               path: {
-                stroke: "#15c8a0",
-                strokeLinecap: "butt",
+                stroke: '#15c8a0',
+                strokeLinecap: 'butt',
               },
               text: {
-                fill: "black",
+                fill: 'black',
                 fontWeight: 900,
                 fontSize: 16,
               },
               trail: {
-                stroke: "#e5eeec",
+                stroke: '#e5eeec',
               },
             }}
           />

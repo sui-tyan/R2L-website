@@ -1,7 +1,7 @@
-import workPackages from "@/data/workPackages";
-import React from "react";
-import { Container, Row } from "react-bootstrap";
-import SingleWorkPackage from "../WorkPackagesPage/SingleWorkPackage";
+import workPackages from '@/data/workPackages';
+import React from 'react';
+import { Container, Row } from 'react-bootstrap';
+import SingleWorkPackage from '../WorkPackagesPage/SingleWorkPackage';
 
 const WorkPackages = () => {
   return (

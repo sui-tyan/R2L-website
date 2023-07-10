@@ -1,7 +1,7 @@
-import GalleryPage from "@/components/GalleryPage/GalleryPage";
-import Layout from "@/components/Layout/Layout";
-import PageHeader from "@/components/PageHeader/PageHeader";
-import React from "react";
+import GalleryPage from '@/components/GalleryPage/GalleryPage';
+import Layout from '@/components/Layout/Layout';
+import PageHeader from '@/components/PageHeader/PageHeader';
+import React from 'react';
 
 const Gallery = () => {
   return (

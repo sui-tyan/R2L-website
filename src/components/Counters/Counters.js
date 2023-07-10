@@ -1,10 +1,10 @@
-import counter from "@/data/counter";
-import React, { useState } from "react";
-import { Container } from "react-bootstrap";
-import CountUp from "react-countup";
-import ReactVisibilitySensor from "react-visibility-sensor";
+import counter from '@/data/counter';
+import React, { useState } from 'react';
+import { Container } from 'react-bootstrap';
+import CountUp from 'react-countup';
+import ReactVisibilitySensor from 'react-visibility-sensor';
 
-const Counters = ({ className = "" }) => {
+const Counters = ({ className = '' }) => {
   const [countStart, setCountStart] = useState(false);
 
   const onVisibilityChange = (isVisible) => {

@@ -1,6 +1,6 @@
-import React from "react";
-import Link from "next/link";
-import { Image } from "react-bootstrap";
+import React from 'react';
+import Link from 'next/link';
+import { Image } from 'react-bootstrap';
 
 const CausesDetailsRight = ({ data, eventUrl }) => {
   const activities = data.sidebar.activities;

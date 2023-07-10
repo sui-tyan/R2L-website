@@ -1,7 +1,7 @@
-import helpThemTwo from "@/data/helpThemTwo";
-import React, { useState } from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
-import VideoModal from "../HelpThem/VideoModal";
+import helpThemTwo from '@/data/helpThemTwo';
+import React, { useState } from 'react';
+import { Col, Container, Image, Row } from 'react-bootstrap';
+import VideoModal from '../HelpThem/VideoModal';
 
 const {
   image,
@@ -32,7 +32,7 @@ const HelpThemTwo = () => {
                 <div className="help-them-two__img">
                   <Image src={image.src} alt="" />
                   <span
-                    style={{ cursor: "pointer" }}
+                    style={{ cursor: 'pointer' }}
                     onClick={() => setOpen(true)}
                     className="help-them-two__video-btn video-popup"
                   >
@@ -46,7 +46,7 @@ const HelpThemTwo = () => {
                 <div className="section-title text-left">
                   <span className="section-title__tagline">{tagline}</span>
                   <h2 className="section-title__title">
-                    {title.split("\n").map((t, i) => (
+                    {title.split('\n').map((t, i) => (
                       <span key={i} className="d-block">
                         {t}
                       </span>
