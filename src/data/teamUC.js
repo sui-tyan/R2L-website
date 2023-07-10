@@ -11,7 +11,7 @@ const teamUC = [
     id: 2,
     image: 'robino-cawi.jpg',
     title: 'Dr. Robino Cawi',
-    description: 'Dr. Robino is the Focal Person for Domain 1-A and the dean of Criminal Justice Education at University of the Cordilleras.',
+    description: 'Dr. Robino is the Focal Person for Domain 1 and the dean of Criminal Justice Education at University of the Cordilleras.',
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const teamUC = [
     id: 5,
     image: 'thelma-palaoag.jpg',
     title: 'Dr. Thelma Palaoag',
-    description: 'Dr. Thelma is the Focal Person in Domain 2-A and a faculty of Information Technology and Computer Science at University of the Cordilleras.',
+    description: 'Dr. Thelma is the Focal Person in Domain 2 and a faculty of Information Technology and Computer Science at University of the Cordilleras.',
   },
   {
     id: 6,
@@ -69,7 +69,7 @@ const teamUC = [
     id: 11,
     image: 'darlyn-tagarino.jpg',
     title: 'Dr. Darlyn Tagarino',
-    description: 'Dr. Darlyn is the Focal Person of Domain 5-A and a faculty of Business Administration at University of the Cordilleras.',
+    description: 'Dr. Darlyn is the Focal Person of Domain 5 and a faculty of Business Administration at University of the Cordilleras.',
   },
   //Domain 6
   {
