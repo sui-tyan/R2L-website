@@ -46,9 +46,9 @@ const teamUC = [
   {
     id: 7,
     image: 'scyld-segundo.jpg',
-    title: 'Sclyd Segundo',
+    title: 'Scyld Segundo',
     description:
-      'Sclyd is the Focal Person of Domain 3 and a faculty of Criminal Justice Education at University of the Cordilleras.',
+      'Scyld is the Focal Person of Domain 3 and a faculty of Criminal Justice Education at University of the Cordilleras.',
   },
   {
     id: 8,
