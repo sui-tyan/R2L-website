@@ -29,7 +29,7 @@ const ContactPage = () => {
                       <span className="icon-chat"></span>
                     </div>
                     <div className="text">
-                      <p>Call Anytime</p>
+                      <p>Monday - Saturday | 8:00 AM - 5:00 AM</p>
                       <a href={`tel:${tel}`}>{tel}</a>
                     </div>
                   </li>
@@ -47,7 +47,7 @@ const ContactPage = () => {
                       <span className="icon-address"></span>
                     </div>
                     <div className="text">
-                      <p>Visit Office</p>
+                      <p>Office Address</p>
                       <h5>{officeAddress}</h5>
                     </div>
                   </li>
