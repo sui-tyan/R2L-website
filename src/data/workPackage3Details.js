@@ -61,6 +61,22 @@ const workPackage3Details = {
         // time: "3 hours ago",
         text: 'The community outreach in Barangay Loacan, Sitio Tocmo in Itogon, Benguet went full gear...',
       },
+      {
+        id: 2,
+        image: 'recent-donation-img-1.jpg',
+        amount: 'December 04, 2023',
+        name: 'TOCMO INTEGRATED SCHOOL Information, Education and Communication Drive and Sports Clinic',
+        // time: "3 hours ago",
+        text: 'Principal Rinan Bruno and UCcontingents led by Dr. Ariel...',
+      },
+      {
+        id: 3,
+        image: 'recent-donation-img-1.jpg',
+        amount: 'February 23, 2024',
+        name: 'Revisit and Donation of Books to TOCMO Integrated School & Human Rights Awareness to Parents',
+        // time: "3 hours ago",
+        text: 'Mr. Scyld C. Segundo discussing the partnership and the Rights2LIFE project...',
+      },
     ],
     lead: {
       image: scyldSegundo,

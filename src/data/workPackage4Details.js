@@ -69,6 +69,20 @@ const workPackage4Details = {
         name: 'Ghent University Study Visit Re-echo Session',
         text: 'Ghent University Study Visit Re-Echo Session, led by...',
       },
+      {
+        id: 3,
+        image: 'recent-donation-img-2.jpg',
+        amount: 'August 30, 2023',
+        name: 'Training-Workshop on Human Rights-Based Curriculum with the Ateneo Human Rights Center - Day 1',
+        text: 'Dr. Ariel Nimo B. Pumecha giving the rationale of the activity...',
+      },
+      {
+        id: 4,
+        image: 'recent-donation-img-2.jpg',
+        amount: 'August 31, 2023',
+        name: 'Training-Workshop on Human Rights-Based Curriculum with the Ateneo Human Rights Center - Day 2',
+        text: 'The Director of AHRC, Atty. Ray Paolo Santiago, discussing the Philippine Bill of Rights...',
+      },
     ],
     lead: {
       image: cherryCabarrubias,

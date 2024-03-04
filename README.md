@@ -1,9 +1,13 @@
 # R2L Website
 
+## NOTE
+
+Current project is incompatible to Node v.18 or above. Node v.16.0.0 is used for deployment.
+
 ## Website URLs
 
 - Use `<Link>` instead of `<a>`. This ensures proper routing from development to
-deployment (e.g. `/home` vs `<githubrepo>/home`)
+  deployment (e.g. `/home` vs `<githubrepo>/home`)
 
 ## Deployment
 
