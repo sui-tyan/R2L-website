@@ -58,29 +58,13 @@ const workPackage2Details = {
       {
         id: 2,
         image: 'recent-donation-img-1.jpg',
-        amount: 'May 9, 2023',
-        name: 'Remembering EDSA: Implications of the EDSA Revolution to Political and Civil Rights',
-        // time: "3 hours ago",
-        text: 'Hon. Jose M. Molintas, a Baguio City Counselor and Atty. Joel Dizon, a faculty member of...',
-      },
-      {
-        id: 3,
-        image: 'recent-donation-img-1.jpg',
-        amount: 'May 16, 2023',
-        name: 'WE for gender equality and inclusive society": Womens’ Month Forum',
-        // time: "3 hours ago",
-        text: 'P/COL. Marites B. Villacarlos, Chief Of The Regional Forensic Unit-Cordillera shared the value and...',
-      },
-      {
-        id: 4,
-        image: 'recent-donation-img-1.jpg',
         amount: 'November 7, 2023',
         name: 'Research Proposal Presentation',
         // time: "3 hours ago",
         text: 'Research Proponents from various colleges and offices...',
       },
       {
-        id: 5,
+        id: 3,
         image: 'recent-donation-img-1.jpg',
         amount: 'November 11, 2023',
         name: 'Amplifying Research Capability MODULE 1: Research Process',
@@ -89,7 +73,7 @@ const workPackage2Details = {
       },
 
       {
-        id: 6,
+        id: 4,
         image: 'recent-donation-img-1.jpg',
         amount: 'November 20, 2023',
         name: 'Human Rights Research',
@@ -97,7 +81,7 @@ const workPackage2Details = {
         text: 'A research collaboration between faculty, criminology interns...',
       },
       {
-        id: 7,
+        id: 5,
         image: 'recent-donation-img-1.jpg',
         amount: 'January 30, 2024',
         name: 'Research Grants Recipients Orientation and Distribution of the Memorandum of Agreement',
@@ -105,7 +89,7 @@ const workPackage2Details = {
         text: 'Project leader Dr. Ariel Nimo B. Pumecha discussing...',
       },
       {
-        id: 8,
+        id: 6,
         image: 'recent-donation-img-1.jpg',
         amount: 'February 12, 2024',
         name: 'Amplifying Research Capability MODULE 2: Research Design and Methodology',
