@@ -20,7 +20,7 @@ const Home2 = () => {
       <Layout pageTitle="">
         <MainSliderTwo />
         {/* <MainSliderThree /> */}
-        <Introduction />a
+        <Introduction />
         <FourIcon />
         {/* <WeInspire /> */}
         {/* <BrandOne /> */}
