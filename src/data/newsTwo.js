@@ -35,6 +35,38 @@ const newsTwo = [
       'A series of training on Criminological Research Design Formulation in partnership with Ghent University will be conducted sometime in June and July, 2023. Some slots will be open to the public. More information about the training will be uploaded by the first week of June, 2023.',
     author: 'Admin',
   },
+  {
+    id: 5,
+    image: 'module-3.webp',
+    date: 'March 2024',
+    title:
+      'Innovative Approaches in Criminal Justice Education: Advancing Research Methodology for Effective Pedagogy and Practice',
+    description: '',
+  },
+  {
+    id: 6,
+    image: 'module-4.webp',
+    date: 'April 2024',
+    title:
+      'Analyzing the Foundations: Validating Data in Criminal Justice Education for Informed Practice',
+    description: '',
+  },
+  {
+    id: 7,
+    image: 'module-5.webp',
+    date: 'May 2024',
+    title:
+      'Crafting Impactful Narratives: Writing for Publication in Criminal Justice Education',
+    description: '',
+  },
+  {
+    id: 8,
+    image: 'international-conference-and-publication.webp',
+    date: '2024',
+    title:
+      'Participation in international conferences and publication of researches',
+    description: '',
+  },
 ];
 
 export default newsTwo;
