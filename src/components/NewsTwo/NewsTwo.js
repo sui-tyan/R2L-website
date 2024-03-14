@@ -1,5 +1,5 @@
 import newsTwo from '@/data/newsTwo';
-import bg from '@/images/backgrounds/news-section-bg.jpg';
+import bg from '@/images/backgrounds/news-section-bg.webp';
 import dynamic from 'next/dynamic';
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';

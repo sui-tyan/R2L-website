@@ -1,5 +1,5 @@
 import introduction from '@/data/introduction';
-import image from '@/images/resources/introduction-img2.png';
+import image from '@/images/resources/introduction-img2.webp';
 import React from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 
