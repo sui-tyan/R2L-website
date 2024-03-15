@@ -1,7 +1,7 @@
 const newsTwo = [
   {
     id: 1,
-    image: 'upcoming-event-1.jpg',
+    image: 'upcoming-event-1.webp',
     date: 'July 10, 2022',
     title: 'Official Launching of the Rights2LIFE Website',
     description:
@@ -10,7 +10,7 @@ const newsTwo = [
   },
   {
     id: 2,
-    image: 'upcoming-event-2.jpg',
+    image: 'upcoming-event-2.webp',
     date: 'May - July 2023',
     title: 'University of the Cordilleras Criminology Curriculum Review',
     description:
@@ -19,7 +19,7 @@ const newsTwo = [
   },
   {
     id: 3,
-    image: 'upcoming-event-3.jpg',
+    image: 'upcoming-event-3.webp',
     date: 'June 2023',
     title: 'Call for Research Proposals',
     description:
@@ -28,7 +28,7 @@ const newsTwo = [
   },
   {
     id: 4,
-    image: 'upcoming-event-4.jpg',
+    image: 'upcoming-event-4.webp',
     date: 'June 2023',
     title: 'Criminological Research Design Training',
     description:

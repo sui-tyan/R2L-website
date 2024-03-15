@@ -4,6 +4,18 @@
 
 Current project is incompatible to Node v.18 or above. Node v.16.0.0 is used for deployment.
 
+When running the code below, make sure you are using Node 16.0.0 or it won't build
+
+```$
+yarn build
+```
+
+or
+
+```
+npm run build
+```
+
 ## Website URLs
 
 - Use `<Link>` instead of `<a>`. This ensures proper routing from development to
