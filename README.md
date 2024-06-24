@@ -23,9 +23,23 @@ npm run build
 
 ## Deployment
 
-Pushing to branch specified in `.github/workflows/node.js.yml` will trigger deployment.
+Pushing to branch specified in `.github/workflows/node.js.yml` ("release" branch) will trigger deployment.
 Test deployment with npm run build before deploying
 
 ## Replacing images
 
 Use original image size. Crop images to fit old image size.
+
+## Work Packages
+
+You can edit the sidelinks on
+
+```
+src/data/workPackage<1-6>Details.js
+```
+
+You can edit the main content on
+
+```
+src/data/eventDetailsWP<1-6>.js
+```

@@ -6,6 +6,8 @@ import image5 from '@/images/resources/workpackage-1/oct-27-2023/national-indige
 import image6 from '@/images/resources/workpackage-1/dec-1-2023/karate-friendship-cup-3.jpg';
 import image7 from '@/images/resources/workpackage-1/dec-11-2023/workshop-on-best-practices-1.jpg';
 import image8 from '@/images/resources/workpackage-1/march-1-2024/educating-the-educators-1.webp';
+import image9 from '@/images/resources/workpackage-1/april-19-2024/WP1-04192024.jpg';
+import image10 from '@/images/resources/workpackage-1/april-26_27-2024/WP1-04262024.jpg';
 
 const text1 =
   'Prof. Dr. Tine Destrooper from the Faculty of Law, Department of Criminology, Criminal Law and Social Law spoke before 300 plus students on what transitional justice means and the importance of awareness and action that must be done on pending cases like that which exists in the Philippines.';
@@ -23,6 +25,10 @@ const text7 =
   'Dr. Robino D. Cawi having a discussion on the “practices in teaching criminology on a gender equality approach” while Mr. Scyld C. Segundo share the “Rights2LIFE teams project”.';
 const text8 =
   'PCPT Fernando C. Pesase lectured on what Human Rights are and how educators can impart to their students afterward.';
+const text9 =
+  "The CAR Karate Tournament with a Seminar on Fore Continuum activity took place at the Cordillera Career Development College. The event was attended by criminology interns and students from various colleges, including Cordilleras Career Development College, Ifugao State University, King's College of the Philippines, University of Baguio, and University of the Cordilleras.";
+const text10 =
+  'The Rights2LIFE Project, in collaboration with the Philippine Investigation and Forensic Science Academy and PCAP-CAR, successfully held a two-day CPD Seminar for Criminologists entitled “Investigation & Prosecution of Intellectual Property Rights Cases”. Dr. Rudy B. Gahar and Judge Jacinto M. Dela Cruz Jr. underlined the need for the global community to enforce and defend intellectual property in the modern period, as well as strategies to cope with illicit markets and mislabeled items that represent a severe health risk, and procedures for addressing intellectual property rights.';
 
 const eventsDetailsWP1 = [
   {
@@ -84,6 +90,21 @@ const eventsDetailsWP1 = [
     title:
       'EDUCATING THE EDUCATORS: AN EFFECTIVE APPROACH TO TEACHING HUMAN RIGHTS',
     texts: [text8],
+  },
+  {
+    id: 9,
+    image: image9,
+    date: '4/19/24',
+    title:
+      'The CAR Karate Tournament with a Seminar on Fore Continuum Activity',
+    texts: [text9],
+  },
+  {
+    id: 10,
+    image: image10,
+    date: '4/26-27/24',
+    title: 'Investigation & Prosecution of Intellectual Property Rights Cases',
+    texts: [text10],
   },
 ];
 export default eventsDetailsWP1;

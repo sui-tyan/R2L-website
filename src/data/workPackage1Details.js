@@ -112,6 +112,22 @@ const workPackage1Details = {
         // time: "3 hours ago",
         text: 'PCPT Fernando C. Pesase lectured on what Human Rights are and how educators can impart their students afterward...',
       },
+      {
+        id: 9,
+        image: 'recent-donation-img-4.jpg',
+        amount: 'April 19, 2024',
+        name: 'The CAR Karate Tournament with a Seminar on Fore Continuum Activity',
+        // time: "3 hours ago",
+        text: 'The CAR Karate Tournament with a Seminar on Fore Continuum activity took place at the Cordillera Career Development College...',
+      },
+      {
+        id: 10,
+        image: 'recent-donation-img-4.jpg',
+        amount: 'April 26-27, 2024',
+        name: 'Investigation & Prosecution of Intellectual Property Rights Cases',
+        // time: "3 hours ago",
+        text: 'The Rights2LIFE Project, in collaboration with the Philippine Investigation and Forensic Science Academy and PCAP-CAR...',
+      },
     ],
     lead: {
       image: image,
