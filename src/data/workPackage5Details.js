@@ -63,6 +63,14 @@ const workPackage5Details = {
         // time: "3 hours ago",
         text: 'Seven members of the Righst2LIFE team led by Dr. Darlyn Tagarino visited the Ateneo Human Rights Center on May 8, 2023 at Rockwell, Makati...',
       },
+      {
+        id: 3,
+        image: 'recent-donation-img-2.jpg',
+        amount: '06/25/2024',
+        name: 'Study Visit at Thailand Universities',
+        // time: "3 hours ago",
+        text: "The Rights2LIFE Project's selected members, Dr. Ariel Nimo B. Pumecha, Dr. Robino D. Cawi, and Dr. Darlyn D. Tagarino, visited...",
+      },
     ],
     lead: {
       image,
