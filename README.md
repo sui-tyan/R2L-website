@@ -43,3 +43,14 @@ You can edit the main content on
 ```
 src/data/eventDetailsWP<1-6>.js
 ```
+
+## Development
+
+Development branch is called "dev", other branches are outdated. Also note that please be concise on your commit messages.
+
+ex:
+
+```bash
+// template if commit msg is long: git commit -m "What you did" -m "Concise commit message here"
+// template if commit msg is short: git commit -m "Content Update: Work Package 1 [April (10 11 12), 2024]"
+```
