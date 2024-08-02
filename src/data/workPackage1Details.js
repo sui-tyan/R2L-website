@@ -128,6 +128,22 @@ const workPackage1Details = {
         // time: "3 hours ago",
         text: 'The Rights2LIFE Project, in collaboration with the Philippine Investigation and Forensic Science Academy and PCAP-CAR...',
       },
+      {
+        id: 11,
+        image: 'recent-donation-img-4.jpg',
+        amount: 'July 27, 2024',
+        name: 'CCJE Research Colloquium 2024',
+        // time: "3 hours ago",
+        text: 'The Rights2LIFE Project, in conjunction with the College of Criminal Justice Education and the CCJE - College...',
+      },
+      {
+        id: 12,
+        image: 'recent-donation-img-4.jpg',
+        amount: 'July 30, 2024',
+        name: 'Integration Workshop for a Human Rights-Based Criminology Curriculum',
+        // time: "3 hours ago",
+        text: 'Attended by deans from various state and private universities under the College of Criminal Justice Education...',
+      },
     ],
     lead: {
       image: image,

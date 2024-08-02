@@ -1,6 +1,7 @@
 import image from '@/images/resources/event-details-img-1.jpg';
 import ateneo from '@/images/resources/events-wp5-ateneo.jpg';
-import thailand from '@/images/resources/workpackage-5/june-25-2024/JUNE 25, 2024.jpg'
+import thailand from '@/images/resources/workpackage-5/june-25-2024/JUNE 25, 2024.jpg';
+import kmitl from '@/images/resources/workpackage-5/june-24-2024/WP5-06242024.jpg';
 
 const text1 =
   'Attended by key representatives from two state schools, three private schools, the Philippine National Police Human Rights Office, and the Office for the Presidential Adviser for Peace, Reconciliation and Unity, the consultation confirmed the willingness of key Criminal Justice movers in the Cordillera Administrative Region to willingly work with the University of the Cordilleras. This is towards the establishment of a Consortium for Peace, Justice and Security, and for the operationalization of the Peace and Justice Innovation Center towards promoting human rights education, research and outreach in the Cordillera region.';
@@ -13,7 +14,11 @@ const text2 =
 // const text4 =
 //   'It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum ley of type and scrambled it to make a type specimen book.';
 
-const text3 = "The Rights2LIFE Project's selected members, Dr. Ariel Nimo B. Pumecha, Dr. Robino D. Cawi, and Dr. Darlyn D. Tagarino, visited the Institute of Human Rights and Peace Studies, together with the School of Criminology, Faculty of Social Science, Mahidol University, to explore potential collaboration on human rights and criminology. Cultivating change-makers in law enforcement was emphasized to improve human rights and alleviate concerns about comparable violations and violence throughout ASEAN countries."
+const text3 =
+  "Dr. Ariel Nimo B. Pumecha, Dr. Robino D. Cawi, and Dr. Darlyn D. Tagarino, selected members of the Rights2LIFE Project, began their visit to King Mongkut's Institute of Technology Ladkrabang (KMITL) with a meet and greet with Asst.Prof.Dr. Panumas Saingam (a Civil Engineering lecturer) and the group paid visits to the Schools of Liberal Arts and Industrial Education and Technology.";
+
+const text4 =
+  "The Rights2LIFE Project's selected members, Dr. Ariel Nimo B. Pumecha, Dr. Robino D. Cawi, and Dr. Darlyn D. Tagarino, visited the Institute of Human Rights and Peace Studies, together with the School of Criminology, Faculty of Social Science, Mahidol University, to explore potential collaboration on human rights and criminology. Cultivating change-makers in law enforcement was emphasized to improve human rights and alleviate concerns about comparable violations and violence throughout ASEAN countries.";
 
 const eventsDetailsWP5 = [
   {
@@ -25,17 +30,24 @@ const eventsDetailsWP5 = [
   },
   {
     id: 2,
-    image:ateneo,
+    image: ateneo,
     date: '05/08/23',
     title: 'First benchmarking with the Ateneo Human Rights Center',
     texts: [text2],
   },
   {
     id: 3,
-    image:thailand,
+    image: kmitl,
     date: '06/25/24',
     title: 'Study Visit at Thailand Universities',
     texts: [text3],
+  },
+  {
+    id: 4,
+    image: thailand,
+    date: '06/25/24',
+    title: 'Study Visit at Thailand Universities',
+    texts: [text4],
   },
   // {
   //   id: 3,

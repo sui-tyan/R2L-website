@@ -66,6 +66,14 @@ const workPackage5Details = {
       {
         id: 3,
         image: 'recent-donation-img-2.jpg',
+        amount: '06/24/2024',
+        name: "A Visit at King Mongkut's Institute of Technology Ladkrabang (KMITL)",
+        // time: "3 hours ago",
+        text: 'Dr. Ariel Nimo B. Pumecha, Dr. Robino D. Cawi, and Dr. Darlyn D. Tagarino, selected members of the Rights2LIFE Project...',
+      },
+      {
+        id: 4,
+        image: 'recent-donation-img-2.jpg',
         amount: '06/25/2024',
         name: 'Study Visit at Thailand Universities',
         // time: "3 hours ago",

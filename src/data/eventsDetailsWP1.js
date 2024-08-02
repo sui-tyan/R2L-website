@@ -8,6 +8,8 @@ import image7 from '@/images/resources/workpackage-1/dec-11-2023/workshop-on-bes
 import image8 from '@/images/resources/workpackage-1/march-1-2024/educating-the-educators-1.webp';
 import image9 from '@/images/resources/workpackage-1/april-19-2024/WP1-04192024.jpg';
 import image10 from '@/images/resources/workpackage-1/april-26_27-2024/WP1-04262024.jpg';
+import image11 from '@/images/resources/workpackage-1/july-27-2024/WP1-07272024.jpg';
+import image12 from '@/images/resources/workpackage-1/july-30-2024/WP1-07302024.jpg';
 
 const text1 =
   'Prof. Dr. Tine Destrooper from the Faculty of Law, Department of Criminology, Criminal Law and Social Law spoke before 300 plus students on what transitional justice means and the importance of awareness and action that must be done on pending cases like that which exists in the Philippines.';
@@ -29,6 +31,10 @@ const text9 =
   "The CAR Karate Tournament with a Seminar on Fore Continuum activity took place at the Cordillera Career Development College. The event was attended by criminology interns and students from various colleges, including Cordilleras Career Development College, Ifugao State University, King's College of the Philippines, University of Baguio, and University of the Cordilleras.";
 const text10 =
   'The Rights2LIFE Project, in collaboration with the Philippine Investigation and Forensic Science Academy and PCAP-CAR, successfully held a two-day CPD Seminar for Criminologists entitled “Investigation & Prosecution of Intellectual Property Rights Cases”. Dr. Rudy B. Gahar and Judge Jacinto M. Dela Cruz Jr. underlined the need for the global community to enforce and defend intellectual property in the modern period, as well as strategies to cope with illicit markets and mislabeled items that represent a severe health risk, and procedures for addressing intellectual property rights.';
+const text11 =
+  'The Rights2LIFE Project, in conjunction with the College of Criminal Justice Education and the CCJE - College Student Council, hosted a successful Research Colloquium for Graduate and Undergraduate Students at the College of Criminal Justice Education. The reactors include Dr. Darlyn D. Tagarino, PCPT Fernando C Pesase, and Atty. Mark A. Madalang Jr., who enriched the event by sharing their expertise.';
+const text12 =
+  "Attended by deans from various state and private universities under the College of Criminal Justice Education, Atty. Cristina Regina Bonoan and Ms. Ranjana Thapa from the UNJP, who served as resource persons, collaborated to ensure the workshop's success. This is to begin the initial piloting of the Criminology Curriculum and spread it throughout the country.";
 
 const eventsDetailsWP1 = [
   {
@@ -105,6 +111,21 @@ const eventsDetailsWP1 = [
     date: '4/26-27/24',
     title: 'Investigation & Prosecution of Intellectual Property Rights Cases',
     texts: [text10],
+  },
+  {
+    id: 11,
+    image: image11,
+    date: '7/27/24',
+    title: 'CCJE Research Colloquium 2024',
+    texts: [text11],
+  },
+  {
+    id: 12,
+    image: image12,
+    date: '7/30/24',
+    title:
+      'Integration Workshop for a Human Rights-Based Criminology Curriculum',
+    texts: [text12],
   },
 ];
 export default eventsDetailsWP1;
