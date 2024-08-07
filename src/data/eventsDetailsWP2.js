@@ -4,6 +4,11 @@ import image3 from '@/images/resources/workpackage-2/nov-11-2023/research-proces
 import image4 from '@/images/resources/workpackage-2/nov-20-2023/human-rights-research-2.webp';
 import image5 from '@/images/resources/workpackage-2/jan-30-2024/research-grants-recipients-orientation-2.jpg';
 import image6 from '@/images/resources/workpackage-2/feb-12-2024/research-design-and-methodology-2.webp';
+import image7 from '@/images/resources/workpackage-2/april-30-2024/WP2-04302024.jpg';
+import image8 from '@/images/resources/workpackage-2/may-13-2024/WP2-05132024.jpg';
+import image9 from '@/images/resources/workpackage-2/june-18-2024/WP2-06182024.jpg';
+import image10 from '@/images/resources/workpackage-2/july-27-2024/WP2-07272024.jpg';
+import image11 from '@/images/resources/workpackage-2/aug-4_5-2024/WP2-08452024.jpg';
 
 const text1 =
   'The Rights2Life team has embarked on an exciting journey of website development to empower individuals and promote the fundamental right to life. This ambitious project aims to create an inclusive digital platform that serves as a catalyst for positive change, fostering awareness and activism for human rights issues around the globe.';
@@ -28,6 +33,15 @@ const text5 =
 const text6 =
   'Dr. Thelma Palaoag discussing the research design and methodology. Participants having a fruitful collaboration and shared their possible research proposals angled towards human rights. Research grantees were also present during the activity.';
 
+const text7 =
+  "Ghent University's Professor Noël Klima and Professor Zoë Imhof led a virtual training for faculty members from the Colleges of Arts and Sciences and Criminal Justice Education.";
+const text8 =
+  'Lucas Rabaey from Ghent University presented the many research methodologies being used to strengthen the study, which was attended by faculty members from the College of Arts and Sciences and Criminal Justice Education.';
+const text9 = 'Professor Noel Klima and Professor Zoe Imhof.';
+const text10 =
+  'The Rights2LIFE Project, in conjunction with the College of Criminal Justice Education and the CCJE - College Student Council, hosted a successful Research Colloquium for Graduate and Undergraduate Students at the College of Criminal Justice Education. The reactors include Dr. Darlyn D. Tagarino, PCPT Fernando C Pesase, and Atty. Mark A. Madalang Jr., who enriched the event by sharing their expertise.';
+const text11 =
+  'A workshop with a fruitful outcome. Attended by the Graduate St';
 const eventsDetailsWP2 = [
   {
     id: 1,
@@ -88,6 +102,41 @@ const eventsDetailsWP2 = [
     title:
       'Amplifying Research Capability MODULE 2: Research Design and Methodology',
     texts: [text6],
+  },
+  {
+    id: 7,
+    image: image7,
+    date: '4/30/24',
+    title: 'Understanding Research Impact',
+    texts: [text7],
+  },
+  {
+    id: 8,
+    image: image8,
+    date: '5/13/24',
+    title: 'Learning The Different Research Tools',
+    texts: [text8],
+  },
+  {
+    id: 9,
+    image: image9,
+    date: '6/18/24',
+    title: 'The Importance of Science for Policy',
+    texts: [text9],
+  },
+  {
+    id: 10,
+    image: image10,
+    date: '7/27/24',
+    title: 'CCJE Research Colloquium 2024',
+    texts: [text10],
+  },
+  {
+    id: 11,
+    image: image11,
+    date: '8/4-5/24',
+    title: 'Turning Your Thesis Into A Publishable Format',
+    texts: [text11],
   },
 ];
 export default eventsDetailsWP2;
