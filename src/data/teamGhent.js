@@ -65,7 +65,7 @@ const teamGhent = [
 
   {
     id: 10,
-    image: 'anon.png',
+    image: 'kathleen-dhanis.jpg',
     title: "Kathleen D'hanis",
     description: 'She is the UGhent Co-Lead 1 in Domain 6.',
   },
