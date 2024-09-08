@@ -2,6 +2,8 @@ import image from '@/images/resources/event-details-img-1.jpg';
 import ateneo from '@/images/resources/events-wp5-ateneo.jpg';
 import thailand from '@/images/resources/workpackage-5/june-25-2024/JUNE 25, 2024.jpg';
 import kmitl from '@/images/resources/workpackage-5/june-24-2024/WP5-06242024.jpg';
+import image5 from '@/images/resources/workpackage-5/aug-14-2024/WP5-08142024.jpg';
+import image6 from '@/images/resources/workpackage-5/aug-15-2024/WP5-08152024.jpg';
 
 const text1 =
   'Attended by key representatives from two state schools, three private schools, the Philippine National Police Human Rights Office, and the Office for the Presidential Adviser for Peace, Reconciliation and Unity, the consultation confirmed the willingness of key Criminal Justice movers in the Cordillera Administrative Region to willingly work with the University of the Cordilleras. This is towards the establishment of a Consortium for Peace, Justice and Security, and for the operationalization of the Peace and Justice Innovation Center towards promoting human rights education, research and outreach in the Cordillera region.';
@@ -20,6 +22,10 @@ const text3 =
 const text4 =
   "The Rights2LIFE Project's selected members, Dr. Ariel Nimo B. Pumecha, Dr. Robino D. Cawi, and Dr. Darlyn D. Tagarino, visited the Institute of Human Rights and Peace Studies, together with the School of Criminology, Faculty of Social Science, Mahidol University, to explore potential collaboration on human rights and criminology. Cultivating change-makers in law enforcement was emphasized to improve human rights and alleviate concerns about comparable violations and violence throughout ASEAN countries.";
 
+const text5 =
+  'Ranjana Thapa of the UNJP and PMAJ Angelita Nastor, Chief Education and Capability Development at the Human Rights Affairs Office, led a course on developing a human rights-based approach. Ms. Thapa began the introduction and overview of Human Rights, Human Rights Laws, and Offices and their Functions. While PMAJ Nastor discussed the prospects, challenges, and innovations for an HRBA in Law Enforcement in the country.';
+const text6 =
+  "Dr. Darlyn D. Tagarino organized the session on the Consortium for Peace, Justice, and Security. The Deans of the College of Criminal Justice Education from various universities participated, including Angeles University Foundation, Benguet State University, Cordillera Career Development College, Ifugao State University, Kalinga State University, King's College of the Philippines, Mountain Province State Polytechnic College, Tarlac State University, University of Baguio, and University of the Cordilleras. Members collaborated together to develop a draft of the consortium's mission, vision, and goals.";
 const eventsDetailsWP5 = [
   {
     id: 1,
@@ -48,6 +54,21 @@ const eventsDetailsWP5 = [
     date: '06/25/24',
     title: 'Study Visit at Thailand Universities',
     texts: [text4],
+  },
+  {
+    id: 5,
+    image: image5,
+    date: '08/14/24',
+    title:
+      'Training on Promoting a Human Rights Based Approach in Criminology Education',
+    texts: [text5],
+  },
+  {
+    id: 6,
+    image: image6,
+    date: '08/15/24',
+    title: 'Strategic Planning Workshop on CPJS',
+    texts: [text6],
   },
   // {
   //   id: 3,

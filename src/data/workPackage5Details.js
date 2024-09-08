@@ -79,6 +79,22 @@ const workPackage5Details = {
         // time: "3 hours ago",
         text: "The Rights2LIFE Project's selected members, Dr. Ariel Nimo B. Pumecha, Dr. Robino D. Cawi, and Dr. Darlyn D. Tagarino, visited...",
       },
+      {
+        id: 5,
+        image: 'recent-donation-img-2.jpg',
+        amount: 'August 14, 2024',
+        name: 'Training on Promoting a Human Rights Based Approach in Criminology Education',
+        // time: "3 hours ago",
+        text: 'Ranjana Thapa of the UNJP and PMAJ Angelita Nastor, Chief Education and Capability Development at the Human...',
+      },
+      {
+        id: 6,
+        image: 'recent-donation-img-2.jpg',
+        amount: 'August 15, 2024',
+        name: 'Strategic Planning Workshop on CPJS',
+        // time: "3 hours ago",
+        text: 'Dr. Darlyn D. Tagarino organized the session on the Consortium for Peace, Justice, and Security. The Deans of the College...',
+      },
     ],
     lead: {
       image,
