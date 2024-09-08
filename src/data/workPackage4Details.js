@@ -83,6 +83,13 @@ const workPackage4Details = {
         name: 'Training-Workshop on Human Rights-Based Curriculum with the Ateneo Human Rights Center - Day 2',
         text: 'The Director of AHRC, Atty. Ray Paolo Santiago, discussing the Philippine Bill of Rights...',
       },
+      {
+        id: 5,
+        image: 'recent-donation-img-2.jpg',
+        amount: 'June 27, 2024',
+        name: 'A Collaborative Interaction with UGHENT Professors',
+        text: 'A knowledge transfer method known between UGhent Professors and Faculty Members from...',
+      },
     ],
     lead: {
       image: cherryCabarrubias,
