@@ -50,7 +50,7 @@ const workPackage5Details = {
       {
         id: 1,
         image: 'recent-donation-img-1.jpg',
-        amount: '04/25/2023',
+        amount: 'April 25, 2023',
         name: 'Stakeholder Consultation kicks off on April 25, 2023',
         // time: "3 hours ago",
         text: 'Attended by key representatives from two state schools, three private schools, the Philippine National Police Human Rights Office...',
@@ -58,7 +58,7 @@ const workPackage5Details = {
       {
         id: 2,
         image: 'recent-donation-img-2.jpg',
-        amount: '05/08/2023',
+        amount: 'May 8, 2023',
         name: 'First benchmarking with the Ateneo Human Rights Center',
         // time: "3 hours ago",
         text: 'Seven members of the Righst2LIFE team led by Dr. Darlyn Tagarino visited the Ateneo Human Rights Center on May 8, 2023 at Rockwell, Makati...',
@@ -66,7 +66,7 @@ const workPackage5Details = {
       {
         id: 3,
         image: 'recent-donation-img-2.jpg',
-        amount: '06/24/2024',
+        amount: 'June 24, 2024',
         name: "A Visit at King Mongkut's Institute of Technology Ladkrabang (KMITL)",
         // time: "3 hours ago",
         text: 'Dr. Ariel Nimo B. Pumecha, Dr. Robino D. Cawi, and Dr. Darlyn D. Tagarino, selected members of the Rights2LIFE Project...',
@@ -74,7 +74,7 @@ const workPackage5Details = {
       {
         id: 4,
         image: 'recent-donation-img-2.jpg',
-        amount: '06/25/2024',
+        amount: 'June 25, 2024',
         name: 'Study Visit at Thailand Universities',
         // time: "3 hours ago",
         text: "The Rights2LIFE Project's selected members, Dr. Ariel Nimo B. Pumecha, Dr. Robino D. Cawi, and Dr. Darlyn D. Tagarino, visited...",
