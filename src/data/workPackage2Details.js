@@ -136,6 +136,14 @@ const workPackage2Details = {
         // time: "3 hours ago",
         text: 'A workshop with a fruitful outcome. Attended by the Graduate St...',
       },
+      {
+        id: 12,
+        image: 'recent-donation-img-1.jpg',
+        amount: 'August 21, 2024',
+        name: 'Amplifying Research Capability: Data Analysis and Validation',
+        // time: "3 hours ago",
+        text: 'Dr. Jose Maria Pangilinan facilitated the continuation...',
+      },
     ],
     lead: {
       image: thelmaPalaoag,

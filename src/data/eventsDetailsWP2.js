@@ -9,6 +9,7 @@ import image8 from '@/images/resources/workpackage-2/may-13-2024/WP2-05132024.jp
 import image9 from '@/images/resources/workpackage-2/june-18-2024/WP2-06182024.jpg';
 import image10 from '@/images/resources/workpackage-2/july-27-2024/WP2-07272024.jpg';
 import image11 from '@/images/resources/workpackage-2/aug-4_5-2024/WP2-08452024.jpg';
+import image12 from '@/images/resources/workpackage-2/aug-21-2024/WP2-08212024.jpg';
 
 const text1 =
   'The Rights2Life team has embarked on an exciting journey of website development to empower individuals and promote the fundamental right to life. This ambitious project aims to create an inclusive digital platform that serves as a catalyst for positive change, fostering awareness and activism for human rights issues around the globe.';
@@ -37,11 +38,14 @@ const text7 =
   "Ghent University's Professor Noël Klima and Professor Zoë Imhof led a virtual training for faculty members from the Colleges of Arts and Sciences and Criminal Justice Education.";
 const text8 =
   'Lucas Rabaey from Ghent University presented the many research methodologies being used to strengthen the study, which was attended by faculty members from the College of Arts and Sciences and Criminal Justice Education.';
-const text9 = 'Professor Noel Klima and Professor Zoe Imhof.';
+const text9 =
+  'Professor Noel Klima and Professor Zoe Imhof lectured on the importance of science in policy, which acts as a vital link between scientific research and good policymaking.';
 const text10 =
   'The Rights2LIFE Project, in conjunction with the College of Criminal Justice Education and the CCJE - College Student Council, hosted a successful Research Colloquium for Graduate and Undergraduate Students at the College of Criminal Justice Education. The reactors include Dr. Darlyn D. Tagarino, PCPT Fernando C Pesase, and Atty. Mark A. Madalang Jr., who enriched the event by sharing their expertise.';
 const text11 =
   'A workshop with a fruitful outcome. Attended by the Graduate St';
+const text12 =
+  'Dr. Jose Maria Pangilinan facilitated the continuation of the Research Series that centered around data analysis and validation.';
 const eventsDetailsWP2 = [
   {
     id: 1,
@@ -137,6 +141,13 @@ const eventsDetailsWP2 = [
     date: '8/4-5/24',
     title: 'Turning Your Thesis Into A Publishable Format',
     texts: [text11],
+  },
+  {
+    id: 12,
+    image: image12,
+    date: '8/21/24',
+    title: 'Amplifying Research Capability: Data Analysis and Validation',
+    texts: [text12],
   },
 ];
 export default eventsDetailsWP2;
