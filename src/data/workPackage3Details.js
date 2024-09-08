@@ -77,6 +77,22 @@ const workPackage3Details = {
         // time: "3 hours ago",
         text: 'Mr. Scyld C. Segundo discussing the partnership and the Rights2LIFE project...',
       },
+      {
+        id: 4,
+        image: 'recent-donation-img-1.jpg',
+        amount: 'July 18, 2024',
+        name: 'Innovative Strategies for Community Engagement, The Belgian Way',
+        // time: "3 hours ago",
+        text: 'Professor Dr. Jelle Janssens of Ghent University led a Community Outreach Training in which...',
+      },
+      {
+        id: 5,
+        image: 'recent-donation-img-1.jpg',
+        amount: 'August 22, 2024',
+        name: 'Research Capacity Building for Community Partners',
+        // time: "3 hours ago",
+        text: 'Dr. Nica D. Togana supervised a research discussion with faculty members at the Tocmo...',
+      },
     ],
     lead: {
       image: scyldSegundo,
