@@ -43,7 +43,7 @@ const text9 =
 const text10 =
   'The Rights2LIFE Project, in conjunction with the College of Criminal Justice Education and the CCJE - College Student Council, hosted a successful Research Colloquium for Graduate and Undergraduate Students at the College of Criminal Justice Education. The reactors include Dr. Darlyn D. Tagarino, PCPT Fernando C Pesase, and Atty. Mark A. Madalang Jr., who enriched the event by sharing their expertise.';
 const text11 =
-  'A workshop with a fruitful outcome. Attended by the Graduate St';
+  'A workshop with a productive conclusion. The workshop was a success thanks to the attendance of Graduate Students from the College of Criminal Justice Education who shared their ideas and skills during the session.';
 const text12 =
   'Dr. Jose Maria Pangilinan facilitated the continuation of the Research Series that centered around data analysis and validation.';
 const eventsDetailsWP2 = [
