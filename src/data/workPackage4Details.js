@@ -90,6 +90,27 @@ const workPackage4Details = {
         name: 'A Collaborative Interaction with UGHENT Professors',
         text: 'A knowledge transfer method known between UGhent Professors and Faculty Members from...',
       },
+      {
+        id: 6,
+        image: 'recent-donation-img-2.jpg',
+        amount: 'July 10-14, 2024',
+        name: '14th National Forensic Science Specialization Training CL 2024-14',
+        text: 'The 14th National Forensic Science Specialization Training was held from July 10...',
+      },
+      {
+        id: 7,
+        image: 'recent-donation-img-2.jpg',
+        amount: 'August 8-10, 2024',
+        name: '15th Annual Conference of the Asian Criminological Society',
+        text: "The Asian Criminological Society's 15th Annual Conference took place in Pasay, Manila...",
+      },
+      {
+        id: 8,
+        image: 'recent-donation-img-2.jpg',
+        amount: 'September 30, 2024',
+        name: 'Training in Research and Teaching of Human Rights',
+        text: 'The UC-Rights2LIFE, in collaboration with the University of the Philippines Law Center...',
+      },
     ],
     lead: {
       image: cherryCabarrubias,
