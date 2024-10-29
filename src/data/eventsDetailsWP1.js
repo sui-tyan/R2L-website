@@ -40,7 +40,7 @@ const text12 =
 const text13 =
   'Prosecutor Peter L. Ong, the Resource Speaker, and in collaboration with Philippine Investigation and Forensic Science Academy and the University of the Cordilleras - Rights2LIFE Project successfully conducted the continuing professional development for Licensed Criminologists in the Cordillera Administrative Region.';
 const text14 =
-  'The University of the Cordilleras - Rights2LIFE Project, Mountain Province State University, Organization of C.D.I. & Researchers of the Philippines, Inc., and the PCAP CAR hosted a two-day CPD Seminar at the University of the Cordilleras on October 18 and 19, 2024. The seminar was attended by  faculty members from several universities.';
+  'The 𝑼𝒏𝒊𝒗𝒆𝒓𝒔𝒊𝒕𝒚 𝒐𝒇 𝒕𝒉𝒆 𝑪𝒐𝒓𝒅𝒊𝒍𝒍𝒆𝒓𝒂𝒔 - 𝑹𝒊𝒈𝒉𝒕𝒔2𝑳𝑰𝑭𝑬 𝑷𝒓𝒐𝒋𝒆𝒄𝒕, 𝑴𝒐𝒖𝒏𝒕𝒂𝒊𝒏 𝑷𝒓𝒐𝒗𝒊𝒏𝒄𝒆 𝑺𝒕𝒂𝒕𝒆 𝑼𝒏𝒊𝒗𝒆𝒓𝒔𝒊𝒕𝒚, 𝑶𝒓𝒈𝒂𝒏𝒊𝒛𝒂𝒕𝒊𝒐𝒏 𝒐𝒇 𝑪.𝑫.𝑰. & 𝑹𝒆𝒔𝒆𝒂𝒓𝒄𝒉𝒆𝒓𝒔 𝒐𝒇 𝒕𝒉𝒆 𝑷𝒉𝒊𝒍𝒊𝒑𝒑𝒊𝒏𝒆𝒔, 𝑰𝒏𝒄., 𝒂𝒏𝒅 𝒕𝒉𝒆 𝑷𝑪𝑨𝑷 𝑪𝑨𝑹 hosted a two-day CPD Seminar at the University of the Cordilleras on October 18 and 19, 2024. The seminar was attended by  faculty members from several universities.';
 
 const eventsDetailsWP1 = [
   {

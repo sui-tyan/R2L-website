@@ -111,6 +111,13 @@ const workPackage4Details = {
         name: 'Training in Research and Teaching of Human Rights',
         text: 'The UC-Rights2LIFE, in collaboration with the University of the Philippines Law Center...',
       },
+      {
+        id: 9,
+        image: 'recent-donation-img-2.jpg',
+        amount: 'October 18-19, 2024',
+        name: 'Scientific Processing of Fingerprint and Moot Court Presentation with discussion on Human Rights in Forensic Science',
+        text: 'The University of the Cordilleras - Rights2LIFE Project, Mountain Province State University, Organization of ...',
+      },
     ],
     lead: {
       image: cherryCabarrubias,
