@@ -144,6 +144,22 @@ const workPackage1Details = {
         // time: "3 hours ago",
         text: 'Attended by deans from various state and private universities under the College of Criminal Justice Education...',
       },
+      {
+        id: 13,
+        image: 'recent-donation-img-4.jpg',
+        amount: 'August 9-10, 2024',
+        name: 'Human Rights and Criminal Justice Responses to Terrorism',
+        // time: "3 hours ago",
+        text: 'Prosecutor Peter L. Ong, the Resource Speaker, and in collaboration with Philippine Investigation...',
+      },
+      {
+        id: 14,
+        image: 'recent-donation-img-4.jpg',
+        amount: 'October 18-19, 2024',
+        name: 'Scientific Processing of Fingerprint and Moot Court Presentation with discussion on Human Rights in Forensic Science',
+        // time: "3 hours ago",
+        text: 'The University of the Cordilleras - Rights2LIFE Project, Mountain Province State University, Organization of ...',
+      },
     ],
     lead: {
       image: image,

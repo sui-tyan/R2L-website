@@ -10,6 +10,8 @@ import image9 from '@/images/resources/workpackage-1/april-19-2024/WP1-04192024.
 import image10 from '@/images/resources/workpackage-1/april-26_27-2024/WP1-04262024.jpg';
 import image11 from '@/images/resources/workpackage-1/july-27-2024/WP1-07272024.jpg';
 import image12 from '@/images/resources/workpackage-1/july-30-2024/WP1-07302024.jpg';
+import image13 from '@/images/resources/workpackage-1/aug-9_10-2024/WP1-089102024.jpg';
+import image14 from '@/images/resources/workpackage-1/oct-18_19-2024/WP1-1018192024.png';
 
 const text1 =
   'Prof. Dr. Tine Destrooper from the Faculty of Law, Department of Criminology, Criminal Law and Social Law spoke before 300 plus students on what transitional justice means and the importance of awareness and action that must be done on pending cases like that which exists in the Philippines.';
@@ -35,6 +37,10 @@ const text11 =
   'The Rights2LIFE Project, in conjunction with the College of Criminal Justice Education and the CCJE - College Student Council, hosted a successful Research Colloquium for Graduate and Undergraduate Students at the College of Criminal Justice Education. The reactors include Dr. Darlyn D. Tagarino, PCPT Fernando C Pesase, and Atty. Mark A. Madalang Jr., who enriched the event by sharing their expertise.';
 const text12 =
   "Attended by deans from various state and private universities under the College of Criminal Justice Education, Atty. Cristina Regina Bonoan and Ms. Ranjana Thapa from the UNJP, who served as resource persons, collaborated to ensure the workshop's success. This is to begin the initial piloting of the Criminology Curriculum and spread it throughout the country.";
+const text13 =
+  'Prosecutor Peter L. Ong, the Resource Speaker, and in collaboration with Philippine Investigation and Forensic Science Academy and the University of the Cordilleras - Rights2LIFE Project successfully conducted the continuing professional development for Licensed Criminologists in the Cordillera Administrative Region.';
+const text14 =
+  'The University of the Cordilleras - Rights2LIFE Project, Mountain Province State University, Organization of C.D.I. & Researchers of the Philippines, Inc., and the PCAP CAR hosted a two-day CPD Seminar at the University of the Cordilleras on October 18 and 19, 2024. The seminar was attended by  faculty members from several universities.';
 
 const eventsDetailsWP1 = [
   {
@@ -126,6 +132,21 @@ const eventsDetailsWP1 = [
     title:
       'Integration Workshop for a Human Rights-Based Criminology Curriculum',
     texts: [text12],
+  },
+  {
+    id: 13,
+    image: image13,
+    date: '8/9-10/24',
+    title: 'HUMAN RIGHTS AND CRIMINAL JUSTICE RESPONSES TO TERRORISM',
+    texts: [text13],
+  },
+  {
+    id: 14,
+    image: image14,
+    date: '10/18-19/24',
+    title:
+      'Scientific Processing of Fingerprint and Moot Court Presentation with discussion on Human Rights in Forensic Science',
+    texts: [text14],
   },
 ];
 export default eventsDetailsWP1;
