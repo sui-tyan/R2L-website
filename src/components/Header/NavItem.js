@@ -10,21 +10,21 @@ const NavItem = ({ navItem = {} }) => {
   const current = pathname === href || subHref.includes(pathname);
 
   return (
-    <li className={`dropdown${current ? ' current' : ''}`}>
-      <Link href={href}>
-        <a href={href}>{name}</a>
+    (<li className={`dropdown${current ? ' current' : ''}`}>
+      <Link href={href} legacyBehavior>
+        {name}
       </Link>
       <ul>
         {subNavItems.map((subItem) => (
           <li key={subItem.id}>
-            <Link href={subItem.href}>
-              <a href={href}>{subItem.name}</a>
+            <Link href={subItem.href} legacyBehavior>
+              {subItem.name}
             </Link>
             <ul>
               {subItem.subItems?.map((item) => (
                 <li key={item.id}>
-                  <Link href={item.href}>
-                    <a href={href}>{item.name}</a>
+                  <Link href={item.href} legacyBehavior>
+                    {item.name}
                   </Link>
                 </li>
               ))}
@@ -32,7 +32,7 @@ const NavItem = ({ navItem = {} }) => {
           </li>
         ))}
       </ul>
-    </li>
+    </li>)
   );
 };
 

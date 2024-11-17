@@ -7,7 +7,7 @@ import SingleNews from './SingleNews';
 
 const NewsOne = () => {
   return (
-    <section className="news-one">
+    (<section className="news-one">
       <Container>
         <Row>
           <Col xl={8} lg={8}>
@@ -32,10 +32,10 @@ const NewsOne = () => {
             <div className="news-one__left">
               <div className="news-one__img">
                 <Image src={image.src} alt="" />
-                <Link href="/news-details">
-                  <a>
-                    <i className="fa fa-plus"></i>
-                  </a>
+                <Link href="/news-details" legacyBehavior>
+
+                  <i className="fa fa-plus"></i>
+
                 </Link>
               </div>
               <div className="news-one__bottom">
@@ -50,7 +50,7 @@ const NewsOne = () => {
                 </ul>
                 <h3 className="news-one__title">
                   <Link href="/news-details">
-                    <a>Insert a title of the current blog 1</a>
+                    Insert a title of the current blog 1
                   </Link>
                 </h3>
               </div>
@@ -65,7 +65,7 @@ const NewsOne = () => {
           </Col>
         </Row>
       </Container>
-    </section>
+    </section>)
   );
 };
 

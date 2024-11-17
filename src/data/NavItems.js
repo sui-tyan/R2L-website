@@ -73,7 +73,6 @@ const navItems = [
       // { id: 2, name: "Publications", href: "/publications" },
       // { id: 3, name: "News and Events", href: "/news-and-events" },
       // { id: 4, name: "News Details", href: "/news-details" },
-
     ],
   },
   {
@@ -85,6 +84,14 @@ const navItems = [
       // { id: 2, name: 'Event Details', href: '/event-details' },
     ],
   },
+  // enable on domain activation
+  // {
+  //   id: 5,
+  //   name: 'Repository',
+  //   href: 'https://repo.rights2life.uc-bcf.edu.ph',
+  //   subNavItems: [],
+  // },
+
   // {
   //   id: 5,
   //   name: "News",

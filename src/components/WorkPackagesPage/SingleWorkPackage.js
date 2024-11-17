@@ -10,11 +10,13 @@ const SingleWorkPackage = ({ news = {} }) => {
       <div className="workpkg__single">
         <div className="workpkg__img-box">
           <div className="workpkg__img">
-            <Image src={require(`@/images/blog/${image}`).default.src} alt="" />
-            <Link href={news.detailUrl}>
-              <a>
-                <i className="fa fa-plus"></i>
-              </a>
+            <Link href={news.detailUrl} legacyBehavior>
+              <Image
+                src={require(`@/images/blog/${image}`).default.src}
+                className="cursor-pointer"
+                alt=""
+              />
+              {/* <i className="fa fa-plus"></i> */}
             </Link>
           </div>
           {/* <div className="workpkg__date">
@@ -38,7 +40,9 @@ const SingleWorkPackage = ({ news = {} }) => {
             </li>
           </ul> */}
           <h3>
-            <Link href={news.detailUrl}>{title}</Link>
+            <Link href={news.detailUrl} legacyBehavior>
+              {title}
+            </Link>
           </h3>
           <p className="workpkg__text">{description}</p>
         </div>

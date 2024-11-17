@@ -18,18 +18,18 @@ const NavItem = ({ item = {} }) => {
   const { name, href, subNavItems } = item;
 
   return (
-    <li className={`dropdown${pathname === href ? ' current' : ''}`}>
-      <Link href={href}>
-        <a className={expand ? ' expanded' : ''}>
-          {name}
-          <button
-            onClick={handleExpand}
-            ariaLabel="dropdown toggler"
-            className={expand ? 'expanded' : ''}
-          >
-            <i className="fa fa-angle-down"></i>
-          </button>
-        </a>
+    (<li className={`dropdown${pathname === href ? ' current' : ''}`}>
+      <Link href={href} className={expand ? ' expanded' : ''} legacyBehavior>
+
+        {name}
+        <button
+          onClick={handleExpand}
+          ariaLabel="dropdown toggler"
+          className={expand ? 'expanded' : ''}
+        >
+          <i className="fa fa-angle-down"></i>
+        </button>
+
       </Link>
       <ul
         style={{
@@ -40,7 +40,7 @@ const NavItem = ({ item = {} }) => {
           <SubNavItem subItem={subItem} key={subItem.id} />
         ))}
       </ul>
-    </li>
+    </li>)
   );
 };
 

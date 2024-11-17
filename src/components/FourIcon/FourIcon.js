@@ -10,8 +10,8 @@ const FourIcon = () => {
         <Row>
           {fourIcons.map(({ id, title, icon, description, image, url }) => (
             <Col xl={4} lg={6} md={6} className="fadeInUp" key={id}>
-              <Link href={url} passHref>
-                <div className="four-icon__single">
+              <Link href={url} passHref legacyBehavior>
+                <div className="four-icon__single cursor-pointer">
                   <div className="four-icon__img">
                     <Image
                       src={require(`@/images/resources/${image}`).default.src}

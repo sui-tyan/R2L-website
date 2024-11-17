@@ -18,7 +18,7 @@ const {
 
 const SiteFooter = () => {
   return (
-    <footer className="site-footer">
+    (<footer className="site-footer">
       <div
         className="site-footer-bg"
         style={{ backgroundImage: `url(${footerBg})` }}
@@ -49,14 +49,14 @@ const SiteFooter = () => {
                 <ul className="footer-widget__explore-list list-unstyled">
                   {exploreList.slice(0, 5).map(({ id, title, href }) => (
                     <li key={id}>
-                      <Link href={href}>{title}</Link>
+                      <Link href={href} legacyBehavior>{title}</Link>
                     </li>
                   ))}
                 </ul>
                 <ul className="footer-widget__explore-list footer-widget__explore-list-two list-unstyled">
                   {exploreList.slice(5).map(({ id, title, href }) => (
                     <li key={id}>
-                      <Link href={href}>{title}</Link>
+                      <Link href={href} legacyBehavior>{title}</Link>
                     </li>
                   ))}
                 </ul>
@@ -105,7 +105,7 @@ const SiteFooter = () => {
           </Row>
         </div>
       </Container>
-    </footer>
+    </footer>)
   );
 };
 

@@ -12,12 +12,12 @@ const HeaderOne = () => {
   const { toggleMenu, toggleSearch } = useRootContext();
 
   return (
-    <header className="main-header clearfix">
+    (<header className="main-header clearfix">
       <div className="main-header__logo">
         <Link href="/">
-          <a>
-            <Image src={logo.src} alt="" />
-          </a>
+
+          <Image src={logo.src} alt="" />
+
         </Link>
       </div>
       <div className="main-menu-wrapper">
@@ -93,17 +93,17 @@ const HeaderOne = () => {
                     <a href="tel:92 666 888 0000">92 666 888 0000</a>
                   </div>
                 </div>
-                <Link href="/causes-details">
-                  <a className="main-menu__donate-btn">
-                    <i className="fa fa-heart"></i>Donate
-                  </a>
+                <Link href="/causes-details" className="main-menu__donate-btn">
+
+                  <i className="fa fa-heart"></i>Donate
+                                    
                 </Link>
               </div>
             </div>
           </nav>
         </div>
       </div>
-    </header>
+    </header>)
   );
 };
 

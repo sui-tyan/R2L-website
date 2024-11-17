@@ -8,7 +8,7 @@ import teamGhent from '@/data/teamGhent';
 const MeetTheTeam = ({ className = '' }) => {
   return (
     // <section className={`team-one ${className}`}>
-    <section>
+    (<section>
       <TeamSection
         className={className}
         bannerData={ghentBannerData}
@@ -19,7 +19,7 @@ const MeetTheTeam = ({ className = '' }) => {
         bannerData={ucBannerData}
         teamData={teamUC}
       ></TeamSection>
-    </section>
+    </section>)
   );
 };
 

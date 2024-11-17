@@ -12,15 +12,15 @@ const HeaderTwo = () => {
   const { toggleMenu, toggleSearch } = useRootContext();
 
   return (
-    <header className="main-header-two clearfix">
+    (<header className="main-header-two clearfix">
       <div className="main-header-two__inner">
         <Container>
           <div className="main-header-two__top clearfix">
             <div className="main-header-two__logo">
               <Link href="/">
-                <a>
-                  <Image src={logo.src} alt="Logo of Rights2Life" />
-                </a>
+
+                <Image src={logo.src} alt="Logo of Rights2Life" />
+
               </Link>
             </div>
             <div className="main-header-two__contact-info">
@@ -56,10 +56,10 @@ const HeaderTwo = () => {
                 </li>
               </ul>
               <div className="main-header-two__btn">
-                <Link href="/causes-details">
-                  <a className="main-header-two__donate-btn">
-                    <i className="fa fa-heart"></i>Donate{' '}
-                  </a>
+                <Link href="/causes-details" className="main-header-two__donate-btn">
+
+                  <i className="fa fa-heart"></i>Donate{' '}
+
                 </Link>
               </div>
             </div>
@@ -115,7 +115,7 @@ const HeaderTwo = () => {
           </Container>
         </nav>
       </div>
-    </header>
+    </header>)
   );
 };
 

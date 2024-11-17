@@ -4,7 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 const BecomeVolunteer = () => {
   return (
-    <section className="become-volunteer">
+    (<section className="become-volunteer">
       <Container>
         <Row>
           <Col xl={12}>
@@ -18,17 +18,20 @@ const BecomeVolunteer = () => {
                 </div>
               </div>
               <div className="become-volunteer__btn-box">
-                <Link href="/volunteer">
-                  <a className="become-volunteer__btn thm-btn">
-                    <i className="fas fa-arrow-circle-right"></i>Learn More
-                  </a>
+                <Link
+                  href="/volunteer"
+                  className="become-volunteer__btn thm-btn"
+                  legacyBehavior>
+
+                  <i className="fas fa-arrow-circle-right"></i>Learn More
+                                    
                 </Link>
               </div>
             </div>
           </Col>
         </Row>
       </Container>
-    </section>
+    </section>)
   );
 };
 

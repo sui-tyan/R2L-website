@@ -8,7 +8,7 @@ const CausesDetailsRight = ({ data, eventUrl }) => {
   const organizerImg = data.sidebar.lead.image;
 
   return (
-    <div className="causes-details__right">
+    (<div className="causes-details__right">
       {/* <div className="causes-details__organizer">
         <div className="causes-details__organizer-img">
           <Image src={organizerImg.src} alt="" width="100" />
@@ -50,8 +50,8 @@ const CausesDetailsRight = ({ data, eventUrl }) => {
                       pathname: eventUrl,
                       query: { id: id },
                     }}
-                  >
-                    <a>{name}</a>
+                    legacyBehavior>
+                    {name}
                   </Link>
                 </h5>
                 <p>{text}</p>
@@ -60,7 +60,7 @@ const CausesDetailsRight = ({ data, eventUrl }) => {
           ))}
         </ul>
       </div>
-    </div>
+    </div>)
   );
 };
 

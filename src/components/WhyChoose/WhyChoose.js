@@ -20,7 +20,7 @@ const {
 
 const WhyChoose = () => {
   return (
-    <section className="why-choose">
+    (<section className="why-choose">
       <div
         className="why-choose-bg"
         style={{ backgroundImage: `url(${bg.src})` }}
@@ -85,10 +85,10 @@ const WhyChoose = () => {
                     </p>
                   </div>
                 </div>
-                <Link href="/causes-details">
-                  <a className="why-choose__right-btn">
-                    <i className="fa fa-heart"></i>Donate
-                  </a>
+                <Link href="/causes-details" className="why-choose__right-btn" legacyBehavior>
+
+                  <i className="fa fa-heart"></i>Donate
+                                    
                 </Link>
                 <div className="why-choose__right-category">
                   <span>{category}</span>
@@ -98,7 +98,7 @@ const WhyChoose = () => {
           </Col>
         </Row>
       </Container>
-    </section>
+    </section>)
   );
 };
 

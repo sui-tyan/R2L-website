@@ -6,7 +6,7 @@ import SingleFunding from './SingleFunding';
 const Funding = () => {
   return (
     // <section className="gallery-page">
-    <section className="funding-section">
+    (<section className="funding-section">
       <Container className="funding-section__container">
         <Row className="justify-content-xl-center">
           {fundingData.map((funding) => (
@@ -14,7 +14,7 @@ const Funding = () => {
           ))}
         </Row>
       </Container>
-    </section>
+    </section>)
   );
 };
 

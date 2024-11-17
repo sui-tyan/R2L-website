@@ -18,7 +18,7 @@ const CausesSingle = ({ cause = {}, causePage }) => {
   const percent = Math.round((raisedNumber / goalNumber) * 100);
 
   return (
-    <div className={causePage ? '' : 'my-4'}>
+    (<div className={causePage ? '' : 'my-4'}>
       <div
         style={causePage ? {} : { userSelect: 'none' }}
         className="causes-one__single animated fadeInLeft"
@@ -29,10 +29,10 @@ const CausesSingle = ({ cause = {}, causePage }) => {
               src={require(`@/images/resources/${image}`).default.src}
               alt=""
             />
-            <Link href="/causes-details">
-              <a>
-                <i className="fa fa-plus"></i>
-              </a>
+            <Link href="/causes-details" legacyBehavior>
+
+              <i className="fa fa-plus"></i>
+
             </Link>
           </div>
           <div className="causes-one__category">
@@ -41,7 +41,7 @@ const CausesSingle = ({ cause = {}, causePage }) => {
         </div>
         <div className="causes-one__content">
           <h3 className="causes-one__title">
-            <Link href="/causes-details">{title}</Link>
+            <Link href="/causes-details" legacyBehavior>{title}</Link>
           </h3>
           <p className="causes-one__text">{description}</p>
         </div>
@@ -73,7 +73,7 @@ const CausesSingle = ({ cause = {}, causePage }) => {
           </div>
         </div>
       </div>
-    </div>
+    </div>)
   );
 };
 

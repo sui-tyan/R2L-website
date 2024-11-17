@@ -10,8 +10,6 @@ import { Swiper } from 'swiper/react';
 import SingleSlide from './SingleSlide';
 import SliderCounter from './SliderCounter';
 
-SwiperCore.use([Autoplay, Navigation, EffectFade, Pagination]);
-
 const mainSlideOptions = {
   slidesPerView: 1,
   loop: true,
@@ -31,6 +29,7 @@ const mainSlideOptions = {
 };
 
 const MainSlider = () => {
+  SwiperCore.use([Autoplay, Navigation, EffectFade, Pagination]);
   return (
     <section className="main-slider">
       <Swiper className="thm-swiper__slider" {...mainSlideOptions}>

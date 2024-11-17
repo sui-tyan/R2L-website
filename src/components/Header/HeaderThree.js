@@ -14,7 +14,7 @@ const HeaderThree = () => {
   const { toggleMenu, toggleSearch } = useRootContext();
 
   return (
-    <header className="main-header-three clearfix">
+    (<header className="main-header-three clearfix">
       <Container className="main-header-three__container ">
         <Row className="justify-content-md-center">
           <Col>
@@ -23,9 +23,9 @@ const HeaderThree = () => {
               style={{ display: scrollTop ? 'none' : '' }}
             >
               <Link href="/">
-                <a>
-                  <Image src={logo.src} alt="Logo of Rights2Life" />
-                </a>
+
+                <Image src={logo.src} alt="Logo of Rights2Life" />
+
               </Link>
             </div>
           </Col>
@@ -40,9 +40,9 @@ const HeaderThree = () => {
                 <div className="main-menu-three__container-mobile clearfix">
                   <div className="main-menu-three-mobile__logo">
                     <Link href="/">
-                      <a>
-                        <Image src={logo.src} alt="Logo of Rights2Life" />
-                      </a>
+
+                      <Image src={logo.src} alt="Logo of Rights2Life" />
+
                     </Link>
                   </div>
                   <div className={'main-menu-three__inner clearfix'}>
@@ -100,7 +100,7 @@ const HeaderThree = () => {
           </Col>
         </Row>
       </Container>
-    </header>
+    </header>)
   );
 };
 

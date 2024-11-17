@@ -25,7 +25,14 @@ const Layout = ({ children, pageTitle }) => {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>{pageTitle} Rights2LIFE</title>
+        {/* Removed pageTitle causing an error */}
+        {/* Warning: A title element received an array with more than 1 element as children. In browsers
+         title Elements can only have Text Nodes as children. If the children being rendered output
+          more than a single text node in aggregate the browser will display markup and comments
+         as text in the title and hydration will likely fail and fall back to client rendering */}
+        {/* <title>{pageTitle} Rights2LIFE</title> */}
+
+        <title>Rights2LIFE</title>
       </Head>
       <Preloader loading={loading} />
       <main

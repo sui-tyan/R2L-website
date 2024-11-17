@@ -10,11 +10,11 @@ const MobileMenu = () => {
   const { toggleMenu, menuStatus } = useRootContext();
 
   return (
-    <div
-      className={`mobile-nav__wrapper  animated fadeInLeft${
-        menuStatus ? ' expanded' : ''
-      }`}
-    >
+    (<div
+        className={`mobile-nav__wrapper  animated fadeInLeft${
+          menuStatus ? ' expanded' : ''
+        }`}
+      >
       <div
         onClick={() => toggleMenu()}
         className="mobile-nav__overlay mobile-nav__toggler"
@@ -28,10 +28,10 @@ const MobileMenu = () => {
         </span>
 
         <div className="logo-box">
-          <Link href="/">
-            <a aria-label="logo image">
-              <Image src={logo.src} width="155" alt="" />
-            </a>
+          <Link href="/" aria-label="logo image" legacyBehavior>
+
+            <Image src={logo.src} width="155" alt="" />
+
           </Link>
         </div>
         <div className="mobile-nav__container">
@@ -62,7 +62,7 @@ const MobileMenu = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div>)
   );
 };
 

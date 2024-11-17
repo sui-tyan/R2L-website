@@ -6,13 +6,13 @@ const SingleNews = ({ news = {} }) => {
   const { title, image, href, comments, date } = news;
 
   return (
-    <div className="news-one__right-single">
+    (<div className="news-one__right-single">
       <div className="news-one__right-img">
         <Image src={image.src} alt="" />
-        <Link href={href}>
-          <a>
-            <i className="fa fa-plus"></i>
-          </a>
+        <Link href={href} legacyBehavior>
+
+          <i className="fa fa-plus"></i>
+
         </Link>
       </div>
       <div className="news-one__right-content">
@@ -26,12 +26,12 @@ const SingleNews = ({ news = {} }) => {
           </li>
         </ul>
         <h3 className="news-one__right-title">
-          <Link href={href}>
-            <a>{title}</a>
+          <Link href={href} legacyBehavior>
+            {title}
           </Link>
         </h3>
       </div>
-    </div>
+    </div>)
   );
 };
 

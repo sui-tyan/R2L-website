@@ -13,20 +13,23 @@ const SubNavItem = ({ subItem = {} }) => {
   const { href, subItems, name } = subItem;
 
   return (
-    <li>
-      <Link href={href}>
-        <a className={expand && subItems?.length ? ' expanded' : ''}>
-          {name}
-          {subItems?.length && (
-            <button
-              onClick={handleExpand}
-              ariaLabel="dropdown toggler"
-              className={expand ? 'expanded' : ''}
-            >
-              <i className="fa fa-angle-down"></i>
-            </button>
-          )}
-        </a>
+    (<li>
+      <Link
+        href={href}
+        className={expand && subItems?.length ? ' expanded' : ''}
+        legacyBehavior>
+
+        {name}
+        {subItems?.length && (
+          <button
+            onClick={handleExpand}
+            ariaLabel="dropdown toggler"
+            className={expand ? 'expanded' : ''}
+          >
+            <i className="fa fa-angle-down"></i>
+          </button>
+        )}
+
       </Link>
       <ul
         style={{
@@ -35,11 +38,11 @@ const SubNavItem = ({ subItem = {} }) => {
       >
         {subItems?.map((item) => (
           <li key={item.id}>
-            <Link href={item.href}>{item.name}</Link>
+            <Link href={item.href} legacyBehavior>{item.name}</Link>
           </li>
         ))}
       </ul>
-    </li>
+    </li>)
   );
 };
 
