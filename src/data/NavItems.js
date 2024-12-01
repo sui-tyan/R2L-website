@@ -85,12 +85,12 @@ const navItems = [
     ],
   },
   // enable on domain activation
-  // {
-  //   id: 5,
-  //   name: 'Repository',
-  //   href: 'https://repo.rights2life.uc-bcf.edu.ph',
-  //   subNavItems: [],
-  // },
+  {
+    id: 5,
+    name: 'Repository',
+    href: 'https://repo.rights2life.uc-bcf.edu.ph',
+    subNavItems: [],
+  },
 
   // {
   //   id: 5,
