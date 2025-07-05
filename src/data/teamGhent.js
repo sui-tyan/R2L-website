@@ -72,7 +72,7 @@ const teamGhent = [
 
   {
     id: 11,
-    image: 'elke-evrard.jpg',
+    image: 'anon.png',
     title: 'Elke Evrard',
     description:
       'Elke is a faculty of law and criminology at Ghent University. She is the UGhent Co-Lead 2 in Domain 3.',
