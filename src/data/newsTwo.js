@@ -73,7 +73,7 @@ const newsTwo = [
     date: '2026',
     title:
       'Shaping the Future of Criminal Justice: International Research Conference 2027 Comes to Baguio City',
-    description: `We are excited to unveil the teaser poster for the upcoming International Research Conference on Criminology, Criminal Justice and Policy Innovations happening on February 8–9, 2027, in Baguio City, Philippines.`,
+    description: 'We are excited to unveil the teaser poster for the upcoming International Research Conference on Criminology, Criminal Justice and Policy Innovations happening on February 8–9, 2027, in Baguio City, Philippines.',
   },
 ];
 
